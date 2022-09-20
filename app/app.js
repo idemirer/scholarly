@@ -26,7 +26,6 @@ router.get('/author/:author', async (req, res, next) => {
 
 router.get('/doi/:doi', async (req, res, next) => {
   const doi = req.params.doi.replace('"');
-  console.log(doi);
   let data = await findArticle(doi);
   res.json(data);
 });

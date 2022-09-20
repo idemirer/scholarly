@@ -7,20 +7,9 @@ async function getAuthorData(author) {
     error.message;
   }
 }
-async function getArticleData(doi) {
-  doi = encodeURIComponent(doi);
-  try {
-    const url = './api/doi/' + doi;
-    const data = await fetch(url).then((res) => res.json());
-    console.log(data);
-    return data;
-  } catch (error) {
-    error.message;
-  }
-}
 
-async function getAllArticles() {
-  const authordata = await getAuthorData('"Ilhan Demirer SUNY"');
+async function getAllArticles(author) {
+  const authordata = await getAuthorData(author);
   const articleList = authordata['items'];
 
   let summary = [];
@@ -49,7 +38,7 @@ async function getAllArticles() {
       summary[a]['authors'][0]['given'] +
       ', (' +
       summary[a]['year'] +
-      ') <a href="http://doi.org/' +
+      ') <a href="./article.html?doi=' +
       summary[a]['doi'] +
       '">' +
       summary[a]['title'] +
@@ -78,6 +67,4 @@ async function getAllArticles() {
 
   Plotly.newPlot('myDiv', data);
 }
-
-// getAllArticles();
-getArticleData('10.1080/15378020.2013.850374');
+getAllArticles('"Ilhan Demirer SUNY"');
