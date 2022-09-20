@@ -1,8 +1,6 @@
 async function getAuthorData(author) {
   const url = './api/' + author;
-  const data = await fetch(url, {
-    mode: 'same-origin',
-  }).then((res) => res.json());
+  const data = await fetch(url).then((res) => res.json());
   return data;
 }
 
