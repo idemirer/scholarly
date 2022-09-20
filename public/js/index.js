@@ -7,7 +7,7 @@ async function getAuthorData(author) {
 }
 
 async function getAllArticles() {
-  const authordata = await getAuthorData('Ilhan Demirer SUNY');
+  const authordata = await getAuthorData('"Ilhan Demirer SUNY"');
   const articleList = authordata['items'];
 
   let summary = [];
