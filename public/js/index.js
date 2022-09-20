@@ -1,7 +1,22 @@
 async function getAuthorData(author) {
-  const url = './api/' + author;
-  const data = await fetch(url).then((res) => res.json());
-  return data;
+  try {
+    const url = './api/author/' + author;
+    const data = await fetch(url).then((res) => res.json());
+    return data;
+  } catch (error) {
+    error.message;
+  }
+}
+async function getArticleData(doi) {
+  doi = encodeURIComponent(doi);
+  try {
+    const url = './api/doi/' + doi;
+    const data = await fetch(url).then((res) => res.json());
+    console.log(data);
+    return data;
+  } catch (error) {
+    error.message;
+  }
 }
 
 async function getAllArticles() {
@@ -64,4 +79,5 @@ async function getAllArticles() {
   Plotly.newPlot('myDiv', data);
 }
 
-getAllArticles();
+// getAllArticles();
+getArticleData('10.1080/15378020.2013.850374');
