@@ -1,0 +1,24 @@
+{
+  "name": "scholarly",
+  "version": "1.0.0",
+  "description": "Get scholarly data",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-idemirer:idemirer/idemirer.git"
+  },
+  "keywords": [
+    "scholar"
+  ],
+  "author": "Ilhan Demirer",
+  "license": "ISC"
+}
