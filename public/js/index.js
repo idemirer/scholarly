@@ -54,12 +54,12 @@ async function getAllArticles(author) {
     name: 'Author Citations Over Time',
     text: text,
     line: {
-      width: 1,
-      color: '#990000',
+      width: 3,
+      color: '#bb0000',
     },
     marker: {
       size: 8,
-      color: '#990000',
+      color: '#333',
     },
   };
 
