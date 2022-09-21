@@ -2,6 +2,8 @@ const express = require('express');
 const router = express.Router();
 const axios = require('axios');
 
+const authorData = require('./author.json');
+
 async function findAuthorWorks(author) {
   try {
     let response = await axios.get('https://api.crossref.org/works?query.author=' + author);
@@ -19,9 +21,9 @@ async function findArticle(doi) {
 }
 
 router.get('/author/:author', async (req, res, next) => {
-  const author = req.params.author;
-  let data = await findAuthorWorks(author);
-  res.json(data);
+  // const author = req.params.author;
+  // let data = await findAuthorWorks(author);
+  res.json(authorData['message']);
 });
 
 router.get('/doi/:doi', async (req, res, next) => {

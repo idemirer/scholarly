@@ -1,0 +1,4350 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 12835,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [[2022, 4, 5]],
+          "date-time": "2022-04-05T16:59:17Z",
+          "timestamp": 1649177957640
+        },
+        "reference-count": 40,
+        "publisher": "Informa UK Limited",
+        "issue": "5",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": ["Journal of Foodservice Business Research"],
+        "published-print": {
+          "date-parts": [[2013, 11]]
+        },
+        "DOI": "10.1080/15378020.2013.850374",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [[2013, 11, 21]],
+          "date-time": "2013-11-21T21:12:23Z",
+          "timestamp": 1385068343000
+        },
+        "page": "421-438",
+        "source": "Crossref",
+        "is-referenced-by-count": 6,
+        "title": [
+          "Executive Compensation Structure and Firm Performance in the U.S. Restaurant Industry: An Agency Theory Approach"
+        ],
+        "prefix": "10.1080",
+        "volume": "16",
+        "author": [
+          {
+            "given": "Ilhan",
+            "family": "Demirer",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Jingxue Jessica",
+            "family": "Yuan",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "301",
+        "reference": [
+          {
+            "key": "CIT0001",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0929-1199(03)00062-2"
+          },
+          {
+            "issue": "4",
+            "key": "CIT0002",
+            "doi-asserted-by": "crossref",
+            "first-page": "65",
+            "DOI": "10.1300/J369v09n04_05",
+            "volume": "9",
+            "author": "Barber N.",
+            "year": "2006",
+            "journal-title": "Journal of Foodservice Business Research"
+          },
+          {
+            "key": "CIT0003",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1257/089533003769204362"
+          },
+          {
+            "key": "CIT0004",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/oxrep/gri017"
+          },
+          {
+            "key": "CIT0005",
+            "doi-asserted-by": "crossref",
+            "first-page": "52",
+            "DOI": "10.1177/0886368703261152",
+            "volume": "36",
+            "author": "Besner G.",
+            "year": "2004",
+            "journal-title": "Compensation & Benefits Review"
+          },
+          {
+            "key": "CIT0006",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1086/209658"
+          },
+          {
+            "key": "CIT0007",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/smj.228"
+          },
+          {
+            "key": "CIT0008",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2307/3665623"
+          },
+          {
+            "key": "CIT0009",
+            "doi-asserted-by": "crossref",
+            "first-page": "211",
+            "DOI": "10.1177/1096348008329871",
+            "volume": "33",
+            "author": "Denizci B.",
+            "year": "2009",
+            "journal-title": "Journal of Hospitality & Tourism Research"
+          },
+          {
+            "key": "CIT0010",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2307/258191"
+          },
+          {
+            "key": "CIT0011",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2307/2325308"
+          },
+          {
+            "key": "CIT0012",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1162/00335530360535162"
+          },
+          {
+            "key": "CIT0013",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/1096348003253090"
+          },
+          {
+            "key": "CIT0014",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/02642060902749823"
+          },
+          {
+            "key": "CIT0015",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0304-405X(99)00025-2"
+          },
+          {
+            "key": "CIT0016",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2307/2325404"
+          },
+          {
+            "key": "CIT0017",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0304-405X(76)90026-X"
+          },
+          {
+            "key": "CIT0018",
+            "first-page": "138",
+            "volume": "68",
+            "author": "Jensen M. C.",
+            "year": "1990",
+            "journal-title": "Harvard Business Review"
+          },
+          {
+            "key": "CIT0019",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1086/261677"
+          },
+          {
+            "key": "CIT0020",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.ijhm.2009.05.006"
+          },
+          {
+            "key": "CIT0021",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/1096348004273428"
+          },
+          {
+            "key": "CIT0023",
+            "doi-asserted-by": "crossref",
+            "first-page": "439",
+            "DOI": "10.1016/j.ijhm.2009.01.004",
+            "volume": "28",
+            "author": "Lee S.",
+            "year": "2009",
+            "journal-title": "International Journal of Hospitality Management"
+          },
+          {
+            "key": "CIT0034",
+            "doi-asserted-by": "crossref",
+            "first-page": "448",
+            "DOI": "10.1016/j.ijhm.2009.10.023",
+            "volume": "29",
+            "author": "Park K.",
+            "year": "2010",
+            "journal-title": "International Journal of Hospitality Management"
+          },
+          {
+            "key": "CIT0036",
+            "doi-asserted-by": "crossref",
+            "first-page": "337",
+            "DOI": "10.1016/0278-4319(93)90050-J",
+            "volume": "12",
+            "author": "Reich A. Z.",
+            "year": "1993",
+            "journal-title": "International Journal of Hospitality Management"
+          }
+        ],
+        "container-title": ["Journal of Foodservice Business Research"],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://www.tandfonline.com/doi/pdf/10.1080/15378020.2013.850374",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [[2019, 8, 3]],
+          "date-time": "2019-08-03T23:03:08Z",
+          "timestamp": 1564873388000
+        },
+        "score": 25.631071,
+        "resource": {
+          "primary": {
+            "URL": "http://www.tandfonline.com/doi/abs/10.1080/15378020.2013.850374"
+          }
+        },
+        "issued": {
+          "date-parts": [[2013, 11]]
+        },
+        "references-count": 40,
+        "journal-issue": {
+          "issue": "5",
+          "published-print": {
+            "date-parts": [[2013, 11]]
+          }
+        },
+        "alternative-id": ["10.1080/15378020.2013.850374"],
+        "URL": "http://dx.doi.org/10.1080/15378020.2013.850374",
+        "ISSN": ["1537-8020", "1537-8039"],
+        "issn-type": [
+          {
+            "value": "1537-8020",
+            "type": "print"
+          },
+          {
+            "value": "1537-8039",
+            "type": "electronic"
+          }
+        ],
+        "subject": ["Food Science"],
+        "published": {
+          "date-parts": [[2013, 11]]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [[2022, 3, 30]],
+          "date-time": "2022-03-30T16:42:18Z",
+          "timestamp": 1648658538622
+        },
+        "reference-count": 0,
+        "publisher": "American Research Institute for Policy Development",
+        "issue": "2",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": ["JHRMLS"],
+        "published-print": {
+          "date-parts": [[2018]]
+        },
+        "DOI": "10.15640/jhrmls.v6n2a1",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [[2019, 1, 21]],
+          "date-time": "2019-01-21T06:49:57Z",
+          "timestamp": 1548053397000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Effects of Moderating Factors on Foodservice Employees’ Perception of Emotional Labor and Propensity to Leave the Workplace"
+        ],
+        "prefix": "10.15640",
+        "volume": "6",
+        "author": [
+          {
+            "given": "Mark",
+            "family": "M. Gultek",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Tufan",
+            "family": "Tiglioglu",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Ilhan",
+            "family": "Demirer",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "6329",
+        "container-title": ["JOURNAL OF HUMAN RESOURCES MANAGEMENT AND LABOR STUDIES"],
+        "deposited": {
+          "date-parts": [[2019, 1, 21]],
+          "date-time": "2019-01-21T06:49:58Z",
+          "timestamp": 1548053398000
+        },
+        "score": 22.824436,
+        "resource": {
+          "primary": {
+            "URL": "http://jhrmls.com/vol-6-no-2-december-2018-abstract-1-jhrmls"
+          }
+        },
+        "issued": {
+          "date-parts": [[2018]]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "2",
+          "published-print": {
+            "date-parts": [[2018]]
+          }
+        },
+        "URL": "http://dx.doi.org/10.15640/jhrmls.v6n2a1",
+        "ISSN": ["2333-6390", "2333-6404"],
+        "issn-type": [
+          {
+            "value": "2333-6390",
+            "type": "print"
+          },
+          {
+            "value": "2333-6404",
+            "type": "electronic"
+          }
+        ],
+        "subject": [
+          "Marketing",
+          "Economics and Econometrics",
+          "General Materials Science",
+          "General Chemical Engineering"
+        ],
+        "published": {
+          "date-parts": [[2018]]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [[2022, 4, 2]],
+          "date-time": "2022-04-02T21:18:39Z",
+          "timestamp": 1648934319352
+        },
+        "reference-count": 0,
+        "publisher": "University of South Florida Libraries",
+        "issue": "2",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": ["JGBI"],
+        "abstract": "<jats:p>In this study, the moderating effect of board diversity on the complex relationship between corporate social responsibility (CSR) performance and financial performance is examined. The resource-based view of the firm and stakeholder theory are used as the theoretical foundation of the study. The hypotheses of the study are tested via fixed-effects regression using data for a sample of 1,234 firms and 5,102 firm-year observations for the period 2009–2013. The study finds evidence that CSR performance and financial performance are positively related, and the magnitude of this relationship is contingent on the level of board diversity. As corporate boardrooms become more diverse across several diversity attributes, the positive effect of CSR performance on financial performance becomes more profound. The study also reveals that race and age diversity constructs have a stand-alone moderating effect on this purported relationship. The study offers significant insights for practitioners regarding the potential role of a diverse board structure in effectively monitoring management actions on CSR concerns.</jats:p>",
+        "DOI": "10.5038/2640-6489.6.2.1169",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [[2021, 5, 24]],
+          "date-time": "2021-05-24T15:54:34Z",
+          "timestamp": 1621871674000
+        },
+        "page": "98-116",
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "title": ["Corporate social responsibility and financial performance: Does board diversity matter?"],
+        "prefix": "10.5038",
+        "volume": "6",
+        "author": [
+          {
+            "given": "Ozgur",
+            "family": "Ozdemir",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of Nevada, Las Vegas"
+              }
+            ]
+          },
+          {
+            "given": "Murat",
+            "family": "Kizildag",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Central Florida"
+              }
+            ]
+          },
+          {
+            "given": "Tarik",
+            "family": "Dogru",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Florida State University"
+              }
+            ]
+          },
+          {
+            "given": "Ilhan",
+            "family": "Demirer",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State University of New York College at Plattsburgh"
+              }
+            ]
+          }
+        ],
+        "member": "2986",
+        "published-online": {
+          "date-parts": [[2021, 9]]
+        },
+        "container-title": ["Journal of Global Business Insights"],
+        "deposited": {
+          "date-parts": [[2021, 9, 28]],
+          "date-time": "2021-09-28T20:30:30Z",
+          "timestamp": 1632861030000
+        },
+        "score": 22.061182,
+        "resource": {
+          "primary": {
+            "URL": "https://digitalcommons.usf.edu/globe/vol6/iss2/1"
+          }
+        },
+        "issued": {
+          "date-parts": [[2021, 9]]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "2",
+          "published-online": {
+            "date-parts": [[2021, 9]]
+          }
+        },
+        "URL": "http://dx.doi.org/10.5038/2640-6489.6.2.1169",
+        "ISSN": ["2640-6470", "2640-6489"],
+        "issn-type": [
+          {
+            "value": "2640-6470",
+            "type": "print"
+          },
+          {
+            "value": "2640-6489",
+            "type": "electronic"
+          }
+        ],
+        "subject": ["General Engineering", "Energy Engineering and Power Technology"],
+        "published": {
+          "date-parts": [[2021, 9]]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [[2022, 4, 1]],
+          "date-time": "2022-04-01T17:06:51Z",
+          "timestamp": 1648832811009
+        },
+        "reference-count": 12,
+        "publisher": "Informa UK Limited",
+        "issue": "2",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": ["Anatolia"],
+        "published-print": {
+          "date-parts": [[2006, 12]]
+        },
+        "DOI": "10.1080/13032917.2006.9687193",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [[2011, 8, 1]],
+          "date-time": "2011-08-01T08:07:49Z",
+          "timestamp": 1312186069000
+        },
+        "page": "318-322",
+        "source": "Crossref",
+        "is-referenced-by-count": 3,
+        "title": ["The Impact of Technology in Hotels: A Case Study of Istanbul and Ankara Hotels"],
+        "prefix": "10.1080",
+        "volume": "17",
+        "author": [
+          {
+            "given": "CIHAN",
+            "family": "COBANOGLU",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "ILHAN",
+            "family": "DEMIRER",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "BERKAN",
+            "family": "KEPECI",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "SEVKIYE",
+            "family": "SIPAHIOGLU",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "301",
+        "reference": [
+          {
+            "key": "CIT0001",
+            "volume": "6",
+            "author": "Avgoustis S. Cobanoglu",
+            "year": "2003",
+            "journal-title": "Hospitality Technology Magazine"
+          },
+          {
+            "key": "CIT0002",
+            "doi-asserted-by": "crossref",
+            "first-page": "409",
+            "DOI": "10.1016/S0261-5177(98)00038-7",
+            "volume": "19",
+            "author": "Buhalis D.",
+            "year": "1998",
+            "journal-title": "Tourism Management"
+          },
+          {
+            "key": "CIT0003",
+            "doi-asserted-by": "crossref",
+            "first-page": "64",
+            "DOI": "10.1177/001088049603700220",
+            "volume": "37",
+            "author": "David S. J.",
+            "year": "1996",
+            "journal-title": "Cornell Hotel and Restaurant Administration Quarterly"
+          },
+          {
+            "key": "CIT0004",
+            "first-page": "64",
+            "volume": "36",
+            "author": "Hoof V. H.",
+            "year": "1995",
+            "journal-title": "Cornell Hotel and Restaurant Administration Quarterly"
+          },
+          {
+            "key": "CIT0005",
+            "unstructured": "IBM Travel and Transportation. 1996. “The Impact of Information Technology on Travel and Transportation. Retrieved from the Web on March 12, 2005”. http://www.europe.ibm.com/go/travel/index.html"
+          },
+          {
+            "key": "CIT0006",
+            "first-page": "45",
+            "volume": "19",
+            "author": "Kluge A. E.",
+            "year": "1996",
+            "journal-title": "Hospitality Research Journal"
+          },
+          {
+            "key": "CIT0007",
+            "first-page": "32",
+            "volume-title": "Hotel and Motel Management",
+            "volume": "203",
+            "author": "Marshall A.",
+            "year": "1988"
+          },
+          {
+            "key": "CIT0008",
+            "volume-title": "Electronic Information Distribution in Tourism and Hospitality",
+            "author": "O'Connor P.",
+            "year": "1999"
+          },
+          {
+            "key": "CIT0009",
+            "first-page": "30",
+            "volume": "41",
+            "author": "Olsen M. D.",
+            "year": "2000",
+            "journal-title": "Cornell Hotel and Restaurant Administration Quarterly"
+          },
+          {
+            "key": "CIT0010",
+            "volume-title": "Tourism, Technology and Competitive Strategies",
+            "author": "Poon A.",
+            "year": "1993"
+          },
+          {
+            "key": "CIT0011",
+            "doi-asserted-by": "crossref",
+            "first-page": "68",
+            "DOI": "10.1016/0010-8804(92)90123-M",
+            "volume": "33",
+            "author": "Reid D. R.",
+            "year": "1992",
+            "journal-title": "Cornell Hotel and Restaurant Administration Quarterly"
+          },
+          {
+            "key": "CIT0012",
+            "doi-asserted-by": "crossref",
+            "first-page": "192",
+            "DOI": "10.1177/004728750003900209",
+            "volume": "39",
+            "author": "Siguaw J. A.",
+            "year": "2000",
+            "journal-title": "Journal of Travel Research"
+          }
+        ],
+        "container-title": ["Anatolia"],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://www.tandfonline.com/doi/pdf/10.1080/13032917.2006.9687193",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [[2017, 6, 20]],
+          "date-time": "2017-06-20T03:59:40Z",
+          "timestamp": 1497931180000
+        },
+        "score": 21.939188,
+        "resource": {
+          "primary": {
+            "URL": "http://www.tandfonline.com/doi/abs/10.1080/13032917.2006.9687193"
+          }
+        },
+        "issued": {
+          "date-parts": [[2006, 12]]
+        },
+        "references-count": 12,
+        "journal-issue": {
+          "issue": "2",
+          "published-print": {
+            "date-parts": [[2006, 12]]
+          }
+        },
+        "alternative-id": ["10.1080/13032917.2006.9687193"],
+        "URL": "http://dx.doi.org/10.1080/13032917.2006.9687193",
+        "ISSN": ["1303-2917", "2156-6909"],
+        "issn-type": [
+          {
+            "value": "1303-2917",
+            "type": "print"
+          },
+          {
+            "value": "2156-6909",
+            "type": "electronic"
+          }
+        ],
+        "subject": ["Earth-Surface Processes", "Geography, Planning and Development"],
+        "published": {
+          "date-parts": [[2006, 12]]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [[2022, 6, 17]],
+          "date-time": "2022-06-17T06:26:35Z",
+          "timestamp": 1655447195465
+        },
+        "reference-count": 26,
+        "publisher": "Emerald",
+        "issue": "1",
+        "license": [
+          {
+            "start": {
+              "date-parts": [[2017, 3, 13]],
+              "date-time": "2017-03-13T00:00:00Z",
+              "timestamp": 1489363200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.emerald.com/insight/site-policies"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": ["JHTT"],
+        "published-print": {
+          "date-parts": [[2017, 3, 13]]
+        },
+        "abstract": "<jats:sec>\n<jats:title content-type=\"abstract-subheading\">Purpose</jats:title>\n<jats:p>This paper aims to understand the emergence, the revolution and the relevant knowledge of academic research concentrating on social media (SM) and hospitality and tourism firms’ financial performance. The authors not only identified the gaps and critical issues in research but also re-conceptualized profound directions for the future research in technology and finance in the hospitality and tourism field.</jats:p>\n</jats:sec>\n<jats:sec>\n<jats:title content-type=\"abstract-subheading\">Design/methodology/approach</jats:title>\n<jats:p>This study adopted an in-depth review analysis to investigate and review previous scholarly papers published in hospitality, tourism and hospitality and tourism journals from January 2011 to the present. The authors thoroughly analyzed and reviewed peer-reviewed/refereed, blind-reviewed, full-length published articles and working papers within SM and hospitality firms’ financial performance. Editor notes, prefaces, research notes, industry articles, internet publications, conference preceding, books and book chapters were excluded.</jats:p>\n</jats:sec>\n<jats:sec>\n<jats:title content-type=\"abstract-subheading\">Findings</jats:title>\n<jats:p>Having examined the empirical content of 26 peer-reviewed scholarly articles, the authors clearly observed that none of the papers went beyond analyzing the effect of SM on hotels’ revenue per available room, revenues, net profit, average daily rate, occupancy rates, net operating income, etc., and all papers ignored the analysis of many critical financial proxies.</jats:p>\n</jats:sec>\n<jats:sec>\n<jats:title content-type=\"abstract-subheading\">Research limitations/implications</jats:title>\n<jats:p>This critique and review paper is limited to the relationship between SM and firms’ financial performance within the hospitality and tourism context.</jats:p>\n</jats:sec>\n<jats:sec>\n<jats:title content-type=\"abstract-subheading\">Practical implications</jats:title>\n<jats:p>This review provides a blueprint to guide future research, facilitate knowledge accumulation and create a new understanding and awareness in practice as well as SM and financial performance research.</jats:p>\n</jats:sec>\n<jats:sec>\n<jats:title content-type=\"abstract-subheading\">Social implications</jats:title>\n<jats:p>This paper complements and adds to previous work by demonstrating various aspects, evidences, findings and inferences regarding the association between online SM platforms and firms’ financial performance and by proposing rigorous abstract and specific future extensions to both practice and discipline-specific knowledge.</jats:p>\n</jats:sec>\n<jats:sec>\n<jats:title content-type=\"abstract-subheading\">Originality/value</jats:title>\n<jats:p>There is an absence of the most updated review study of published papers on SM and hospitality and tourism firms’ financial performance. Although how SM contributes to firms’ financial performance is clear to academicians and industry professionals, no solid consensus or theoretical certainty about what the authors know and do not know has been achieved.</jats:p>\n</jats:sec>",
+        "DOI": "10.1108/jhtt-10-2016-0074",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [[2017, 5, 22]],
+          "date-time": "2017-05-22T12:11:10Z",
+          "timestamp": 1495455070000
+        },
+        "page": "39-54",
+        "source": "Crossref",
+        "is-referenced-by-count": 10,
+        "title": ["What do we know about social media and firms’ financial outcomes so far?"],
+        "prefix": "10.1108",
+        "volume": "8",
+        "author": [
+          {
+            "given": "Murat",
+            "family": "Kizildag",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Mehmet",
+            "family": "Altin",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Ozgur",
+            "family": "Ozdemir",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Ilhan",
+            "family": "Demirer",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "140",
+        "reference": [
+          {
+            "key": "key2020120810423819600_ref001",
+            "first-page": "6",
+            "article-title": "The impact of social media on lodging performance",
+            "volume-title": "The Scholarly Commons",
+            "year": "2012"
+          },
+          {
+            "key": "key2020120810423819600_ref002",
+            "doi-asserted-by": "crossref",
+            "first-page": "217",
+            "DOI": "10.1287/serv.2014.0080",
+            "article-title": "The influence of online reputation and product heterogeneity on service firm financial performance",
+            "volume": "6",
+            "year": "2014",
+            "journal-title": "Service Science"
+          },
+          {
+            "issue": "4",
+            "key": "key2020120810423819600_ref003",
+            "doi-asserted-by": "crossref",
+            "first-page": "365",
+            "DOI": "10.1177/1938965514533419",
+            "article-title": "The differential effects of the quality and quantity of online reviews on hotel room sales",
+            "volume": "55",
+            "year": "2014",
+            "journal-title": "Cornell Hospitality Quarterly"
+          },
+          {
+            "key": "key2020120810423819600_ref004",
+            "first-page": "241",
+            "article-title": "Social media return on investment and performance evaluation in the hotel industry context",
+            "year": "2015",
+            "journal-title": "Information and Communication Technologies in Tourism"
+          },
+          {
+            "issue": "4",
+            "key": "key2020120810423819600_ref005",
+            "doi-asserted-by": "crossref",
+            "first-page": "465",
+            "DOI": "10.1177/0047287513478498",
+            "article-title": "Curvilinear effects of user-generated content on hotels’ market share a dynamic panel-data analysis",
+            "volume": "52",
+            "year": "2013",
+            "journal-title": "Journal of Travel Research"
+          },
+          {
+            "issue": "2",
+            "key": "key2020120810423819600_ref006",
+            "doi-asserted-by": "crossref",
+            "first-page": "272",
+            "DOI": "10.1108/IJCHM-03-2013-0140",
+            "article-title": "Selling rooms online: the use of social media and online travel agents",
+            "volume": "26",
+            "year": "2014",
+            "journal-title": "International Journal of Contemporary Hospitality Management"
+          },
+          {
+            "key": "key2020120810423819600_ref007",
+            "doi-asserted-by": "crossref",
+            "first-page": "40",
+            "DOI": "10.1016/j.ijhm.2015.05.006",
+            "article-title": "Effects of social media on firm value for US restaurant companies",
+            "volume": "49",
+            "year": "2015",
+            "journal-title": "International Journal of Hospitality Management"
+          },
+          {
+            "key": "key2020120810423819600_ref008",
+            "doi-asserted-by": "crossref",
+            "first-page": "165",
+            "DOI": "10.1016/j.ijhm.2014.10.014",
+            "article-title": "The effectiveness of managing social media on hotel performance",
+            "volume": "44",
+            "year": "2015",
+            "journal-title": "International Journal of Hospitality Management"
+          },
+          {
+            "key": "key2020120810423819600_ref009",
+            "doi-asserted-by": "crossref",
+            "first-page": "41",
+            "DOI": "10.1016/j.ijhm.2016.03.001",
+            "article-title": "The impact of social media reviews on restaurant performance: the moderating role of excellence certificate",
+            "volume": "55",
+            "year": "2016",
+            "journal-title": "International Journal of Hospitality Management"
+          },
+          {
+            "key": "key2020120810423819600_ref010",
+            "article-title": "The influence of recent hotel amenities and green practices on guests’ price premium and revisit intention",
+            "year": "2016",
+            "journal-title": "Tourism Economics"
+          },
+          {
+            "key": "key2020120810423819600_ref011",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Luca, M. (2011), “Reviews, reputation, and revenue: the case of Yelp.com”, Harvard Business School NOM Unit Working Paper.",
+            "DOI": "10.2139/ssrn.1928601"
+          },
+          {
+            "key": "key2020120810423819600_ref012",
+            "doi-asserted-by": "crossref",
+            "first-page": "313",
+            "DOI": "10.1108/JHTT-12-2015-0050",
+            "article-title": "HotelTonight usage and hotel profitability",
+            "volume": "7",
+            "year": "2016",
+            "journal-title": "Journal of Hospitality and Tourism Technology"
+          },
+          {
+            "issue": "6",
+            "key": "key2020120810423819600_ref013",
+            "first-page": "1133",
+            "article-title": "Are customers’ reviews creating value in the hospitality industry? Exploring the moderating effects of market positioning",
+            "volume": "36",
+            "year": "2016",
+            "journal-title": "International Journal of Hospitality Management"
+          },
+          {
+            "issue": "4",
+            "key": "key2020120810423819600_ref014",
+            "doi-asserted-by": "crossref",
+            "first-page": "293",
+            "DOI": "10.1057/rpm.2011.12",
+            "article-title": "Social media meets hotel revenue management: opportunities, issues and unanswered questions",
+            "volume": "10",
+            "year": "2011",
+            "journal-title": "Journal of Revenue and Pricing Management"
+          },
+          {
+            "issue": "2",
+            "key": "key2020120810423819600_ref015",
+            "doi-asserted-by": "crossref",
+            "first-page": "197",
+            "DOI": "10.1080/02642069.2010.529436",
+            "article-title": "The influence of internet customer reviews on the online sales and prices in hotel industry",
+            "volume": "32",
+            "year": "2012",
+            "journal-title": "The Service Industries Journal"
+          },
+          {
+            "key": "key2020120810423819600_ref016",
+            "doi-asserted-by": "crossref",
+            "first-page": "130",
+            "DOI": "10.1016/j.tourman.2015.01.028",
+            "article-title": "The interactive effects of online reviews on the determinants of Swiss hotel performance: a neural network analysis",
+            "volume": "50",
+            "year": "2015",
+            "journal-title": "Tourism Management"
+          },
+          {
+            "issue": "6",
+            "key": "key2020120810423819600_ref017",
+            "doi-asserted-by": "crossref",
+            "first-page": "1310",
+            "DOI": "10.1016/j.tourman.2010.12.011",
+            "article-title": "The impact of online reviews on hotel booking intentions and perception of trust",
+            "volume": "32",
+            "year": "2011",
+            "journal-title": "Tourism Management"
+          },
+          {
+            "issue": "2",
+            "key": "key2020120810423819600_ref018",
+            "first-page": "141",
+            "article-title": "Understanding the effects of market orientation and e-marketing on service performance",
+            "volume": "29",
+            "year": "2011",
+            "journal-title": "Market Orientation and e-Marketing"
+          },
+          {
+            "key": "key2020120810423819600_ref019",
+            "unstructured": "Tuominen, P. (2011), “The influence of TripAdvisor consumer-generated travel reviews on hotel performance”, University of Hertfordshire Business School Working Paper."
+          },
+          {
+            "issue": "9",
+            "key": "key2020120810423819600_ref020",
+            "article-title": "The influence of e-word-of-mouth on hotel occupancy rate",
+            "volume": "28",
+            "year": "2016",
+            "journal-title": "International Journal of Contemporary Hospitality Management"
+          },
+          {
+            "issue": "11",
+            "key": "key2020120810423819600_ref021",
+            "doi-asserted-by": "crossref",
+            "first-page": "5310",
+            "DOI": "10.1016/j.jbusres.2016.04.130",
+            "article-title": "The performance impact of social media in the chain store industry",
+            "volume": "69",
+            "year": "2016",
+            "journal-title": "Journal of Business Research"
+          },
+          {
+            "key": "key2020120810423819600_ref022",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1016/j.ijhm.2014.07.007",
+            "article-title": "The business value of online consumer reviews and management response to hotel performance",
+            "volume": "43",
+            "year": "2014",
+            "journal-title": "International Journal of Hospitality Management"
+          },
+          {
+            "key": "key2020120810423819600_ref023",
+            "first-page": "9",
+            "article-title": "Effects of managerial response on consumer eWOM and hotel performance: evidence from TripAdvisor",
+            "volume-title": "International Journal of Contemporary Hospitality Management",
+            "year": "2016"
+          },
+          {
+            "issue": "1",
+            "key": "key2020120810423819600_ref024",
+            "doi-asserted-by": "crossref",
+            "first-page": "180",
+            "DOI": "10.1016/j.ijhm.2008.06.011",
+            "article-title": "The impact of online user reviews on hotel room sales",
+            "volume": "28",
+            "year": "2009",
+            "journal-title": "International Journal of Hospitality Management"
+          },
+          {
+            "issue": "2",
+            "key": "key2020120810423819600_ref025",
+            "doi-asserted-by": "crossref",
+            "first-page": "634",
+            "DOI": "10.1016/j.chb.2010.04.014",
+            "article-title": "The influence of user-generated content on traveler behavior: an empirical investigation on the effects of e-word-of-mouth to hotel online bookings",
+            "volume": "27",
+            "year": "2011",
+            "journal-title": "Computers in Human Behavior"
+          },
+          {
+            "issue": "7",
+            "key": "key2020120810423819600_ref026",
+            "doi-asserted-by": "crossref",
+            "first-page": "972",
+            "DOI": "10.1108/09596111111167551",
+            "article-title": "Determinants of hotel room price: an exploration of travelers’ hierarchy of accommodation needs",
+            "volume": "23",
+            "year": "2011",
+            "journal-title": "International Journal of Contemporary Hospitality Management"
+          }
+        ],
+        "container-title": ["Journal of Hospitality and Tourism Technology"],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://www.emerald.com/insight/content/doi/10.1108/JHTT-10-2016-0074/full/xml",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.emerald.com/insight/content/doi/10.1108/JHTT-10-2016-0074/full/html",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [[2020, 12, 10]],
+          "date-time": "2020-12-10T08:45:08Z",
+          "timestamp": 1607589908000
+        },
+        "score": 21.62518,
+        "resource": {
+          "primary": {
+            "URL": "https://www.emerald.com/insight/content/doi/10.1108/JHTT-10-2016-0074/full/html"
+          }
+        },
+        "issued": {
+          "date-parts": [[2017, 3, 13]]
+        },
+        "references-count": 26,
+        "journal-issue": {
+          "issue": "1",
+          "published-print": {
+            "date-parts": [[2017, 3, 13]]
+          }
+        },
+        "alternative-id": ["10.1108/JHTT-10-2016-0074"],
+        "URL": "http://dx.doi.org/10.1108/jhtt-10-2016-0074",
+        "ISSN": ["1757-9880"],
+        "issn-type": [
+          {
+            "value": "1757-9880",
+            "type": "print"
+          }
+        ],
+        "subject": [
+          "Computer Science Applications",
+          "Tourism, Leisure and Hospitality Management",
+          "Information Systems"
+        ],
+        "published": {
+          "date-parts": [[2017, 3, 13]]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [[2022, 7, 31]],
+          "date-time": "2022-07-31T14:26:54Z",
+          "timestamp": 1659277614775
+        },
+        "reference-count": 50,
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "5",
+        "license": [
+          {
+            "start": {
+              "date-parts": [[2016, 6, 20]],
+              "date-time": "2016-06-20T00:00:00Z",
+              "timestamp": 1466380800000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "http://www.springer.com/tdm"
+          }
+        ],
+        "content-domain": {
+          "domain": ["link.springer.com"],
+          "crossmark-restriction": false
+        },
+        "short-container-title": ["J Fluoresc"],
+        "published-print": {
+          "date-parts": [[2016, 9]]
+        },
+        "DOI": "10.1007/s10895-016-1849-5",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [[2016, 6, 20]],
+          "date-time": "2016-06-20T03:08:38Z",
+          "timestamp": 1466392118000
+        },
+        "page": "1637-1643",
+        "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 5,
+        "title": ["Synthesis and Optical Properties of Novel Red-Emitting PbNb2O6: Eu3+ Phosphors"],
+        "prefix": "10.1007",
+        "volume": "26",
+        "author": [
+          {
+            "given": "Mustafa",
+            "family": "İlhan",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Mete Kaan",
+            "family": "Ekmekçi",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Abdullah",
+            "family": "Demir",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Halil",
+            "family": "Demirer",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [[2016, 6, 20]]
+        },
+        "reference": [
+          {
+            "key": "1849_CR1",
+            "unstructured": "Moura AP de, Oliveira LH de, Paris EC, Li MS, Andrés J, Varela JA, on Longo E, Rosa ILV (2011) Synthesis, structural and photophysical properties of Gd2O3:Eu3+ nanostructures prepared by a microwave sintering process. J Fluoresc 21:1431–1438."
+          },
+          {
+            "key": "1849_CR2",
+            "doi-asserted-by": "crossref",
+            "first-page": "277",
+            "DOI": "10.1007/s10895-015-1711-1",
+            "volume": "26",
+            "author": "V Vishwnath",
+            "year": "2016",
+            "unstructured": "Vishwnath V, Srinivas M, Patel NP, Modi D, Murthy KVR (2016) Synthesis and photoluminescence studies of Eu(III), Er(III) doped strontium gadolinium tantalum oxide. J Fluoresc 26:277–282",
+            "journal-title": "J Fluoresc"
+          },
+          {
+            "key": "1849_CR3",
+            "doi-asserted-by": "crossref",
+            "first-page": "283",
+            "DOI": "10.1023/A:1020556028008",
+            "volume": "8",
+            "author": "E Faulques",
+            "year": "1998",
+            "unstructured": "Faulques E, Wery J, Dulieu B, Seybert C, Perry DL (1998) Synthesis, fabrication, and photoluminescence of CaF2 doped with rare earth ions. J Fluoresc 8:283–287",
+            "journal-title": "J Fluoresc"
+          },
+          {
+            "key": "1849_CR4",
+            "doi-asserted-by": "publisher",
+            "author": "AS Başak",
+            "year": "2016",
+            "unstructured": "Başak AS, Ekmekçi MK, Erdem M, Ilhan M, Mergen A (2016) Investigation of boron-doping effect on photoluminescence properties of CdNb2O6:Eu3+ phosphors. J Fluoresc. doi: 10.1007/s10895-015-1759-y",
+            "journal-title": "J Fluoresc",
+            "DOI": "10.1007/s10895-015-1759-y"
+          },
+          {
+            "key": "1849_CR5",
+            "doi-asserted-by": "crossref",
+            "first-page": "203",
+            "DOI": "10.1007/s10895-010-0706-1",
+            "volume": "21",
+            "author": "B Yan",
+            "year": "2011",
+            "unstructured": "Yan B, Lin L, Wu J, Lei F (2011) Photoluminescence of rare earth phosphors Na0.5Gd0.5WO4:RE3+ and Na0.5Gd0.5(Mo0.75W0.25)O4:RE3+ (RE = Eu, Sm, Dy). J Fluoresc 21:203–211",
+            "journal-title": "J Fluoresc"
+          },
+          {
+            "key": "1849_CR6",
+            "doi-asserted-by": "crossref",
+            "first-page": "357",
+            "DOI": "10.1016/S0026-2692(03)00245-3",
+            "volume": "35",
+            "author": "Y Wang",
+            "year": "2004",
+            "unstructured": "Wang Y, Endo T, Xie E, He D, Liu B (2004) Luminescence properties of Ca4GdO(BO3)3:Eu in ultraviolet and vacuum ultraviolet regions. Microelectron J 35:357–361",
+            "journal-title": "Microelectron J"
+          },
+          {
+            "key": "1849_CR7",
+            "doi-asserted-by": "crossref",
+            "first-page": "1482",
+            "DOI": "10.1063/1.1536726",
+            "volume": "93",
+            "author": "J Wang",
+            "year": "2003",
+            "unstructured": "Wang J, Song H, Kong X, Peng H, Sun B, Chen B, Zhang J, Xu W, Xia H (2003) Fluorescence properties of trivalent europium doped in various niobate codoped glasses. J Appl Phys 93:1482",
+            "journal-title": "J Appl Phys"
+          },
+          {
+            "key": "1849_CR8",
+            "doi-asserted-by": "crossref",
+            "first-page": "348",
+            "DOI": "10.1016/S0022-0248(03)01269-7",
+            "volume": "255",
+            "author": "Z Wang",
+            "year": "2003",
+            "unstructured": "Wang Z, Yuan D, Xu D, Lv M, Cheng X, Pan L, Shi X (2003) Growth and optical properties of Eu3+-doped La3Ga5SiO14 single crystal. J Cryst Growth 255:348–352",
+            "journal-title": "J Cryst Growth"
+          },
+          {
+            "key": "1849_CR9",
+            "doi-asserted-by": "crossref",
+            "first-page": "667",
+            "DOI": "10.1016/j.matlet.2008.12.029",
+            "volume": "63",
+            "author": "A Phuruangrat",
+            "year": "2009",
+            "unstructured": "Phuruangrat A, Thongtem T, Thongtem S (2009) Preparation of ear-like, hexapod and dendritic PbS using cyclic microwave-assisted synthesis. Mater Lett 63:667–669",
+            "journal-title": "Mater Lett"
+          },
+          {
+            "key": "1849_CR10",
+            "doi-asserted-by": "crossref",
+            "first-page": "5035",
+            "DOI": "10.1063/1.1691184",
+            "volume": "95",
+            "author": "KK Nanda",
+            "year": "2004",
+            "unstructured": "Nanda KK, Kruis FE, Fissan H, Behera SN (2004) Effective mass approximation for two extreme semiconductors: band gap of PbS and CuBr nanoparticles. J Appl Phys 95:5035–5041",
+            "journal-title": "J Appl Phys"
+          },
+          {
+            "key": "1849_CR11",
+            "doi-asserted-by": "crossref",
+            "first-page": "3273",
+            "DOI": "10.1364/OE.14.003273",
+            "volume": "14",
+            "author": "S Hoogland",
+            "year": "2006",
+            "unstructured": "Hoogland S, Sukhovatkin V, Howard I, Cauchi S, Levina L, Sargent EH (2006) A solution-processed 1.53 mu m quantum dot laser with temperature-invariant emission wavelength. Opt. Express 14:3273–3281",
+            "journal-title": "Express"
+          },
+          {
+            "key": "1849_CR12",
+            "doi-asserted-by": "crossref",
+            "first-page": "1243",
+            "DOI": "10.1364/JOSAB.26.001243",
+            "volume": "26",
+            "author": "I Moreels",
+            "year": "2009",
+            "unstructured": "Moreels I, Geyter BD, Thourhout DV, Hens Z (2009) Transmission of a quantum-dot-silicon-on-insulator hybrid notch filter. J Opt Soc Am B-Opt Phys 26:1243–1247",
+            "journal-title": "J Opt Soc Am B-Opt Phys"
+          },
+          {
+            "key": "1849_CR13",
+            "doi-asserted-by": "crossref",
+            "first-page": "515",
+            "DOI": "10.1002/adma.200401552",
+            "volume": "17",
+            "author": "EH Sargent",
+            "year": "2005",
+            "unstructured": "Sargent EH (2005) Infrared quantum dots. Adv Mater 17:515–522",
+            "journal-title": "Adv Mater"
+          },
+          {
+            "key": "1849_CR14",
+            "first-page": "8157",
+            "volume": "9",
+            "author": "S Kim",
+            "year": "2015",
+            "unstructured": "Kim S, Marshall AR, Kroupa DM, Miller EM, Luther JM, Jeong S, Beard MC (2015) Air-stable and efficient PbSe quantum-dot solar cells based upon ZnSe to PbSe cation-exchanged quantum dots. Am Chem Soc 9:8157–8164",
+            "journal-title": "Am Chem Soc"
+          },
+          {
+            "key": "1849_CR15",
+            "doi-asserted-by": "crossref",
+            "first-page": "3488",
+            "DOI": "10.1021/nl802476m",
+            "volume": "8",
+            "author": "JM Luther",
+            "year": "2008",
+            "unstructured": "Luther JM, Law M, Beard MC, Song Q, Reese MO, Ellingson RJ, Nozik AJ (2008) Schottky solar cells based on colloidal nanocrystal films. Nano Lett 8:3488–3492",
+            "journal-title": "Nano Lett"
+          },
+          {
+            "key": "1849_CR16",
+            "doi-asserted-by": "crossref",
+            "first-page": "138",
+            "DOI": "10.1038/nmat1299",
+            "volume": "4",
+            "author": "SA McDonald",
+            "year": "2005",
+            "unstructured": "McDonald SA, Konstantatos G, Zhang SG, Cyr P. W, Klem EJD, Levina L, Sargent EH (2005) Solution-processed PbS quantum dot infrared photodetectors and photovoltaics. Nat Mater 4:138–U114",
+            "journal-title": "Nat Mater"
+          },
+          {
+            "key": "1849_CR17",
+            "doi-asserted-by": "crossref",
+            "first-page": "325",
+            "DOI": "10.1038/nphoton.2009.89",
+            "volume": "3",
+            "author": "EH Sargent",
+            "year": "2009",
+            "unstructured": "Sargent EH (2009) Infrared photovoltaics made by solution processing. Nat Photonics 3:325–331",
+            "journal-title": "Nat Photonics"
+          },
+          {
+            "key": "1849_CR18",
+            "doi-asserted-by": "crossref",
+            "first-page": "6893",
+            "DOI": "10.1021/ic0508425",
+            "volume": "44",
+            "author": "AJ Nozik",
+            "year": "2005",
+            "unstructured": "Nozik AJ (2005) Exciton multiplication and relaxation dynamics in quantum dots: applications to ultrahigh-efficiency solar photon conversion. Inorg Chem 44:6893–6899",
+            "journal-title": "Inorg Chem"
+          },
+          {
+            "key": "1849_CR19",
+            "doi-asserted-by": "crossref",
+            "first-page": "332",
+            "DOI": "10.1038/nphoton.2009.72",
+            "volume": "3",
+            "author": "T Rauch",
+            "year": "2009",
+            "unstructured": "Rauch T, Boberl M, Tedde SF, Furst J, Kovalenko MV, Hesser GN, Lemmer U, Heiss W, Hayden O (2009) Near-infrared imaging with quantum-dot-sensitized organic photodiodes. Nat Photonics 3:332–336",
+            "journal-title": "Nat Photonics"
+          },
+          {
+            "key": "1849_CR20",
+            "first-page": "1",
+            "volume-title": "Semiconductor and metal nanocrystals: synthesis and electronic and optical properties, chapter ‘Soft’ Chemical Synthesis and manipulation of semiconductor nanocrystals",
+            "author": "J Hollingsworth",
+            "year": "2004",
+            "unstructured": "Hollingsworth J, Klimov V (2004) Semiconductor and metal nanocrystals: synthesis and electronic and optical properties, chapter ‘Soft’ Chemical Synthesis and manipulation of semiconductor nanocrystals. Marcel Dekker, Inc, New York, pp. 1–64"
+          },
+          {
+            "key": "1849_CR21",
+            "doi-asserted-by": "crossref",
+            "first-page": "297",
+            "DOI": "10.1088/0034-4885/64/3/201",
+            "volume": "64",
+            "author": "P Moriarty",
+            "year": "2001",
+            "unstructured": "Moriarty P (2001) Nanostructured materials. P Reports on Progress in Physics 64:297",
+            "journal-title": "P Reports on Progress in Physics"
+          },
+          {
+            "key": "1849_CR22",
+            "doi-asserted-by": "crossref",
+            "first-page": "723",
+            "DOI": "10.7150/thno.4275",
+            "volume": "2",
+            "author": "R Hu",
+            "year": "2012",
+            "unstructured": "Hu R, Law WC, Lin G, et al. (2012) PEGylated phospholipid micelle encapsulated near-infrared PbS quantum dots for in vitro and in vivo bio-imaging. Theranostics 2:723–733",
+            "journal-title": "Theranostics"
+          },
+          {
+            "key": "1849_CR23",
+            "first-page": "151",
+            "volume": "9",
+            "author": "M Fang",
+            "year": "2012",
+            "unstructured": "Fang M, Peng CW, Pang DW, Li Y (2012) Quantum dots for cancer research: current status, remaining issues, and future perspectives. Cancer Biol Med 9:151–163",
+            "journal-title": "Cancer Biol Med"
+          },
+          {
+            "key": "1849_CR24",
+            "doi-asserted-by": "crossref",
+            "first-page": "47",
+            "DOI": "10.1147/rd.451.0047",
+            "volume": "45",
+            "author": "CB Murray",
+            "year": "2001",
+            "unstructured": "Murray CB, Sun S, Gaschler W, Doyle H, Betley TA, Kagan CR (2001) Colloidal synthesis of nanocrystals and nanocrystal superlattices. IBM J Res Dev 45:47–55",
+            "journal-title": "IBM J Res Dev"
+          },
+          {
+            "key": "1849_CR25",
+            "doi-asserted-by": "crossref",
+            "first-page": "11752",
+            "DOI": "10.1021/ja047659f",
+            "volume": "126",
+            "author": "JM Pietryga",
+            "year": "2004",
+            "unstructured": "Pietryga JM, Schaller RD, Werder D, Stewart MH, Klimov VI, Hollingsworth AJ (2004) Pushing the band gap envelope: mid-infrared emitting colloidal PbSe quantum dots. J Am Chem Soc 126:11752–11753",
+            "journal-title": "J Am Chem Soc"
+          },
+          {
+            "key": "1849_CR26",
+            "doi-asserted-by": "crossref",
+            "first-page": "L9",
+            "DOI": "10.1016/j.jallcom.2008.01.014",
+            "volume": "468",
+            "author": "Q Xiao",
+            "year": "2009",
+            "unstructured": "Xiao Q, Zhou Q, Zhang J, Ouyang L (2009) Photocatalytic decolorization of methylene blue over monoclinic pyrochlore-type Pb2Nb2O7 under visible light irradiation. J Alloys Compd 468:L9–L12",
+            "journal-title": "J Alloys Compd"
+          },
+          {
+            "key": "1849_CR27",
+            "doi-asserted-by": "crossref",
+            "first-page": "368",
+            "DOI": "10.1111/j.1151-2916.1953.tb12820.x",
+            "volume": "36",
+            "author": "G Goodman",
+            "year": "1953",
+            "unstructured": "Goodman G (1953) Ferroelectric properties of lead metaniobate. J Am Ceram Soc 36:368–1953",
+            "journal-title": "J Am Ceram Soc"
+          },
+          {
+            "key": "1849_CR28",
+            "doi-asserted-by": "crossref",
+            "first-page": "5747",
+            "DOI": "10.1143/JJAP.40.5747",
+            "volume": "40",
+            "author": "J Soejima",
+            "year": "2001",
+            "unstructured": "Soejima J, Nagata K (2001) PbNb2O6 ceramics with tungsten bronze structure for low Qm piezoelectric material. Jpn J Appl Phys 40:5747",
+            "journal-title": "Jpn J Appl Phys"
+          },
+          {
+            "key": "1849_CR29",
+            "doi-asserted-by": "crossref",
+            "first-page": "75",
+            "DOI": "10.1016/j.tca.2008.12.028",
+            "volume": "490",
+            "author": "KR Sahu",
+            "year": "2009",
+            "unstructured": "Sahu KR, De U (2009) Thermal characterization of piezoelectric and non-piezoelectric lead meta-niobate. Thermochim Acta 490:75–77",
+            "journal-title": "Thermochim Acta"
+          },
+          {
+            "key": "1849_CR30",
+            "doi-asserted-by": "crossref",
+            "first-page": "27",
+            "DOI": "10.6028/jres.062.006",
+            "volume": "62",
+            "author": "RS Roth",
+            "year": "1959",
+            "unstructured": "Roth RS (1959) Phase equilibrium relations in the binary system lead oxide niobium pentoxide. J Res Natl Bur Stand 62:27–38",
+            "journal-title": "J Res Natl Bur Stand"
+          },
+          {
+            "key": "1849_CR31",
+            "doi-asserted-by": "crossref",
+            "first-page": "683",
+            "DOI": "10.1107/S0365110X56001856",
+            "volume": "9",
+            "author": "MH Francombe",
+            "year": "1956",
+            "unstructured": "Francombe MH (1956) Polymorphism in lead metaniobate. Acta Crystallogr 9:683–684",
+            "journal-title": "Acta Crystallogr"
+          },
+          {
+            "key": "1849_CR32",
+            "first-page": "2102",
+            "volume": "30",
+            "author": "SS Lopatin",
+            "year": "1985",
+            "unstructured": "Lopatin SS, Medvedev ES, Raevskii IP (1985) Russ J Inorg Chem 30:2102–2106",
+            "journal-title": "Russ J Inorg Chem"
+          },
+          {
+            "key": "1849_CR33",
+            "doi-asserted-by": "crossref",
+            "first-page": "101",
+            "DOI": "10.1016/S0167-577X(96)00134-6",
+            "volume": "29",
+            "author": "CH Lu",
+            "year": "1996",
+            "unstructured": "Lu CH, Chyi N (1996) Fabrication of fine lead metaniobate powder using hydrothermal processes. Mater Lett 29:101–105",
+            "journal-title": "Mater Lett"
+          },
+          {
+            "key": "1849_CR34",
+            "doi-asserted-by": "crossref",
+            "first-page": "220",
+            "DOI": "10.1111/jace.12628",
+            "volume": "97",
+            "author": "MG Sahini",
+            "year": "2014",
+            "unstructured": "Sahini MG, Grande T, Fraygola B, Biancoli A, Damjanovic D, Setter N (2014) Solid solutions of lead metaniobate-stabilization of the ferroelectric polymorph and the effect on the lattice parameters, dielectric, ferroelectric, and piezoelectric properties. J Am Ceram Soc 97:220–227",
+            "journal-title": "J Am Ceram Soc"
+          },
+          {
+            "key": "1849_CR35",
+            "doi-asserted-by": "crossref",
+            "first-page": "2256",
+            "DOI": "10.1143/JJAP.30.2256",
+            "volume": "30",
+            "author": "T Yamamoto",
+            "year": "1991",
+            "unstructured": "Yamamoto T (1991) Relations between piezoelectric properties and microstructure in poled piezoelectric ceramics by applied uniaxial compressive stress. Jpn J Appl Phys 30:2256–2259",
+            "journal-title": "Jpn J Appl Phys"
+          },
+          {
+            "key": "1849_CR36",
+            "doi-asserted-by": "crossref",
+            "first-page": "3228",
+            "DOI": "10.1111/j.1151-2916.1998.tb02760.x",
+            "volume": "81",
+            "author": "HS Lee",
+            "year": "1998",
+            "unstructured": "Lee HS, Kimura T (1998) Effects of microstructure on the dielectric and piezoelectric properties of lead metaniobate. J Am Ceram Soc 81:3228–3236",
+            "journal-title": "J Am Ceram Soc"
+          },
+          {
+            "key": "1849_CR37",
+            "doi-asserted-by": "crossref",
+            "first-page": "528",
+            "DOI": "10.1111/j.1151-2916.1962.tb11051.x",
+            "volume": "45",
+            "author": "EC Subbarao",
+            "year": "1962",
+            "unstructured": "Subbarao EC, Hrizo J (1962) Solid solution based on ferroelectric PbNb2O6. J Am Ceram Soc 45:528–531",
+            "journal-title": "J Am Ceram Soc"
+          },
+          {
+            "key": "1849_CR38",
+            "doi-asserted-by": "crossref",
+            "first-page": "131",
+            "DOI": "10.1107/S0365110X60000285",
+            "volume": "13",
+            "author": "MH Francombe",
+            "year": "1960",
+            "unstructured": "Francombe MH (1960) The relation between structure and ferroelectricity in lead barium and barium strontium niobates. Acta Crystallogr 13:131–140",
+            "journal-title": "Acta Crystallogr"
+          },
+          {
+            "key": "1849_CR39",
+            "first-page": "335",
+            "volume": "25&26",
+            "author": "E Chong",
+            "year": "1992",
+            "unstructured": "Chong E, Chaklader ACD, Prasad E (1992) Sintering of PbNb2O6 with dopant. Diffus Defect Data Pt B 25&26:335–342",
+            "journal-title": "Diffus Defect Data Pt B"
+          },
+          {
+            "key": "1849_CR40",
+            "doi-asserted-by": "crossref",
+            "first-page": "102",
+            "DOI": "10.1080/10584587.2010.503804",
+            "volume": "120",
+            "author": "KR Chakraborty",
+            "year": "2010",
+            "unstructured": "Chakraborty KR, Sahu KR, De A, De U (2010) Structural characterization of orthorhombic and rhombohedral lead meta-niobate samples. Integr Ferroelectr 120:102–113",
+            "journal-title": "Integr Ferroelectr"
+          },
+          {
+            "key": "1849_CR41",
+            "volume-title": "Lange’s handbook of chemistry",
+            "author": "JG Speight",
+            "year": "1999",
+            "unstructured": "Speight JG (1999) Lange’s handbook of chemistry, Sixteenth edn. The McGraw-Hill Companies, New York",
+            "edition": "Sixteenth"
+          },
+          {
+            "key": "1849_CR42",
+            "doi-asserted-by": "crossref",
+            "first-page": "1256",
+            "DOI": "10.1016/j.physb.2012.01.115",
+            "volume": "407",
+            "author": "I Sadiq",
+            "year": "2012",
+            "unstructured": "Sadiq I, Khan I, Aen F, Islam MU, Rana MU (2012) Influence of rare earth Ce3+ on structural, electrical and magnetic properties of Sr2+ based W-type hexagonal ferrite. Physica B 407:1256–1261",
+            "journal-title": "Physica B"
+          },
+          {
+            "key": "1849_CR43",
+            "doi-asserted-by": "crossref",
+            "first-page": "1089",
+            "DOI": "10.1143/JPSJ.35.1089",
+            "volume": "35",
+            "author": "NN Yamashita",
+            "year": "1973",
+            "unstructured": "Yamashita NN (1973) Luminescence centers of Ca(S: se) phosphors activated with impurity ions having s2 configuration. I. Ca(S:se):Sb3+ phosphors. J Phys Soc Jpn 35:1089–1097",
+            "journal-title": "J Phys Soc Jpn"
+          },
+          {
+            "key": "1849_CR44",
+            "doi-asserted-by": "crossref",
+            "first-page": "4669",
+            "DOI": "10.1039/c0jm03324c",
+            "volume": "21",
+            "author": "FP Du",
+            "year": "2011",
+            "unstructured": "Du FP, Nakai Y, Tsuboi TJ, Huang YL, Seo HJ (2011) Luminescence properties and site occupations of Eu3+ ions doped in double phosphates Ca9R(PO4)7 (R = Al, Lu). J Mater Chem 21:4669–4678",
+            "journal-title": "J Mater Chem"
+          },
+          {
+            "key": "1849_CR45",
+            "doi-asserted-by": "crossref",
+            "first-page": "259",
+            "DOI": "10.1021/am900668r",
+            "volume": "2",
+            "author": "CH Huang",
+            "year": "2010",
+            "unstructured": "Huang CH, Chen TM, Liu WR, Chiu YC, Yeh YT, Jang SM (2010) A single-phased emission-tunable phosphor Ca9Y(PO4)7:Eu2+,Mn2+ with efficient energy transfer for white-light-emitting diodes. ACS Appl Mater Interfaces 2:259–264",
+            "journal-title": "ACS Appl Mater Interfaces"
+          },
+          {
+            "key": "1849_CR46",
+            "doi-asserted-by": "crossref",
+            "first-page": "304",
+            "DOI": "10.1016/j.matlet.2012.09.072",
+            "volume": "91",
+            "author": "G Zhu",
+            "year": "2013",
+            "unstructured": "Zhu G, Ci Z, Xin S, Wen Y, Wang Y (2013) Warm white light generation from Dy3+ doped NaSr2Nb5O15 for white LEDs. Mater Lett 91:304–306",
+            "journal-title": "Mater Lett"
+          },
+          {
+            "key": "1849_CR47",
+            "volume-title": "Spectra and energy levels of rare earth ions in crystals",
+            "author": "GH Dieke",
+            "year": "1968",
+            "unstructured": "Dieke GH (1968) Spectra and energy levels of rare earth ions in crystals. Interscience Publishers, New York"
+          },
+          {
+            "key": "1849_CR48",
+            "doi-asserted-by": "crossref",
+            "first-page": "207",
+            "DOI": "10.1016/0022-4596(86)90233-1",
+            "volume": "62",
+            "author": "G Blasse",
+            "year": "1986",
+            "unstructured": "Blasse G (1986) Energy transfer between inequivalent Eu2+ ions. J Solid State Chem 62:207–211",
+            "journal-title": "J Solid State Chem"
+          },
+          {
+            "key": "1849_CR49",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Blasse G, Grabmarier BC (1994) Luminescent materials. p. 99. Springer-Verlag, Berlin.",
+            "DOI": "10.1007/978-3-642-79017-1"
+          },
+          {
+            "key": "1849_CR50",
+            "first-page": "131",
+            "volume": "24",
+            "author": "G Blasse",
+            "year": "1969",
+            "unstructured": "Blasse G (1969) Energy transfer in oxidic phosphors. Philips Res Rep 24:131",
+            "journal-title": "Philips Res Rep"
+          }
+        ],
+        "container-title": ["Journal of Fluorescence"],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/s10895-016-1849-5.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/article/10.1007/s10895-016-1849-5/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/s10895-016-1849-5",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [[2017, 6, 24]],
+          "date-time": "2017-06-24T12:42:42Z",
+          "timestamp": 1498308162000
+        },
+        "score": 20.801064,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/s10895-016-1849-5"
+          }
+        },
+        "issued": {
+          "date-parts": [[2016, 6, 20]]
+        },
+        "references-count": 50,
+        "journal-issue": {
+          "issue": "5",
+          "published-print": {
+            "date-parts": [[2016, 9]]
+          }
+        },
+        "alternative-id": ["1849"],
+        "URL": "http://dx.doi.org/10.1007/s10895-016-1849-5",
+        "ISSN": ["1053-0509", "1573-4994"],
+        "issn-type": [
+          {
+            "value": "1053-0509",
+            "type": "print"
+          },
+          {
+            "value": "1573-4994",
+            "type": "electronic"
+          }
+        ],
+        "subject": [
+          "Law",
+          "Clinical Biochemistry",
+          "Spectroscopy",
+          "Sociology and Political Science",
+          "Social Sciences (miscellaneous)",
+          "Clinical Psychology",
+          "Biochemistry"
+        ],
+        "published": {
+          "date-parts": [[2016, 6, 20]]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [[2022, 9, 12]],
+          "date-time": "2022-09-12T21:14:39Z",
+          "timestamp": 1663017279857
+        },
+        "reference-count": 46,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [[2020, 4, 1]],
+              "date-time": "2020-04-01T00:00:00Z",
+              "timestamp": 1585699200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": ["elsevier.com", "sciencedirect.com"],
+          "crossmark-restriction": true
+        },
+        "short-container-title": ["International Journal of Hospitality Management"],
+        "published-print": {
+          "date-parts": [[2020, 4]]
+        },
+        "DOI": "10.1016/j.ijhm.2020.102451",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [[2020, 1, 13]],
+          "date-time": "2020-01-13T10:34:33Z",
+          "timestamp": 1578911673000
+        },
+        "page": "102451",
+        "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 15,
+        "title": [
+          "Does Airbnb have a homogenous impact? Examining Airbnb’s effect on hotels with different organizational structures"
+        ],
+        "prefix": "10.1016",
+        "volume": "86",
+        "author": [
+          {
+            "given": "Tarik",
+            "family": "Dogru",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Lydia",
+            "family": "Hanks",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Ozgur",
+            "family": "Ozdemir",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Murat",
+            "family": "Kizildag",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Apostolos",
+            "family": "Ampountolas",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Ilhan",
+            "family": "Demirer",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/j.ijhm.2020.102451_bib0005",
+            "series-title": "Selected Papers of Hirotugu Akaike",
+            "first-page": "215",
+            "article-title": "A new look at the statistical model identification",
+            "author": "Akaike",
+            "year": "1974"
+          },
+          {
+            "key": "10.1016/j.ijhm.2020.102451_bib0010",
+            "doi-asserted-by": "crossref",
+            "first-page": "85",
+            "DOI": "10.1016/j.ijhm.2018.02.006",
+            "article-title": "Airbnb’s effect on hotel sales growth",
+            "volume": "73",
+            "author": "Blal",
+            "year": "2018",
+            "journal-title": "Int. J. Hosp. Manage."
+          },
+          {
+            "key": "10.1016/j.ijhm.2020.102451_bib0015",
+            "doi-asserted-by": "crossref",
+            "first-page": "969",
+            "DOI": "10.2307/2527348",
+            "article-title": "An econometric characterization of business cycle dynamics with factor structure and regime switching",
+            "volume": "39",
+            "author": "Chauvet",
+            "year": "1998",
+            "journal-title": "Int. Econ. Rev. (Philadelphia)"
+          },
+          {
+            "issue": "26",
+            "key": "10.1016/j.ijhm.2020.102451_bib0020",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.17485/ijst/2015/v8iS8/64705",
+            "article-title": "The relationship between Airbnb and the hotel revenue: in the case of Korea",
+            "volume": "8",
+            "author": "Choi",
+            "year": "2015",
+            "journal-title": "Indian J. Sci. Technol."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.ijhm.2020.102451_bib0025",
+            "doi-asserted-by": "crossref",
+            "first-page": "593",
+            "DOI": "10.1162/003465305775098242",
+            "article-title": "Consistent economic indexes for the 50 states",
+            "volume": "87",
+            "author": "Crone",
+            "year": "2005",
+            "journal-title": "Rev. Econ. Stat."
+          },
+          {
+            "key": "10.1016/j.ijhm.2020.102451_bib0030",
+            "series-title": "Franchising and Other Operating Arrangements in the Lodging Industry: A Strategic Comparison",
+            "author": "Dev",
+            "year": "1991"
+          },
+          {
+            "key": "10.1016/j.ijhm.2020.102451_bib0035",
+            "doi-asserted-by": "crossref",
+            "first-page": "1057",
+            "DOI": "10.2307/1912517",
+            "article-title": "Likelihood ratio statistics for autoregressive time series with a unit root",
+            "author": "Dickey",
+            "year": "1981",
+            "journal-title": "Econometrica"
+          },
+          {
+            "key": "10.1016/j.ijhm.2020.102451_bib0040",
+            "doi-asserted-by": "crossref",
+            "first-page": "67",
+            "DOI": "10.2307/2109848",
+            "article-title": "Measuring business cycles: a modern perspective",
+            "volume": "78",
+            "author": "Diebold",
+            "year": "1996",
+            "journal-title": "Rev. Econ. Stat."
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.ijhm.2020.102451_bib0045",
+            "first-page": "1",
+            "article-title": "The hotel industry’s Achilles Heel? Quantifying the negative impacts of Airbnb on Boston’s hotel performance",
+            "volume": "5",
+            "author": "Dogru",
+            "year": "2017",
+            "journal-title": "Boston Hosp. Rev."
+          },
+          {
+            "key": "10.1016/j.ijhm.2020.102451_bib0050",
+            "doi-asserted-by": "crossref",
+            "first-page": "27",
+            "DOI": "10.1016/j.tourman.2018.11.008",
+            "article-title": "Adding evidence to the debate: quantifying Airbnb’s disruptive impact on ten key hotel markets",
+            "volume": "72",
+            "author": "Dogru",
+            "year": "2019",
+            "journal-title": "Tour. Manage."
+          },
+          {
+            "key": "10.1016/j.ijhm.2020.102451_bib0055",
+            "first-page": "77",
+            "article-title": "The Airbnb paradox: positive employment effects in the hospitality industry",
+            "author": "Dogru",
+            "year": "2020",
+            "journal-title": "Tour. Manage."
+          },
+          {
+            "key": "10.1016/j.ijhm.2020.102451_bib0060",
+            "series-title": "Basic Econometrics",
+            "author": "Gujarati",
+            "year": "2003"
+          },
+          {
+            "key": "10.1016/j.ijhm.2020.102451_bib0065",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1016/j.ijhm.2017.02.003",
+            "article-title": "Assessing Airbnb as a disruptive innovation relative to hotels: substitution and comparative performance expectations",
+            "volume": "64",
+            "author": "Guttentag",
+            "year": "2017",
+            "journal-title": "Int. J. Hosp. Manage."
+          },
+          {
+            "key": "10.1016/j.ijhm.2020.102451_bib0070",
+            "series-title": "Airbnb & Hotel Performance: An Analysis of Proprietary Data in 13 Global Markets",
+            "author": "Haywood",
+            "year": "2017"
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.ijhm.2020.102451_bib0075",
+            "doi-asserted-by": "crossref",
+            "first-page": "398",
+            "DOI": "10.1108/09596110610673538",
+            "article-title": "Perceptions of European independent hoteliers: hard and soft branding choices",
+            "volume": "18",
+            "author": "Holverson",
+            "year": "2006",
+            "journal-title": "Int. J. Contemp. Hosp. Manage."
+          },
+          {
+            "key": "10.1016/j.ijhm.2020.102451_bib0080",
+            "article-title": "Airbnb 2.0: is it a sharing economy platform or a lodging corporation?",
+            "author": "Dogru",
+            "year": "2019",
+            "journal-title": "Tour. Manage."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.ijhm.2020.102451_bib0085",
+            "article-title": "A practitioner’s guide to lag order selection for VAR impulse response analysis",
+            "volume": "9",
+            "author": "Ivanov",
+            "year": "2005",
+            "journal-title": "Stud. Nonlinear Dyn. Econom."
+          },
+          {
+            "key": "10.1016/j.ijhm.2020.102451_bib0090",
+            "first-page": "319",
+            "article-title": "Organization theory and methodology",
+            "volume": "56",
+            "author": "Jensen",
+            "year": "1983",
+            "journal-title": "Account. Rev."
+          },
+          {
+            "key": "10.1016/j.ijhm.2020.102451_bib0095",
+            "doi-asserted-by": "crossref",
+            "first-page": "607",
+            "DOI": "10.1016/0304-3932(95)01229-X",
+            "article-title": "New index of coincident indicators: a multivariate Markov switching factor model approach",
+            "volume": "36",
+            "author": "Kim",
+            "year": "1995",
+            "journal-title": "J. Monet. Econ."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.ijhm.2020.102451_bib0100",
+            "doi-asserted-by": "crossref",
+            "first-page": "335",
+            "DOI": "10.1108/07363760310483694",
+            "article-title": "The effect of consumer‐based brand equity on firms’ financial performance",
+            "volume": "20",
+            "author": "Kim",
+            "year": "2003",
+            "journal-title": "J. Consum. Mark."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.ijhm.2020.102451_bib0105",
+            "doi-asserted-by": "crossref",
+            "first-page": "151",
+            "DOI": "10.1016/j.ijhm.2007.07.019",
+            "article-title": "Hotel service providers’ emotional labor: The antecedents and effects on burnout",
+            "volume": "27",
+            "author": "Kim",
+            "year": "2008",
+            "journal-title": "Int. J. Hosp. Manage."
+          },
+          {
+            "issue": "8",
+            "key": "10.1016/j.ijhm.2020.102451_bib0110",
+            "doi-asserted-by": "crossref",
+            "first-page": "1949",
+            "DOI": "10.1108/IJCHM-07-2014-0347",
+            "article-title": "Financial leverage phenomenon in hospitality industry sub-sector portfolios",
+            "volume": "27",
+            "author": "Kizildag",
+            "year": "2015",
+            "journal-title": "Int. J. Contemp. Hosp. Manage."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.ijhm.2020.102451_bib0115",
+            "doi-asserted-by": "crossref",
+            "first-page": "1303",
+            "DOI": "10.1162/REST_a_00330",
+            "article-title": "Organizational form and performance: evidence from the hotel industry",
+            "volume": "95",
+            "author": "Kosova",
+            "year": "2013",
+            "journal-title": "Rev. Econ. Stat."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.ijhm.2020.102451_bib0120",
+            "doi-asserted-by": "crossref",
+            "first-page": "1050",
+            "DOI": "10.1016/j.ijhm.2012.01.001",
+            "article-title": "Re-examining the overcapacity of the US lodging industry",
+            "volume": "31",
+            "author": "Lee",
+            "year": "2012",
+            "journal-title": "Int. J. Hosp. Manage."
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.ijhm.2020.102451_bib0125",
+            "doi-asserted-by": "crossref",
+            "first-page": "295",
+            "DOI": "10.1016/S0167-2681(00)00125-6",
+            "article-title": "The effect of organizational form on quality: the case of franchising",
+            "volume": "43",
+            "author": "Michael",
+            "year": "2000",
+            "journal-title": "J. Econ. Behav. Organ."
+          },
+          {
+            "key": "10.1016/j.ijhm.2020.102451_bib0130",
+            "doi-asserted-by": "crossref",
+            "first-page": "65",
+            "DOI": "10.1016/j.tourman.2019.02.013",
+            "article-title": "Parallel pathways to brand loyalty: mapping the consequences of authentic consumption experiences for hotels and Airbnb",
+            "volume": "74",
+            "author": "Mody",
+            "year": "2019",
+            "journal-title": "Tour. Manage."
+          },
+          {
+            "issue": "C",
+            "key": "10.1016/j.ijhm.2020.102451_bib0135",
+            "doi-asserted-by": "crossref",
+            "first-page": "198",
+            "DOI": "10.1016/j.annals.2018.05.004",
+            "article-title": "Not in my backyard? Is the anti-Airbnb discourse truly warranted?",
+            "volume": "74",
+            "author": "Mody",
+            "year": "2019",
+            "journal-title": "Ann. Tour. Res."
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.ijhm.2020.102451_bib0140",
+            "doi-asserted-by": "crossref",
+            "first-page": "574",
+            "DOI": "10.1016/j.ijhm.2006.05.001",
+            "article-title": "An investigation of the relationships between compensation practices and firm performance in the US hotel industry",
+            "volume": "26",
+            "author": "Namasivayam",
+            "year": "2007",
+            "journal-title": "Int. J. Hosp. Manage."
+          },
+          {
+            "key": "10.1016/j.ijhm.2020.102451_bib0145",
+            "series-title": "Does Airbnb Hurt Hotel Business: Evidence From the Nordic Countries",
+            "author": "Neeser",
+            "year": "2015"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.ijhm.2020.102451_bib0150",
+            "doi-asserted-by": "crossref",
+            "first-page": "515",
+            "DOI": "10.1016/j.ijhm.2010.08.003",
+            "article-title": "Do brands matter? A comparison of branded and independent hotels’ performance during a full economic cycle",
+            "volume": "30",
+            "author": "O’Neill",
+            "year": "2011",
+            "journal-title": "Int. J. Hosp. Manage."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.ijhm.2020.102451_bib0155",
+            "doi-asserted-by": "crossref",
+            "first-page": "156",
+            "DOI": "10.1177/1096348004264081",
+            "article-title": "Hotel branding strategy: its relationship to guest satisfaction and room revenue",
+            "volume": "28",
+            "author": "O’Neill",
+            "year": "2004",
+            "journal-title": "J. Hosp. Tour. Res."
+          },
+          {
+            "issue": "3-4",
+            "key": "10.1016/j.ijhm.2020.102451_bib0160",
+            "doi-asserted-by": "crossref",
+            "first-page": "113",
+            "DOI": "10.1300/J162v06n03_07",
+            "article-title": "An investigation of the factors affecting innovation performance in chain and independent hotels",
+            "volume": "6",
+            "author": "Ottenbacher",
+            "year": "2006",
+            "journal-title": "J. Qual. Assur. Hosp. Tour."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.ijhm.2020.102451_bib0165",
+            "doi-asserted-by": "crossref",
+            "first-page": "335",
+            "DOI": "10.1093/biomet/75.2.335",
+            "article-title": "Testing for a unit root in time series regression",
+            "volume": "75",
+            "author": "Phillips",
+            "year": "1988",
+            "journal-title": "Biometrika"
+          },
+          {
+            "key": "10.1016/j.ijhm.2020.102451_bib0170",
+            "series-title": "Microfit 4.0",
+            "author": "Pesaran",
+            "year": "1997"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.ijhm.2020.102451_bib0175",
+            "doi-asserted-by": "crossref",
+            "first-page": "289",
+            "DOI": "10.1002/jae.616",
+            "article-title": "Bounds testing approaches to the analysis of level relationships",
+            "volume": "16",
+            "author": "Pesaran",
+            "year": "2001",
+            "journal-title": "J. Appl. Econom."
+          },
+          {
+            "issue": "7",
+            "key": "10.1016/j.ijhm.2020.102451_bib0180",
+            "doi-asserted-by": "crossref",
+            "first-page": "920",
+            "DOI": "10.1108/09596111011066617",
+            "article-title": "Hotel performance: state of the art",
+            "volume": "22",
+            "author": "Sainaghi",
+            "year": "2010",
+            "journal-title": "Int. J. Contemp. Hosp. Manage."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.ijhm.2020.102451_bib0185",
+            "doi-asserted-by": "crossref",
+            "first-page": "99",
+            "DOI": "10.1287/orsc.12.2.99.10114",
+            "article-title": "Agency relationships in family firms: theory and evidence",
+            "volume": "12",
+            "author": "Schulze",
+            "year": "2001",
+            "journal-title": "Organ. Sci."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.ijhm.2020.102451_bib0190",
+            "doi-asserted-by": "crossref",
+            "first-page": "461",
+            "DOI": "10.1214/aos/1176344136",
+            "article-title": "Estimating the dimension of a model",
+            "volume": "6",
+            "author": "Schwarz",
+            "year": "1978",
+            "journal-title": "Ann. Stat."
+          },
+          {
+            "key": "10.1016/j.ijhm.2020.102451_bib0195",
+            "series-title": "Econometrics II: Lecture 6: Panel Data Part I",
+            "author": "Söderbom",
+            "year": "2011"
+          },
+          {
+            "key": "10.1016/j.ijhm.2020.102451_bib0200",
+            "series-title": "Lodging Hospitality",
+            "first-page": "24",
+            "article-title": "Choosing a flag",
+            "author": "Taylor",
+            "year": "1995"
+          },
+          {
+            "key": "10.1016/j.ijhm.2020.102451_bib0205",
+            "doi-asserted-by": "crossref",
+            "first-page": "62",
+            "DOI": "10.1016/j.tourman.2013.10.008",
+            "article-title": "Forecasting of Hong Kong airport’s passenger throughput",
+            "volume": "42",
+            "author": "Tsui",
+            "year": "2014",
+            "journal-title": "Tour. Manage."
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.ijhm.2020.102451_bib0210",
+            "doi-asserted-by": "crossref",
+            "first-page": "581",
+            "DOI": "10.1016/j.jfineco.2012.03.005",
+            "article-title": "Endogeneity and the dynamics of internal corporate governance",
+            "volume": "105",
+            "author": "Wintoki",
+            "year": "2012",
+            "journal-title": "J. Financ. Econ."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.ijhm.2020.102451_bib0215",
+            "doi-asserted-by": "crossref",
+            "first-page": "122",
+            "DOI": "10.1108/09596111211197836",
+            "article-title": "The role of hotel owners: the influence of corporate strategies on hotel performance",
+            "volume": "24",
+            "author": "Xiao",
+            "year": "2012",
+            "journal-title": "Int. J. Contemp. Hosp. Manage."
+          },
+          {
+            "key": "10.1016/j.ijhm.2020.102451_bib0220",
+            "doi-asserted-by": "crossref",
+            "first-page": "174",
+            "DOI": "10.1016/j.ijhm.2017.08.011",
+            "article-title": "The effects of Airbnb’s price positioning on hotel performance",
+            "volume": "67",
+            "author": "Xie",
+            "year": "2017",
+            "journal-title": "Int. J. Hosp. Manage."
+          },
+          {
+            "key": "10.1016/j.ijhm.2020.102451_bib0225",
+            "doi-asserted-by": "crossref",
+            "first-page": "109",
+            "DOI": "10.1016/j.tmp.2016.12.006",
+            "article-title": "Perceived pollution and inbound tourism in China",
+            "volume": "21",
+            "author": "Xu",
+            "year": "2017",
+            "journal-title": "Tourism Manage. Perspect."
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.ijhm.2020.102451_bib0230",
+            "doi-asserted-by": "crossref",
+            "first-page": "687",
+            "DOI": "10.1509/jmr.15.0204",
+            "article-title": "The rise of the sharing economy: estimating the impact of Airbnb on the hotel industry",
+            "volume": "54",
+            "author": "Zervas",
+            "year": "2017",
+            "journal-title": "J. Mark. Res."
+          }
+        ],
+        "container-title": ["International Journal of Hospitality Management"],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0278431920300037?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0278431920300037?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [[2020, 5, 12]],
+          "date-time": "2020-05-12T00:58:59Z",
+          "timestamp": 1589245139000
+        },
+        "score": 18.291779,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0278431920300037"
+          }
+        },
+        "issued": {
+          "date-parts": [[2020, 4]]
+        },
+        "references-count": 46,
+        "alternative-id": ["S0278431920300037"],
+        "URL": "http://dx.doi.org/10.1016/j.ijhm.2020.102451",
+        "ISSN": ["0278-4319"],
+        "issn-type": [
+          {
+            "value": "0278-4319",
+            "type": "print"
+          }
+        ],
+        "subject": ["Strategy and Management", "Tourism, Leisure and Hospitality Management"],
+        "published": {
+          "date-parts": [[2020, 4]]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Does Airbnb have a homogenous impact? Examining Airbnb’s effect on hotels with different organizational structures",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "International Journal of Hospitality Management",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.ijhm.2020.102451",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2020 Elsevier Ltd. All rights reserved.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "article-number": "102451"
+      },
+      {
+        "indexed": {
+          "date-parts": [[2022, 4, 4]],
+          "date-time": "2022-04-04T02:47:58Z",
+          "timestamp": 1649040478344
+        },
+        "reference-count": 9,
+        "publisher": "IEEE",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [[2017, 4]]
+        },
+        "DOI": "10.1109/ebbt.2017.7956779",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [[2017, 6, 26]],
+          "date-time": "2017-06-26T16:35:52Z",
+          "timestamp": 1498494952000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Inherent biological adaptive control of feedback gain of circadian rhythms in a mathematical model: Stabilization of the sustained oscillations in a mRNA-protein model"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "R. Murat",
+            "family": "Demirer",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Oya",
+            "family": "Demirer",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1006/bulm.1999.0155"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.amc.2014.05.122"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.tibs.2016.07.009"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.bpj.2014.08.013"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1081/CBI-120024211"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1140/epjb/e2013-40331-9"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/1.3647320"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/EBBT.2016.7483694"
+          },
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jtbi.2011.08.002"
+          }
+        ],
+        "event": {
+          "name": "2017 Electric Electronics, Computer Science, Biomedical Engineerings' Meeting (EBBT)",
+          "location": "Istanbul, Turkey",
+          "start": {
+            "date-parts": [[2017, 4, 20]]
+          },
+          "end": {
+            "date-parts": [[2017, 4, 21]]
+          }
+        },
+        "container-title": ["2017 Electric Electronics, Computer Science, Biomedical Engineerings' Meeting (EBBT)"],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/7944960/7956748/07956779.pdf?arnumber=7956779",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [[2017, 7, 12]],
+          "date-time": "2017-07-12T00:38:14Z",
+          "timestamp": 1499819894000
+        },
+        "score": 18.046432,
+        "resource": {
+          "primary": {
+            "URL": "http://ieeexplore.ieee.org/document/7956779/"
+          }
+        },
+        "issued": {
+          "date-parts": [[2017, 4]]
+        },
+        "references-count": 9,
+        "URL": "http://dx.doi.org/10.1109/ebbt.2017.7956779",
+        "published": {
+          "date-parts": [[2017, 4]]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [[2022, 3, 29]],
+          "date-time": "2022-03-29T07:24:36Z",
+          "timestamp": 1648538676814
+        },
+        "reference-count": 5,
+        "publisher": "IEEE",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [[2018, 4]]
+        },
+        "DOI": "10.1109/ebbt.2018.8391432",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [[2018, 6, 21]],
+          "date-time": "2018-06-21T22:30:06Z",
+          "timestamp": 1529620206000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Spatio-temporal phase synchronizations in very low frequency EEG oscillations: A preliminary study of synchronization, localization and stability"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "R. Murat",
+            "family": "Demirer",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Oya",
+            "family": "Demirer",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref4",
+            "article-title": "Dissipation of &#x201C;dark energy",
+            "author": "capolupo",
+            "year": "2013",
+            "journal-title": "cortex in knowledge retrieval Physics of Life"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1152/jn.00254.2001"
+          },
+          {
+            "key": "ref5",
+            "first-page": "2089",
+            "article-title": "Origin, structure, and role of background EEG activity",
+            "volume": "115",
+            "author": "freeman",
+            "year": "2004",
+            "journal-title": "Part 2 Analytic phase Clinical Neurophysiology"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.neubiorev.2008.09.002"
+          },
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1371/journal.pone.0017325"
+          }
+        ],
+        "event": {
+          "name": "2018 Electric Electronics, Computer Science, Biomedical Engineerings' Meeting (EBBT)",
+          "location": "Istanbul",
+          "start": {
+            "date-parts": [[2018, 4, 18]]
+          },
+          "end": {
+            "date-parts": [[2018, 4, 19]]
+          }
+        },
+        "container-title": ["2018 Electric Electronics, Computer Science, Biomedical Engineerings' Meeting (EBBT)"],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/8384822/8391404/08391432.pdf?arnumber=8391432",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [[2018, 7, 23]],
+          "date-time": "2018-07-23T22:44:36Z",
+          "timestamp": 1532385876000
+        },
+        "score": 17.99263,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/8391432/"
+          }
+        },
+        "issued": {
+          "date-parts": [[2018, 4]]
+        },
+        "references-count": 5,
+        "URL": "http://dx.doi.org/10.1109/ebbt.2018.8391432",
+        "published": {
+          "date-parts": [[2018, 4]]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [[2022, 7, 15]],
+          "date-time": "2022-07-15T03:47:04Z",
+          "timestamp": 1657856824964
+        },
+        "reference-count": 8,
+        "publisher": "IEEE",
+        "license": [
+          {
+            "start": {
+              "date-parts": [[2019, 4, 1]],
+              "date-time": "2019-04-01T00:00:00Z",
+              "timestamp": 1554076800000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+          },
+          {
+            "start": {
+              "date-parts": [[2019, 4, 1]],
+              "date-time": "2019-04-01T00:00:00Z",
+              "timestamp": 1554076800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [[2019, 4, 1]],
+              "date-time": "2019-04-01T00:00:00Z",
+              "timestamp": 1554076800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [[2019, 4]]
+        },
+        "DOI": "10.1109/ebbt.2019.8741834",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [[2019, 6, 21]],
+          "date-time": "2019-06-21T03:20:57Z",
+          "timestamp": 1561087257000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 2,
+        "title": ["Early Prediction of Sepsis from Clinical Data Using Artificial Intelligence"],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "R Murat",
+            "family": "Demirer",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Oya",
+            "family": "Demirer",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1056/NEJMoa1703058"
+          },
+          {
+            "key": "ref3",
+            "first-page": "486",
+            "article-title": "Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock",
+            "volume": "45",
+            "year": "2016",
+            "journal-title": "Crit Care Med 2017"
+          },
+          {
+            "key": "ref6",
+            "article-title": "Toward negotiable reinforcement learning: shifting priorities in Pareto optimal sequential decision-making",
+            "author": "critch",
+            "year": "0"
+          },
+          {
+            "key": "ref5",
+            "article-title": "Spectral analysis of unevenly sampled signals: an effective alternative to the Lomb-Scargle periodogram",
+            "author": "vio",
+            "year": "2018"
+          },
+          {
+            "key": "ref8",
+            "article-title": "Spectral analysis of unevenly sampled signals: an effective alternative to the Lomb-Scargle periodogram",
+            "author": "vio",
+            "year": "2018",
+            "journal-title": "Astronomy &Astrophysics"
+          },
+          {
+            "key": "ref7",
+            "article-title": "Early Prediction of Sepsis from Clinical Data: the PhysioNet/Computing in Cardiology Challenge 2019",
+            "year": "0"
+          },
+          {
+            "key": "ref2",
+            "first-page": "762",
+            "article-title": "Assessment of Clinical Criteria for Sepsis: For the Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)",
+            "volume": "315",
+            "year": "0",
+            "journal-title": "JAMA 2016"
+          },
+          {
+            "key": "ref1",
+            "first-page": "801",
+            "article-title": "The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)",
+            "volume": "15",
+            "year": "0",
+            "journal-title": "JAMA 2016"
+          }
+        ],
+        "event": {
+          "name": "2019 Scientific Meeting on Electrical-Electronics & Biomedical Engineering and Computer Science (EBBT)",
+          "location": "Istanbul, Turkey",
+          "start": {
+            "date-parts": [[2019, 4, 24]]
+          },
+          "end": {
+            "date-parts": [[2019, 4, 26]]
+          }
+        },
+        "container-title": [
+          "2019 Scientific Meeting on Electrical-Electronics &amp; Biomedical Engineering and Computer Science (EBBT)"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/8732970/8741400/08741834.pdf?arnumber=8741834",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [[2022, 7, 15]],
+          "date-time": "2022-07-15T03:18:55Z",
+          "timestamp": 1657855135000
+        },
+        "score": 17.929815,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/8741834/"
+          }
+        },
+        "issued": {
+          "date-parts": [[2019, 4]]
+        },
+        "references-count": 8,
+        "URL": "http://dx.doi.org/10.1109/ebbt.2019.8741834",
+        "published": {
+          "date-parts": [[2019, 4]]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [[2022, 3, 31]],
+          "date-time": "2022-03-31T23:01:29Z",
+          "timestamp": 1648767689191
+        },
+        "reference-count": 8,
+        "publisher": "IEEE",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [[2016, 4]]
+        },
+        "DOI": "10.1109/ebbt.2016.7483694",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [[2016, 6, 2]],
+          "date-time": "2016-06-02T13:05:50Z",
+          "timestamp": 1464872750000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "title": [
+          "A numerical bifurcation analysis of circadian rhythms in Pacemaker Neurons: RNA-protein synthesis modeling analysis"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "R. Murat",
+            "family": "Demirer",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Oya",
+            "family": "Demirer",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref4",
+            "doi-asserted-by": "crossref",
+            "first-page": "40",
+            "DOI": "10.1523/JNEUROSCI.19-01-00040.1999",
+            "article-title": "A mathematical model for the intracellular circadian rhythm generator",
+            "volume": "19",
+            "author": "scheper",
+            "year": "1999",
+            "journal-title": "The Journal of neuroscience The official journal of the Society for Neuroscience"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/343536a0"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jtbi.2011.08.002"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3934/mbe.2007.4.661"
+          },
+          {
+            "key": "ref8",
+            "article-title": "Global Attractors of Delay Differential Systems Arising from Networks of Neurons",
+            "author": "chen",
+            "year": "2000",
+            "journal-title": "Graduate Programme in Mathematics York University Toronto"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "crossref",
+            "first-page": "6605",
+            "DOI": "10.1016/j.amc.2012.12.063",
+            "article-title": "Hopf bifurcation analysis of a system of coupled delayed-differential equations",
+            "volume": "219",
+            "author": "celik",
+            "year": "2013",
+            "journal-title": "Applied Mathematics and Computation"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/bi5007354"
+          },
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1242/jcs.065771"
+          }
+        ],
+        "event": {
+          "name": "2016 Electric Electronics, Computer Science, Biomedical Engineerings' Meeting (EBBT)",
+          "location": "Istanbul, Turkey",
+          "start": {
+            "date-parts": [[2016, 4, 26]]
+          },
+          "end": {
+            "date-parts": [[2016, 4, 27]]
+          }
+        },
+        "container-title": ["2016 Electric Electronics, Computer Science, Biomedical Engineerings' Meeting (EBBT)"],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/7480599/7483666/07483694.pdf?arnumber=7483694",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [[2019, 9, 9]],
+          "date-time": "2019-09-09T01:40:26Z",
+          "timestamp": 1567993226000
+        },
+        "score": 17.929815,
+        "resource": {
+          "primary": {
+            "URL": "http://ieeexplore.ieee.org/document/7483694/"
+          }
+        },
+        "issued": {
+          "date-parts": [[2016, 4]]
+        },
+        "references-count": 8,
+        "URL": "http://dx.doi.org/10.1109/ebbt.2016.7483694",
+        "published": {
+          "date-parts": [[2016, 4]]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [[2022, 4, 29]],
+          "date-time": "2022-04-29T10:12:38Z",
+          "timestamp": 1651227158617
+        },
+        "reference-count": 57,
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "5",
+        "license": [
+          {
+            "start": {
+              "date-parts": [[2021, 1, 18]],
+              "date-time": "2021-01-18T00:00:00Z",
+              "timestamp": 1610928000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springer.com/tdm"
+          },
+          {
+            "start": {
+              "date-parts": [[2021, 1, 18]],
+              "date-time": "2021-01-18T00:00:00Z",
+              "timestamp": 1610928000000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springer.com/tdm"
+          }
+        ],
+        "funder": [
+          {
+            "name": "Central Michigan University’s Office of Research and Graduate Studies"
+          }
+        ],
+        "content-domain": {
+          "domain": ["link.springer.com"],
+          "crossmark-restriction": false
+        },
+        "short-container-title": ["Biomass Conv. Bioref."],
+        "published-print": {
+          "date-parts": [[2022, 5]]
+        },
+        "DOI": "10.1007/s13399-021-01290-7",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [[2021, 1, 19]],
+          "date-time": "2021-01-19T00:06:39Z",
+          "timestamp": 1611014799000
+        },
+        "page": "1695-1702",
+        "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 2,
+        "title": ["Post-anaerobic treatability and residual biogas potential of digestate"],
+        "prefix": "10.1007",
+        "volume": "12",
+        "author": [
+          {
+            "given": "Sibel",
+            "family": "Uludag-Demirer",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "ORCID": "http://orcid.org/0000-0001-6030-2041",
+            "authenticated-orcid": false,
+            "given": "Goksel N.",
+            "family": "Demirer",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [[2021, 1, 18]]
+        },
+        "reference": [
+          {
+            "issue": "5",
+            "key": "1290_CR1",
+            "doi-asserted-by": "publisher",
+            "first-page": "3228",
+            "DOI": "10.1016/j.rser.2012.02.046",
+            "volume": "16",
+            "author": "T Abbasi",
+            "year": "2012",
+            "unstructured": "Abbasi T, Tauseef SM, Abbasi SA (2012) Anaerobic digestion for global warming control and energy generation - an overview. Renew Sust Energ Rev 16(5):3228–3242",
+            "journal-title": "Renew Sust Energ Rev"
+          },
+          {
+            "key": "1290_CR2",
+            "doi-asserted-by": "publisher",
+            "first-page": "1240",
+            "DOI": "10.1177/0734242X19873383",
+            "volume": "37",
+            "author": "S Achinas",
+            "year": "2019",
+            "unstructured": "Achinas S, Euverink GJW (2019) Elevated biogas production from the anaerobic co-digestion of farmhouse waste: insight into the process performance and kinetics. Waste Manag Res 37:1240–1249",
+            "journal-title": "Waste Manag Res"
+          },
+          {
+            "key": "1290_CR3",
+            "first-page": "56",
+            "volume": "53",
+            "author": "R Alexander",
+            "year": "2012",
+            "unstructured": "Alexander R (2012) Digestate utilization in the U.S. BioCycle 53:56–57",
+            "journal-title": "BioCycle"
+          },
+          {
+            "issue": "6",
+            "key": "1290_CR4",
+            "first-page": "552",
+            "volume": "10",
+            "author": "E Alkaya",
+            "year": "2010",
+            "unstructured": "Alkaya E, Erguder TH, Demirer GN (2010) Effect of operational parameters on anaerobic co-digestion of dairy cattle manure and agricultural residues: a case study for the Kahramanmaraş region in Turkey. EngLife Sci 10(6):552–559",
+            "journal-title": "EngLife Sci"
+          },
+          {
+            "key": "1290_CR5",
+            "unstructured": "American Biogas Council (2019). Biogas state profile: Michigan, https://americanbiogascouncil.org/wp-content/uploads/2019/02/ABCBiogasStateProfile_MI.pdf, accessed on 12/22/2019."
+          },
+          {
+            "key": "1290_CR6",
+            "doi-asserted-by": "publisher",
+            "first-page": "153",
+            "DOI": "10.1016/j.agee.2005.08.030",
+            "volume": "112",
+            "author": "B Amon",
+            "year": "2006",
+            "unstructured": "Amon B, Kryvoruchko V, Amon T, Zechmeister-Boltenstern S (2006) Methane, nitrous oxide and ammonia emissions during storage and after application of dairy cattle slurry and influence of slurry treatment. Agric, Ecosys Environ 112:153–162",
+            "journal-title": "Agric, Ecosys Environ"
+          },
+          {
+            "key": "1290_CR7",
+            "volume-title": "Standard methods for the examination of water and wastewater",
+            "author": "R Baird",
+            "year": "2017",
+            "unstructured": "Baird R, Bridgewater L (2017) Standard methods for the examination of water and wastewater, 23rd edn. American Public Health Association, Washington, D.C.",
+            "edition": "23"
+          },
+          {
+            "key": "1290_CR8",
+            "volume-title": "Review of the application of the residual biogas potential test, final report",
+            "author": "CJ Banks",
+            "year": "2013",
+            "unstructured": "Banks CJ, Heaven S, Zhang Y, Sapp M, Thwaites R (2013) Review of the application of the residual biogas potential test, final report. Waste and Resources Action Program (WRAP), Oxon"
+          },
+          {
+            "key": "1290_CR9",
+            "doi-asserted-by": "publisher",
+            "first-page": "1751",
+            "DOI": "10.2166/wst.2012.298",
+            "volume": "66",
+            "author": "R Biswas",
+            "year": "2012",
+            "unstructured": "Biswas R, Ahring BK, Uellendahl H (2012) Improving biogas yields using an innovative concept for conversion of the fiber fraction of manure. Water Sci Technol 66:1751–1758",
+            "journal-title": "Water Sci Technol"
+          },
+          {
+            "key": "1290_CR10",
+            "doi-asserted-by": "publisher",
+            "first-page": "614",
+            "DOI": "10.1080/09593330.2017.1398784",
+            "volume": "40",
+            "author": "O Calicioglu",
+            "year": "2019",
+            "unstructured": "Calicioglu O, Demirer GN (2019) Carbon-to-nitrogen and substrate-to-inoculum ratio adjustments can improve co-digestion performance of microalgal biomass obtained from domestic wastewater treatment. Environ Technol 40:614–624",
+            "journal-title": "Environ Technol"
+          },
+          {
+            "key": "1290_CR11",
+            "doi-asserted-by": "publisher",
+            "first-page": "29",
+            "DOI": "10.1515/intag-2016-0087",
+            "volume": "32",
+            "author": "R Czubaszek",
+            "year": "2018",
+            "unstructured": "Czubaszek R, Wysocka-Czubaszek A (2018) Emissions of carbon dioxide and methane from fields fertilized with digestate from an agricultural biogas plant. Int Agrophys 32:29–37",
+            "journal-title": "Int Agrophys"
+          },
+          {
+            "key": "1290_CR12",
+            "doi-asserted-by": "publisher",
+            "first-page": "1984",
+            "DOI": "10.2166/wst.2013.075",
+            "volume": "67",
+            "author": "W Fuchs",
+            "year": "2013",
+            "unstructured": "Fuchs W, Drosg B (2013) Assessment of the state of the art of technologies for the processing of digestate residue from anaerobic digesters. Water Sci Technol 67:1984–1993",
+            "journal-title": "Water Sci Technol"
+          },
+          {
+            "key": "1290_CR13",
+            "doi-asserted-by": "publisher",
+            "first-page": "1334",
+            "DOI": "10.1002/jctb.2437",
+            "volume": "85",
+            "author": "W Gong",
+            "year": "2010",
+            "unstructured": "Gong W, Lia W, Liang H (2010) Application of A/O-MBR for treatment of digestate from anaerobic digestion of cow manure. J Chem Technol Biotechnol 85:1334–1339",
+            "journal-title": "J Chem Technol Biotechnol"
+          },
+          {
+            "issue": "7",
+            "key": "1290_CR14",
+            "first-page": "48",
+            "volume": "55",
+            "author": "P Gorrie",
+            "year": "2014",
+            "unstructured": "Gorrie P (2014) Capitalizing on digester coproducts. BioCycle 55(7):48–52",
+            "journal-title": "BioCycle"
+          },
+          {
+            "key": "1290_CR15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1061/(ASCE)EE.1943-7870.0001559",
+            "volume": "145",
+            "author": "E Gür",
+            "year": "2019",
+            "unstructured": "Gür E, Demirer GN (2019) Anaerobic digestability and biogas production capacity of pistachio processing wastewater in UASB reactors. J Environ Eng 145:04019042",
+            "journal-title": "J Environ Eng"
+          },
+          {
+            "issue": "5",
+            "key": "1290_CR16",
+            "doi-asserted-by": "publisher",
+            "first-page": "750",
+            "DOI": "10.1016/j.renene.2006.03.018",
+            "volume": "32",
+            "author": "A Isci",
+            "year": "2007",
+            "unstructured": "Isci A, Demirer GN (2007) Biogas production potential from cotton wastes. Renew Energy 32(5):750–757",
+            "journal-title": "Renew Energy"
+          },
+          {
+            "key": "1290_CR17",
+            "doi-asserted-by": "publisher",
+            "first-page": "104",
+            "DOI": "10.1016/j.apenergy.2013.03.075",
+            "volume": "109",
+            "author": "E Jurado",
+            "year": "2013",
+            "unstructured": "Jurado E, Skiadas IV, Gavala HN (2013) Enhanced methane productivity from manure fibers by aqueous ammonia soaking pretreatment. Appl Energy 109:104–111",
+            "journal-title": "Appl Energy"
+          },
+          {
+            "key": "1290_CR18",
+            "doi-asserted-by": "publisher",
+            "first-page": "625",
+            "DOI": "10.1080/09593330.2005.9619502",
+            "volume": "26",
+            "author": "P Kaparaju",
+            "year": "2010",
+            "unstructured": "Kaparaju P, Rintala J (2010) The effects of post-treatments and temperature on recovering the methane potential of> 2 mm solid fraction of digested cow manure. Environ Technol 26:625–632",
+            "journal-title": "Environ Technol"
+          },
+          {
+            "key": "1290_CR19",
+            "doi-asserted-by": "publisher",
+            "first-page": "1370",
+            "DOI": "10.2166/wst.2013.005",
+            "volume": "67",
+            "author": "J Liebetrau",
+            "year": "2013",
+            "unstructured": "Liebetrau J, Reinelt T, Clemens J, Hafermann C, Friehe J, Weiland P (2013) Analysis of greenhouse gas emissions from 10 biogas plants within the agricultural sector. Water Sci Technol 67:1370–1379",
+            "journal-title": "Water Sci Technol"
+          },
+          {
+            "key": "1290_CR20",
+            "doi-asserted-by": "publisher",
+            "first-page": "194",
+            "DOI": "10.1016/j.biortech.2014.09.117",
+            "volume": "178",
+            "author": "J Lindner",
+            "year": "2015",
+            "unstructured": "Lindner J, Zielonka S, Oechsner H, Lemmer A (2015) Effects of mechanical treatment of digestate after anaerobic digestion on the degree of degradation. Bioresour Technol 178:194–200",
+            "journal-title": "Bioresour Technol"
+          },
+          {
+            "key": "1290_CR21",
+            "doi-asserted-by": "publisher",
+            "first-page": "27",
+            "DOI": "10.1177/0734242X18816793",
+            "volume": "37",
+            "author": "M Logan",
+            "year": "2019",
+            "unstructured": "Logan M, Visvanathan C (2019) Management strategies for anaerobic digestate of organic fraction of municipal solid waste: current status and future prospects. Waste Manag Res 37:27–39",
+            "journal-title": "Waste Manag Res"
+          },
+          {
+            "key": "1290_CR22",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Manyuchi MM, Mbohwa C, Muzenda E (2018) Resource recovery from municipal sewage plants: an energy-water-nutrients nexus for developing countries. CRC Press. ISBN: 9780429013706",
+            "DOI": "10.1201/9780429506239"
+          },
+          {
+            "key": "1290_CR23",
+            "doi-asserted-by": "publisher",
+            "first-page": "2819",
+            "DOI": "10.1016/j.biortech.2006.07.040",
+            "volume": "98",
+            "author": "DI Masse",
+            "year": "2007",
+            "unstructured": "Masse DI, Croteau F, Masse L (2007a) The fate of crop nutrients during digestion of swine manure in psychrophilic anaerobic sequencing batch reactors. Bioresour Technol 98:2819–2823",
+            "journal-title": "Bioresour Technol"
+          },
+          {
+            "key": "1290_CR24",
+            "doi-asserted-by": "publisher",
+            "first-page": "371",
+            "DOI": "10.1016/j.biosystemseng.2007.09.003",
+            "volume": "98",
+            "author": "L Masse",
+            "year": "2007",
+            "unstructured": "Masse L, Massé DI, Pellerin Y (2007b) The use of membranes for the treatment of manure: a critical literature review. Biosyst Eng 98:371–380",
+            "journal-title": "Biosyst Eng"
+          },
+          {
+            "key": "1290_CR25",
+            "doi-asserted-by": "publisher",
+            "first-page": "2348",
+            "DOI": "10.1016/j.biortech.2010.10.094",
+            "volume": "102",
+            "author": "S Menardo",
+            "year": "2011",
+            "unstructured": "Menardo S, Gioelli F, Balsari P (2011a) The methane yield of digestate: effect of organic loading rate, hydraulic retention time, and plant feeding. Bioresour Technol 102:2348–2351",
+            "journal-title": "Bioresour Technol"
+          },
+          {
+            "key": "1290_CR26",
+            "doi-asserted-by": "publisher",
+            "first-page": "2026",
+            "DOI": "10.1016/j.biortech.2010.09.067",
+            "volume": "102",
+            "author": "S Menardo",
+            "year": "2011",
+            "unstructured": "Menardo S, Balsari P, Dinuccio E, Gioelli F (2011b) Thermal pre-treatment of solid fraction from mechanically-separated raw and digested slurry to increase methane yield. Bioresour Technol 102:2026–2032",
+            "journal-title": "Bioresour Technol"
+          },
+          {
+            "key": "1290_CR27",
+            "doi-asserted-by": "publisher",
+            "first-page": "135",
+            "DOI": "10.1016/j.desal.2004.06.121",
+            "volume": "167",
+            "author": "D Mihoubi",
+            "year": "2004",
+            "unstructured": "Mihoubi D (2004) Mechanical and thermal dewatering of residual sludge. Desalination 167:135–139",
+            "journal-title": "Desalination"
+          },
+          {
+            "key": "1290_CR28",
+            "doi-asserted-by": "publisher",
+            "first-page": "242",
+            "DOI": "10.1002/elsc.201100085",
+            "volume": "12",
+            "author": "K Möller",
+            "year": "2012",
+            "unstructured": "Möller K, Müller T (2012) Effects of anaerobic digestion on digestate nutrient availability and crop growth: a review. Eng Life Sci 12:242–257",
+            "journal-title": "Eng Life Sci"
+          },
+          {
+            "key": "1290_CR29",
+            "doi-asserted-by": "publisher",
+            "first-page": "1",
+            "DOI": "10.1016/j.eja.2008.06.003",
+            "volume": "30",
+            "author": "K Möller",
+            "year": "2009",
+            "unstructured": "Möller K, Stinner W (2009) Effects of different manuring systems with and without biogas digestion on soil mineral nitrogen content and on gaseous nitrogen losses (ammonia, nitrous oxides). Eur J Agron 30:1–16",
+            "journal-title": "Eur J Agron"
+          },
+          {
+            "key": "1290_CR30",
+            "doi-asserted-by": "publisher",
+            "first-page": "813",
+            "DOI": "10.1177/0734242X09344876",
+            "volume": "27",
+            "author": "J Møller",
+            "year": "2009",
+            "unstructured": "Møller J, Boldrin A, Christensen TH (2009) Anaerobic digestion and digestate use: accounting of greenhouse gases and global warming contribution. Waste Manag Res 27:813–824",
+            "journal-title": "Waste Manag Res"
+          },
+          {
+            "key": "1290_CR31",
+            "doi-asserted-by": "publisher",
+            "first-page": "2600",
+            "DOI": "10.1039/C5EE01633A",
+            "volume": "8",
+            "author": "F Monlau",
+            "year": "2015",
+            "unstructured": "Monlau F, Sambusiti C, Ficara E, Aboulkas A, Barakata A, Carrered H (2015a) New opportunities for agricultural digestate valorization: current situation and perspectives. Energy Environ Sci 8:2600–2621",
+            "journal-title": "Energy Environ Sci"
+          },
+          {
+            "key": "1290_CR32",
+            "doi-asserted-by": "publisher",
+            "first-page": "377",
+            "DOI": "10.1016/j.cej.2014.08.108",
+            "volume": "260",
+            "author": "F Monlau",
+            "year": "2015",
+            "unstructured": "Monlau F, Kaparaju P, Trably E, Steyer JP, Carrere H (2015b) Alkaline pretreatment to enhance one-stage CH 4 and two-stage H 2/CH 4 production from sunflower stalks: mass, energy and economical balances. Chem Eng J 260:377–385",
+            "journal-title": "Chem Eng J"
+          },
+          {
+            "key": "1290_CR33",
+            "doi-asserted-by": "publisher",
+            "first-page": "323",
+            "DOI": "10.1016/j.watres.2006.10.026",
+            "volume": "41",
+            "author": "M Myint",
+            "year": "2007",
+            "unstructured": "Myint M, Nirmalakhandan N, Speece RE (2007) Anaerobic fermentation of cattle manure: modeling of hydrolysis and acidogenesis. Water Res 41:323–332",
+            "journal-title": "Water Res"
+          },
+          {
+            "key": "1290_CR34",
+            "doi-asserted-by": "publisher",
+            "first-page": "473",
+            "DOI": "10.1007/s13593-013-0196-z",
+            "volume": "34",
+            "author": "R Nkoa",
+            "year": "2014",
+            "unstructured": "Nkoa R (2014) Agricultural benefits and environmental risks of soil fertilization with anaerobic digestates: a review. Agron Sustain Dev 34:473–492",
+            "journal-title": "Agron Sustain Dev"
+          },
+          {
+            "key": "1290_CR35",
+            "doi-asserted-by": "publisher",
+            "first-page": "867",
+            "DOI": "10.1061/(ASCE)0733-9372(1986)112:5(867)",
+            "volume": "112",
+            "author": "GF Parkin",
+            "year": "1986",
+            "unstructured": "Parkin GF, Owen WF (1986) Fundamentals of anaerobic digestion of wastewater sludges. J Environ Eng 112:867–920",
+            "journal-title": "J Environ Eng"
+          },
+          {
+            "key": "1290_CR36",
+            "doi-asserted-by": "publisher",
+            "first-page": "92",
+            "DOI": "10.1016/j.resconrec.2011.08.007",
+            "volume": "56",
+            "author": "T Rehl",
+            "year": "2011",
+            "unstructured": "Rehl T, Müller J (2011) Life cycle assessment of biogas digestate processing technologies. Resour Conserv Recycl 56:92–104",
+            "journal-title": "Resour Conserv Recycl"
+          },
+          {
+            "key": "1290_CR37",
+            "unstructured": "Rehl T, Doluschitz R, Jungbluth T, Müller J (2007) Environmental impact of different types of biogas effluent processing. In: VDI 65th International Conference on Agriculture Engineering. Engineering Solutions for Energy and Food Production, Hannover, 9–10 November 2007"
+          },
+          {
+            "key": "1290_CR38",
+            "doi-asserted-by": "publisher",
+            "first-page": "2167",
+            "DOI": "10.1016/j.wasman.2011.04.018",
+            "volume": "31",
+            "author": "C Rico",
+            "year": "2011",
+            "unstructured": "Rico C, Rico JL, Tejero I, Muñoz N, Gómez B (2011) Anaerobic digestion of the liquid fraction of dairy manure in pilot plant for biogas production: residual methane yield of digestate. Waste Manag 31:2167–2173",
+            "journal-title": "Waste Manag"
+          },
+          {
+            "key": "1290_CR39",
+            "doi-asserted-by": "publisher",
+            "first-page": "529",
+            "DOI": "10.1016/j.wasman.2016.12.016",
+            "volume": "61",
+            "author": "K Risberg",
+            "year": "2017",
+            "unstructured": "Risberg K, Cederlund H, Pell M, Arthurson V, Schnürer A (2017) Comparative characterization of digestate versus pig slurry and cow manure – chemical composition and effects on soil microbial activity. Waste Manag 61:529–538",
+            "journal-title": "Waste Manag"
+          },
+          {
+            "key": "1290_CR40",
+            "doi-asserted-by": "publisher",
+            "first-page": "341",
+            "DOI": "10.1016/j.biortech.2014.10.053",
+            "volume": "178",
+            "author": "S Ruile",
+            "year": "2015",
+            "unstructured": "Ruile S, Schmitz S, Mönch-Tegeder M, Oechsner H (2015) Degradation efficiency of agricultural biogas plants--a full-scale study. Bioresour Technol 178:341–349",
+            "journal-title": "Bioresour Technol"
+          },
+          {
+            "key": "1290_CR41",
+            "doi-asserted-by": "publisher",
+            "first-page": "1661",
+            "DOI": "10.1016/j.renene.2006.08.001",
+            "volume": "32",
+            "author": "N-K Salihoglu",
+            "year": "2007",
+            "unstructured": "Salihoglu N-K, Pinarli V, Salihoglu G (2007) Solar drying in sludge management in Turkey. Renew Energy 32:1661–1675",
+            "journal-title": "Renew Energy"
+          },
+          {
+            "key": "1290_CR42",
+            "doi-asserted-by": "publisher",
+            "first-page": "149",
+            "DOI": "10.1016/j.biortech.2013.06.095",
+            "volume": "144",
+            "author": "C Sambusiti",
+            "year": "2013",
+            "unstructured": "Sambusiti C, Ficara E, Malpei F, Steyer JP, Carrere H (2013) Benefit of sodium hydroxide pretreatment of ensiled sorghum forage on the anaerobic reactor stability and methane production. Bioresour Technol 144:149–155",
+            "journal-title": "Bioresour Technol"
+          },
+          {
+            "key": "1290_CR43",
+            "doi-asserted-by": "publisher",
+            "first-page": "359",
+            "DOI": "10.1016/j.fuproc.2015.04.028",
+            "volume": "137",
+            "author": "C Sambusiti",
+            "year": "2015",
+            "unstructured": "Sambusiti C, Monlau F, Ficara E, Mussati A, Rollini M, Barakat A, Malpei F (2015) Comparison of various post-treatments for recovering methane from agricultural digestate. Fuel Process Technol 137:359–365",
+            "journal-title": "Fuel Process Technol"
+          },
+          {
+            "key": "1290_CR44",
+            "doi-asserted-by": "publisher",
+            "first-page": "1915",
+            "DOI": "10.3390/app9091915",
+            "volume": "9",
+            "author": "S Sarker",
+            "year": "2019",
+            "unstructured": "Sarker S, Lamb JJ, Hjelme DR, Lien KM (2019) A review of the role of critical parameters in the design and operation of biogas production plants. Appl Sci 9:1915",
+            "journal-title": "Appl Sci"
+          },
+          {
+            "issue": "8",
+            "key": "1290_CR45",
+            "doi-asserted-by": "publisher",
+            "first-page": "1868",
+            "DOI": "10.1016/S0043-1354(02)00577-8",
+            "volume": "37",
+            "author": "S Sen",
+            "year": "2003",
+            "unstructured": "Sen S, Demirer GN (2003) Anaerobic treatment of real textile wastewater with a fluidised bed reactor. Water Res 37(8):1868–1878",
+            "journal-title": "Water Res"
+          },
+          {
+            "key": "1290_CR46",
+            "doi-asserted-by": "publisher",
+            "first-page": "209",
+            "DOI": "10.1016/j.fuel.2012.12.069",
+            "volume": "107",
+            "author": "M Seppälä",
+            "year": "2013",
+            "unstructured": "Seppälä M, Pyykkönen V, Väisänen A, Rintala J (2013) Biomethane production from maize and liquid cow manure – effect of share of maize, post-methanation potential and digestate characteristics. Fuel 107:209–216",
+            "journal-title": "Fuel"
+          },
+          {
+            "key": "1290_CR47",
+            "doi-asserted-by": "publisher",
+            "first-page": "744",
+            "DOI": "10.2134/jeq2000.00472425002900030009x",
+            "volume": "29",
+            "author": "SG Sommer",
+            "year": "2000",
+            "unstructured": "Sommer SG, Petersen SO, Sogaard HT (2000) Greenhouse gas emission from stored livestock slurry. J Environ Qual 29:744–751",
+            "journal-title": "J Environ Qual"
+          },
+          {
+            "key": "1290_CR48",
+            "doi-asserted-by": "publisher",
+            "first-page": "331",
+            "DOI": "10.1016/j.ics.2006.03.013",
+            "volume": "1293",
+            "author": "M Tani",
+            "year": "2006",
+            "unstructured": "Tani M, Sakamoto N, Kishimoto T, Umetsu K (2006) Utilization of anaerobically digested slurry combined with other waste following application to agricultural land. Int Congr Ser 1293:331–334",
+            "journal-title": "Int Congr Ser"
+          },
+          {
+            "key": "1290_CR49",
+            "doi-asserted-by": "publisher",
+            "first-page": "159",
+            "DOI": "10.1006/jaer.1998.0405",
+            "volume": "73",
+            "author": "L Thörneby",
+            "year": "1999",
+            "unstructured": "Thörneby L, Persson K, Trägårdh G (1999) Treatment of liquid effluents from dairy cattle and pigs using reverse osmosis. J Agric Eng Res 73:159–170",
+            "journal-title": "J Agric Eng Res"
+          },
+          {
+            "key": "1290_CR50",
+            "doi-asserted-by": "publisher",
+            "first-page": "44",
+            "DOI": "10.1016/j.fuel.2014.04.062",
+            "volume": "132",
+            "author": "O Thygesen",
+            "year": "2014",
+            "unstructured": "Thygesen O, Sommer SG, Shin SG, Triolo JM (2014) Residual biochemical methane potential (BMP) of concentrated digestate from full-scale biogas plants. Fuel 132:44–46",
+            "journal-title": "Fuel"
+          },
+          {
+            "issue": "3",
+            "key": "1290_CR51",
+            "doi-asserted-by": "publisher",
+            "first-page": "259",
+            "DOI": "10.1002/wer.1048",
+            "volume": "91",
+            "author": "N Ulgudur",
+            "year": "2019",
+            "unstructured": "Ulgudur N, Demirer GN (2019) Anaerobic treatability and residual biogas potential of the effluent stream of anaerobic digestion. Water Environ Res 91(3):259–268",
+            "journal-title": "Water Environ Res"
+          },
+          {
+            "key": "1290_CR52",
+            "doi-asserted-by": "publisher",
+            "first-page": "622",
+            "DOI": "10.1016/j.envpol.2019.06.115",
+            "volume": "252",
+            "author": "N Ulgudur",
+            "year": "2019",
+            "unstructured": "Ulgudur N, Ergüder TH, Uludağ-Demirer S, Demirer GN (2019) High-rate anaerobic treatment of digestate using fixed film reactors. Environ Pollut 252:622–1632",
+            "journal-title": "Environ Pollut"
+          },
+          {
+            "key": "1290_CR53",
+            "unstructured": "Wäger-Baumann F (2011) Physical and biological methods for the treatment of the liquid fraction of anaerobic digester effluent, PhD Dissertation, Institute for Environmental Biotechnology, Department for Agrobiotechnology, IFA-Tulln, University of Natural Resources and Applied Life Sciences, Vienna, May, 2011"
+          },
+          {
+            "key": "1290_CR54",
+            "volume-title": "Enhancement and treatment of digestates from anaerobic digestion",
+            "author": "Waste and Resources Action Program (WRAP)",
+            "year": "2012",
+            "unstructured": "Waste and Resources Action Program (WRAP) (2012) Enhancement and treatment of digestates from anaerobic digestion. Pell Frischmann Consultants Ltd, Oxon"
+          },
+          {
+            "key": "1290_CR55",
+            "doi-asserted-by": "publisher",
+            "first-page": "140",
+            "DOI": "10.1016/j.wasman.2018.05.016",
+            "volume": "77",
+            "author": "I Wojnowska-Baryła",
+            "year": "2018",
+            "unstructured": "Wojnowska-Baryła I, Bernat K, Sartowska S (2018) Biological stability of multi-component agri-food digestates and post-digestates. Waste Manag 77:140–146",
+            "journal-title": "Waste Manag"
+          },
+          {
+            "key": "1290_CR56",
+            "doi-asserted-by": "publisher",
+            "first-page": "167",
+            "DOI": "10.1016/j.ibiod.2014.06.020",
+            "volume": "95",
+            "author": "S Zeshana",
+            "year": "2014",
+            "unstructured": "Zeshana S, Visvanathan C (2014) Evaluation of anaerobic digestate for greenhouse gas emissions at various stages of its management. Int Biodet Biodeg 95:167–175",
+            "journal-title": "Int Biodet Biodeg"
+          },
+          {
+            "key": "1290_CR57",
+            "doi-asserted-by": "publisher",
+            "first-page": "21",
+            "DOI": "10.1016/j.enconman.2013.05.037",
+            "volume": "75",
+            "author": "MX Zhao",
+            "year": "2013",
+            "unstructured": "Zhao MX, Ruan WQ (2013) Biogas performance from co-digestion of Taihu algae and kitchen wastes. Energy Convers Manag 75:21–24",
+            "journal-title": "Energy Convers Manag"
+          }
+        ],
+        "container-title": ["Biomass Conversion and Biorefinery"],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s13399-021-01290-7.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s13399-021-01290-7/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s13399-021-01290-7.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [[2022, 4, 29]],
+          "date-time": "2022-04-29T09:45:37Z",
+          "timestamp": 1651225537000
+        },
+        "score": 17.681332,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/s13399-021-01290-7"
+          }
+        },
+        "issued": {
+          "date-parts": [[2021, 1, 18]]
+        },
+        "references-count": 57,
+        "journal-issue": {
+          "issue": "5",
+          "published-print": {
+            "date-parts": [[2022, 5]]
+          }
+        },
+        "alternative-id": ["1290"],
+        "URL": "http://dx.doi.org/10.1007/s13399-021-01290-7",
+        "ISSN": ["2190-6815", "2190-6823"],
+        "issn-type": [
+          {
+            "value": "2190-6815",
+            "type": "print"
+          },
+          {
+            "value": "2190-6823",
+            "type": "electronic"
+          }
+        ],
+        "subject": ["Renewable Energy, Sustainability and the Environment"],
+        "published": {
+          "date-parts": [[2021, 1, 18]]
+        },
+        "assertion": [
+          {
+            "value": "13 October 2020",
+            "order": 1,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "4 January 2021",
+            "order": 2,
+            "name": "revised",
+            "label": "Revised",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "6 January 2021",
+            "order": 3,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "18 January 2021",
+            "order": 4,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          }
+        ]
+      },
+      {
+        "indexed": {
+          "date-parts": [[2022, 7, 9]],
+          "date-time": "2022-07-09T11:12:44Z",
+          "timestamp": 1657365164125
+        },
+        "reference-count": 0,
+        "publisher": "Inderscience Publishers",
+        "issue": "4",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": ["PIE"],
+        "published-print": {
+          "date-parts": [[2017]]
+        },
+        "DOI": "10.1504/pie.2017.10013952",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [[2018, 6, 20]],
+          "date-time": "2018-06-20T13:02:46Z",
+          "timestamp": 1529499766000
+        },
+        "page": "343",
+        "source": "Crossref",
+        "is-referenced-by-count": 2,
+        "title": [
+          "Determination of regional industrial symbiosis opportunities by using relationship mimicking with ESOTA&lt;SUP align=\"right\"&gt;®&lt;/SUP&gt;"
+        ],
+        "prefix": "10.1504",
+        "volume": "11",
+        "author": [
+          {
+            "given": "Sibel",
+            "family": "Uludag Demirer",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Goksel N.",
+            "family": "Demirer",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "378",
+        "container-title": ["Progress in Industrial Ecology, An International Journal"],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://www.inderscienceonline.com/doi/full/10.1504/PIE.2017.10013952",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [[2022, 7, 9]],
+          "date-time": "2022-07-09T10:35:10Z",
+          "timestamp": 1657362910000
+        },
+        "score": 17.358053,
+        "resource": {
+          "primary": {
+            "URL": "http://www.inderscience.com/link.php?id=10013952"
+          }
+        },
+        "issued": {
+          "date-parts": [[2017]]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "4",
+          "published-print": {
+            "date-parts": [[2017]]
+          }
+        },
+        "URL": "http://dx.doi.org/10.1504/pie.2017.10013952",
+        "ISSN": ["1476-8917", "1478-8764"],
+        "issn-type": [
+          {
+            "value": "1476-8917",
+            "type": "print"
+          },
+          {
+            "value": "1478-8764",
+            "type": "electronic"
+          }
+        ],
+        "subject": [
+          "Management, Monitoring, Policy and Law",
+          "General Economics, Econometrics and Finance",
+          "Waste Management and Disposal",
+          "Development",
+          "Ecology"
+        ],
+        "published": {
+          "date-parts": [[2017]]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [[2022, 3, 29]],
+          "date-time": "2022-03-29T08:47:27Z",
+          "timestamp": 1648543647555
+        },
+        "reference-count": 0,
+        "publisher": "Inderscience Publishers",
+        "issue": "4",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": ["PIE"],
+        "published-print": {
+          "date-parts": [[2017]]
+        },
+        "DOI": "10.1504/pie.2017.092722",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [[2018, 6, 29]],
+          "date-time": "2018-06-29T11:30:20Z",
+          "timestamp": 1530271820000
+        },
+        "page": "343",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Determination of regional industrial symbiosis opportunities by using relationship mimicking with ESOTA&lt;SUP align=\"right\"&gt;®&lt;/SUP&gt;"
+        ],
+        "prefix": "10.1504",
+        "volume": "11",
+        "author": [
+          {
+            "given": "Sibel Uludag",
+            "family": "Demirer",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Goksel N.",
+            "family": "Demirer",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "378",
+        "container-title": ["Progress in Industrial Ecology, An International Journal"],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://www.inderscienceonline.com/doi/full/10.1504/PIE.2017.092722",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [[2018, 6, 29]],
+          "date-time": "2018-06-29T11:30:22Z",
+          "timestamp": 1530271822000
+        },
+        "score": 17.328547,
+        "resource": {
+          "primary": {
+            "URL": "http://www.inderscience.com/link.php?id=92722"
+          }
+        },
+        "issued": {
+          "date-parts": [[2017]]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "4",
+          "published-print": {
+            "date-parts": [[2017]]
+          }
+        },
+        "URL": "http://dx.doi.org/10.1504/pie.2017.092722",
+        "ISSN": ["1476-8917", "1478-8764"],
+        "issn-type": [
+          {
+            "value": "1476-8917",
+            "type": "print"
+          },
+          {
+            "value": "1478-8764",
+            "type": "electronic"
+          }
+        ],
+        "subject": [
+          "Management, Monitoring, Policy and Law",
+          "General Economics, Econometrics and Finance",
+          "Waste Management and Disposal",
+          "Development",
+          "Ecology"
+        ],
+        "published": {
+          "date-parts": [[2017]]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [[2022, 3, 29]],
+          "date-time": "2022-03-29T13:45:58Z",
+          "timestamp": 1648561558638
+        },
+        "reference-count": 0,
+        "publisher": "Indonesian Journal of International Law",
+        "issue": "4",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": ["IJIL"],
+        "DOI": "10.17304/ijil.vol2.4.5",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [[2021, 12, 2]],
+          "date-time": "2021-12-02T01:48:52Z",
+          "timestamp": 1638409732000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": ["Democratization Process in Indonesia"],
+        "prefix": "10.17304",
+        "volume": "2",
+        "author": [
+          {
+            "given": "Ismail",
+            "family": "Suny",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "None"
+              }
+            ]
+          }
+        ],
+        "member": "6997",
+        "published-online": {
+          "date-parts": [[2005, 7, 31]]
+        },
+        "container-title": ["Indonesian Journal of International Law"],
+        "link": [
+          {
+            "URL": "https://scholarhub.ui.ac.id/cgi/viewcontent.cgi?article=1519&context=ijil&unstamped=1",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [[2021, 12, 2]],
+          "date-time": "2021-12-02T01:48:53Z",
+          "timestamp": 1638409733000
+        },
+        "score": 17.22918,
+        "resource": {
+          "primary": {
+            "URL": "https://scholarhub.ui.ac.id/ijil/vol2/iss4/5"
+          }
+        },
+        "issued": {
+          "date-parts": [[2005, 7, 31]]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "4",
+          "published-online": {
+            "date-parts": [[2005, 7, 31]]
+          }
+        },
+        "URL": "http://dx.doi.org/10.17304/ijil.vol2.4.5",
+        "ISSN": ["2356-5527"],
+        "issn-type": [
+          {
+            "value": "2356-5527",
+            "type": "electronic"
+          }
+        ],
+        "subject": ["General Medicine"],
+        "published": {
+          "date-parts": [[2005, 7, 31]]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [[2022, 4, 2]],
+          "date-time": "2022-04-02T19:18:09Z",
+          "timestamp": 1648927089194
+        },
+        "reference-count": 0,
+        "publisher": "Philosophy Documentation Center",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "DOI": "10.5840/hsaproceedings19951215",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [[2016, 6, 3]],
+          "date-time": "2016-06-03T05:03:37Z",
+          "timestamp": 1464930217000
+        },
+        "page": "237-239",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": ["Contributors"],
+        "prefix": "10.5840",
+        "volume": "12",
+        "author": [
+          {
+            "name": "SUNY Press",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "3884",
+        "published-online": {
+          "date-parts": [[1995]]
+        },
+        "container-title": ["Proceedings of the Hegel Society of America"],
+        "deposited": {
+          "date-parts": [[2020, 5, 19]],
+          "date-time": "2020-05-19T18:31:55Z",
+          "timestamp": 1589913115000
+        },
+        "score": 17.22918,
+        "resource": {
+          "primary": {
+            "URL": "http://www.pdcnet.org/oom/service?url_ver=Z39.88-2004&rft_val_fmt=&rft.imuse_id=hsaproceedings_1995_0012_0237_0239&svc_id=info:www.pdcnet.org/collection"
+          }
+        },
+        "subtitle": [""],
+        "issued": {
+          "date-parts": [[1995]]
+        },
+        "references-count": 0,
+        "alternative-id": ["hsaproceedings_1995_0012_0237_0239"],
+        "URL": "http://dx.doi.org/10.5840/hsaproceedings19951215",
+        "ISSN": ["2472-4637"],
+        "issn-type": [
+          {
+            "value": "2472-4637",
+            "type": "print"
+          }
+        ],
+        "subject": ["Computer Science Applications", "History", "Education"],
+        "published": {
+          "date-parts": [[1995]]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [[2022, 4, 2]],
+          "date-time": "2022-04-02T16:43:34Z",
+          "timestamp": 1648917814079
+        },
+        "reference-count": 0,
+        "publisher": "Philosophy Documentation Center",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "abstract": "<jats:p />",
+        "DOI": "10.5840/hsaproceedings19981417",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [[2016, 6, 3]],
+          "date-time": "2016-06-03T05:03:46Z",
+          "timestamp": 1464930226000
+        },
+        "page": "345-354",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": ["Index"],
+        "prefix": "10.5840",
+        "volume": "13",
+        "author": [
+          {
+            "name": "SUNY Press",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "3884",
+        "published-online": {
+          "date-parts": [[1998]]
+        },
+        "container-title": ["Proceedings of the Hegel Society of America"],
+        "deposited": {
+          "date-parts": [[2020, 5, 19]],
+          "date-time": "2020-05-19T18:31:21Z",
+          "timestamp": 1589913081000
+        },
+        "score": 17.22918,
+        "resource": {
+          "primary": {
+            "URL": "http://www.pdcnet.org/oom/service?url_ver=Z39.88-2004&rft_val_fmt=&rft.imuse_id=hsaproceedings_1998_0013_0345_0354&svc_id=info:www.pdcnet.org/collection"
+          }
+        },
+        "subtitle": [""],
+        "issued": {
+          "date-parts": [[1998]]
+        },
+        "references-count": 0,
+        "alternative-id": ["hsaproceedings_1998_0013_0345_0354"],
+        "URL": "http://dx.doi.org/10.5840/hsaproceedings19981417",
+        "ISSN": ["2472-4637"],
+        "issn-type": [
+          {
+            "value": "2472-4637",
+            "type": "print"
+          }
+        ],
+        "subject": ["Computer Science Applications", "History", "Education"],
+        "published": {
+          "date-parts": [[1998]]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [[2022, 4, 2]],
+          "date-time": "2022-04-02T07:28:15Z",
+          "timestamp": 1648884495750
+        },
+        "reference-count": 0,
+        "publisher": "Jurnal Hukum dan Pembangunan",
+        "issue": "1",
+        "license": [
+          {
+            "start": {
+              "date-parts": [[2017, 6, 14]],
+              "date-time": "2017-06-14T00:00:00Z",
+              "timestamp": 1497398400000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "http://creativecommons.org/licenses/by-sa/4.0"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": ["JHP"],
+        "abstract": "<jats:p>Undang-undang Dasar tertulis yang sampai sekarang dianggap tertua adalah Konstitusi Amerika Serikat. Pemerintah yang didirikan oleh Konstitusi mulai berfungsi 4 Maret 1789, karena itu mulai berlakunya Konstitusi itu dimulai pada tanggal itu, hampir 2 abad yang lalu. Sejak 2 tahun yang lalu Amerika Serikat telah menyelenggarakan konferensi dan kegiatan-kegiatan lain yangmenandai peristiwa penting itu. Konferensi mengenai The Making of Constitutions telah diadakan pada tahun 1983 dengan sukses. Peserta-peserta Konferensi itu, hampir tanpa kecuali memainkan peranan berarti dalam pembuatan konstitusi negeri mereka masing-masing. Kertas kerja dan acara kerja mengenai pembuatan konstitusi oleh perancang-perancang konstitusiitu akan diterbitkan akhir tahun 1985 ini.</jats:p>",
+        "DOI": "10.21143/jhp.vol16.no1.1192",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [[2017, 7, 23]],
+          "date-time": "2017-07-23T14:35:56Z",
+          "timestamp": 1500820556000
+        },
+        "page": "60",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": ["Dwi Abad Konstitusi Amerika Serikat"],
+        "prefix": "10.21143",
+        "volume": "16",
+        "author": [
+          {
+            "given": "Ismail",
+            "family": "Suny",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "8886",
+        "published-online": {
+          "date-parts": [[2017, 6, 14]]
+        },
+        "container-title": ["Jurnal Hukum &amp; Pembangunan"],
+        "link": [
+          {
+            "URL": "http://jhp.ui.ac.id/index.php/home/article/viewFile/1192/1115",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://jhp.ui.ac.id/index.php/home/article/viewFile/1192/1115",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [[2017, 7, 23]],
+          "date-time": "2017-07-23T14:37:33Z",
+          "timestamp": 1500820653000
+        },
+        "score": 17.22918,
+        "resource": {
+          "primary": {
+            "URL": "http://jhp.ui.ac.id/index.php/home/article/view/1192"
+          }
+        },
+        "issued": {
+          "date-parts": [[2017, 6, 14]]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "1",
+          "published-online": {
+            "date-parts": [[1986, 2, 14]]
+          }
+        },
+        "URL": "http://dx.doi.org/10.21143/jhp.vol16.no1.1192",
+        "ISSN": ["2503-1465", "0125-9687"],
+        "issn-type": [
+          {
+            "value": "2503-1465",
+            "type": "electronic"
+          },
+          {
+            "value": "0125-9687",
+            "type": "print"
+          }
+        ],
+        "subject": ["Management of Technology and Innovation"],
+        "published": {
+          "date-parts": [[2017, 6, 14]]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [[2022, 4, 3]],
+          "date-time": "2022-04-03T19:27:51Z",
+          "timestamp": 1649014071890
+        },
+        "reference-count": 0,
+        "publisher": "Philosophy Documentation Center",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "DOI": "10.5840/hsaproceedings20092015",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [[2016, 5, 16]],
+          "date-time": "2016-05-16T18:16:27Z",
+          "timestamp": 1463422587000
+        },
+        "page": "247-248",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": ["Contributors"],
+        "prefix": "10.5840",
+        "volume": "19",
+        "author": [
+          {
+            "name": "SUNY Press",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "3884",
+        "published-online": {
+          "date-parts": [[2009]]
+        },
+        "container-title": ["Proceedings of the Hegel Society of America"],
+        "deposited": {
+          "date-parts": [[2020, 5, 19]],
+          "date-time": "2020-05-19T18:25:27Z",
+          "timestamp": 1589912727000
+        },
+        "score": 17.22918,
+        "resource": {
+          "primary": {
+            "URL": "http://www.pdcnet.org/oom/service?url_ver=Z39.88-2004&rft_val_fmt=&rft.imuse_id=hsaproceedings_2009_0019_0247_0248&svc_id=info:www.pdcnet.org/collection"
+          }
+        },
+        "subtitle": [""],
+        "issued": {
+          "date-parts": [[2009]]
+        },
+        "references-count": 0,
+        "alternative-id": ["hsaproceedings_2009_0019_0247_0248"],
+        "URL": "http://dx.doi.org/10.5840/hsaproceedings20092015",
+        "ISSN": ["2472-4637"],
+        "issn-type": [
+          {
+            "value": "2472-4637",
+            "type": "print"
+          }
+        ],
+        "subject": ["Computer Science Applications", "History", "Education"],
+        "published": {
+          "date-parts": [[2009]]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [[2022, 4, 2]],
+          "date-time": "2022-04-02T03:36:57Z",
+          "timestamp": 1648870617440
+        },
+        "reference-count": 0,
+        "publisher": "Philosophy Documentation Center",
+        "issue": "1",
+        "content-domain": {
+          "domain": ["pdcnet.org"],
+          "crossmark-restriction": true
+        },
+        "DOI": "10.5840/binghamton20142110",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [[2015, 4, 25]],
+          "date-time": "2015-04-25T05:00:42Z",
+          "timestamp": 1429938042000
+        },
+        "page": "183-184",
+        "update-policy": "http://dx.doi.org/10.5840/pdc20121120",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": ["Contributors"],
+        "prefix": "10.5840",
+        "volume": "2",
+        "author": [
+          {
+            "name": "SUNY Press",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "3884",
+        "published-online": {
+          "date-parts": [[2014]]
+        },
+        "container-title": ["Binghamton Journal of Philosophy"],
+        "deposited": {
+          "date-parts": [[2020, 5, 19]],
+          "date-time": "2020-05-19T20:11:36Z",
+          "timestamp": 1589919096000
+        },
+        "score": 17.22918,
+        "resource": {
+          "primary": {
+            "URL": "http://www.pdcnet.org/oom/service?url_ver=Z39.88-2004&rft_val_fmt=&rft.imuse_id=binghamton_2014_0002_0001_0183_0184&svc_id=info:www.pdcnet.org/collection"
+          }
+        },
+        "subtitle": [""],
+        "issued": {
+          "date-parts": [[2014]]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "1",
+          "published-online": {
+            "date-parts": [[2014]]
+          }
+        },
+        "alternative-id": ["binghamton_2014_0002_0001_0183_0184"],
+        "URL": "http://dx.doi.org/10.5840/binghamton20142110",
+        "ISSN": ["2324-8718"],
+        "issn-type": [
+          {
+            "value": "2324-8718",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [[2014]]
+        },
+        "assertion": [
+          {
+            "value": "NO",
+            "name": "peer_reviewed",
+            "label": "Peer Reviewed"
+          }
+        ]
+      }
+    ],
+    "items-per-page": 20,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

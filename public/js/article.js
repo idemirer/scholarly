@@ -9,14 +9,15 @@ async function getArticleData(doi) {
     const url = '/api/doi/' + doi;
     const data = await fetch(url).then((res) => res.json());
     let refdata = data['reference'];
+    // console.log(refdata);
     let nodes = [];
     for (let r = 0; r < refdata.length; r++) {
-      let id = r + 1;
-      nodes.push({ id: id, label: refdata[r]['doi'], shape: 'dot' });
+      let idNum = r + 1;
+      nodes.push({ id: idNum, label: refdata[r]['DOI'], shape: 'dot' });
     }
-    nodes.push({ id: 0, label: data['title'], shape: 'dot' });
+    nodes.push({ id: 0, label: data['title'][0].split(' ')[0], shape: 'dot' });
     // console.log(nodes, 'finalData');
-    return refdata;
+    return nodes;
   } catch (error) {
     error.message;
   }
@@ -30,8 +31,6 @@ async function drawGraph(doi) {
     edgedata.push({ from: 0, to: id2 });
   }
 
-  console.log(edgedata);
-
   const container = document.getElementById('mynetwork');
   const nodes = new vis.DataSet(refdata);
   const edges = new vis.DataSet(edgedata);
@@ -39,7 +38,7 @@ async function drawGraph(doi) {
 
   const options = {
     configure: {
-      enabled: true,
+      enabled: false,
       filter: ['physics'],
     },
     edges: {

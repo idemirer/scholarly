@@ -15,19 +15,32 @@
       src="https://cdn.jsdelivr.net/npm/vis-network@latest/dist/vis-network.min.js"
     ></script>
     <style type="text/css">
+      #container {
+        display: flex;
+      }
       #mynetwork {
-        width: 800px;
-        height: 800px;
+        display: flex;
+        width: 1400px;
+        height: 600px;
         background-color: #ffffff;
         border: 1px solid lightgray;
         position: relative;
-        float: left;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: flex-start;
+      }
+      .vis-configuration-wrapper {
+        justify-self: flex-end;
       }
     </style>
     <title>Chart</title>
   </head>
   <body>
-    <div id="mynetwork"></div>
+    <div id="container">
+      <div id="mynetwork"></div>
+    </div>
     <div>
       <ul id="articleList"></ul>
     </div>
