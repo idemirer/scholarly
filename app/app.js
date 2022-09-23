@@ -18,9 +18,9 @@ async function searchTopic(topic) {
   const selectedParts =
     'DOI,ISBN,ISSN,URL,abstract,author,container-title,title,type,published,reference,references-count,is-referenced-by-count,volume,issue,event';
   const searchTerms = encodeURIComponent(topic);
-  const url = `http://api.crossref.org/works?query=${searchTerms}&filter=type:journal-article&select=${selectedParts}&cursor=*`;
+  const url = `http://api.crossref.org/works?query=${searchTerms}&mailto=posta.gereksiz@gmail.com&filter=type:journal-article&select=${selectedParts}&cursor=*`;
   try {
-    let response = await axios.get(url, { timeout: 100000 });
+    let response = await axios.get(url);
     let data = response.data['message'];
     return data;
   } catch (error) {
