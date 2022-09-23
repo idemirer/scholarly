@@ -5,25 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/vis-network@latest/dist/vis-network.min.js"
+    ></script>
     <script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
-    <title>Chart</title>
     <style>
       .content ul {
         list-style: square outside;
       }
+      #mynetwork {
+        width: 100%;
+        height: 800px;
+        background-color: #ffffff;
+        border: 1px solid lightgray;
+        position: relative;
+      }
     </style>
+    <title>Topic Map</title>
   </head>
   <body>
     <section class="section">
       <div class="container">
         <div class="content">
-          <div id="myDiv"></div>
-          <div>
-            <ul id="articleList"></ul>
-          </div>
+          <div id="mynetwork"></div>
         </div>
       </div>
     </section>
-    <script src="./js/index.js"></script>
+    <script src="./js/topicMap.js"></script>
   </body>
 </html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+    <style>
+      .content ul {
+        list-style: square outside;
+      }
+      #loader-wrapper {
+        position: absolute;
+        top: 0;
+        margin-top: 25%;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: #fff;
+        opacity: 0;
+        z-index: -1;
+        transition: opacity 1s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+      }
+      .loader {
+        height: 80px;
+        width: 80px;
+        border-width: 5px !important;
+      }
+      .is-active {
+        opacity: 1 !important;
+        z-index: 1 !important;
+      }
+      .is-loading {
+        position: relative;
+      }
+    </style>
+    <title>Search Results</title>
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <div class="content">
+          <div id="loader-wrapper">
+            <div class="loader is-loading"></div>
+            <p>Loading Results...</p>
+          </div>
+          <p class="ml-1 has-text-weight-bold">
+            <a href="topicmap.html" style="display: none" id="topicMapLink">See the Topic Map for these results</a>
+          </p>
+          <ul id="articleList"></ul>
+        </div>
+      </div>
+    </section>
+    <script src="./js/search.js"></script>
+  </body>
+</html>

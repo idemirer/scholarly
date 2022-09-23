@@ -14,16 +14,40 @@ async function findAuthorWorks(author) {
   }
 }
 
+async function searchTopic(topic) {
+  const selectedParts =
+    'DOI,ISBN,ISSN,URL,abstract,author,container-title,title,type,published,reference,references-count,is-referenced-by-count,volume,issue,event';
+  const searchTerms = encodeURIComponent(topic);
+  const url = `http://api.crossref.org/works?query=${searchTerms}&filter=type:journal-article&select=${selectedParts}&cursor=*`;
+  try {
+    let response = await axios.get(url, { timeout: 100000 });
+    let data = response.data['message'];
+    return data;
+  } catch (error) {
+    error.message;
+  }
+}
+
 async function findArticle(doi) {
-  let response = await axios.get('https://api.crossref.org/works/' + doi);
-  let data = response.data['message'];
-  return data;
+  try {
+    let response = await axios.get('https://api.crossref.org/works/' + doi);
+    let data = response.data['message'];
+    return data;
+  } catch (error) {
+    error.message;
+  }
 }
 
 router.get('/author/:author', async (req, res, next) => {
   // const author = req.params.author;
   // let data = await findAuthorWorks(author);
   res.json(authorData['message']);
+});
+
+router.get('/topic/:topic', async (req, res, next) => {
+  const topic = req.params.topic;
+  let data = await searchTopic(topic);
+  res.json(data);
 });
 
 router.get('/doi/:doi', async (req, res, next) => {

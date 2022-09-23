@@ -1,10 +1,8 @@
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
-let doi = urlParams.get('doi');
-doi = encodeURIComponent(doi);
+let doi = encodeURIComponent(urlParams.get('doi'));
 
 async function getArticleData(doi) {
-  console.log(doi);
   try {
     const url = '/api/doi/' + doi;
     const data = await fetch(url).then((res) => res.json());
@@ -30,7 +28,7 @@ async function drawGraph(doi) {
     let id2 = ref + 1;
     edgedata.push({ from: 0, to: id2 });
   }
-
+  console.log(refdata);
   const container = document.getElementById('mynetwork');
   const nodes = new vis.DataSet(refdata);
   const edges = new vis.DataSet(edgedata);
