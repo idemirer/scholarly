@@ -2,37 +2,69 @@ const retrieveObject = localStorage.getItem('searchResults');
 const searchResults = JSON.parse(retrieveObject);
 
 async function getReferences(data) {
-  let nodes = [];
-  for (let i = 0; i < data['items'].length; i++) {
-    let articleID = i + 1;
-    if (data['items'][i]['reference']) {
-      let refdata = data['items'][i]['reference'];
-      for (let r = 0; r < refdata.length; r++) {
-        if (refdata[r]['DOI']) {
-          let refIdNum = `${articleID}${r}`;
-          nodes.push({
-            id: +refIdNum,
-            reference_DOI: refdata[r]['DOI'],
-            label: refdata[r]['DOI'],
-            original_DOI: data['items'][i]['DOI'],
-            original_id: articleID,
-            shape: 'dot',
-          });
-        }
+  const refdata = data['items'];
+  let allArticles = [];
+  for (let i = 0; i < refdata.length; i++) {
+    allArticles.push({
+      DOI: refdata[i]['DOI'],
+      label: refdata[i]['DOI'],
+      title: refdata[i]['title'],
+      author: refdata[i]['author'],
+      'container-title': refdata[i]['container-title'],
+      published: refdata[i]['published'],
+      URL: refdata[i]['URL'],
+      'references-count': refdata[i]['references-count'],
+      'is-referenced-by-count': refdata[i]['is-referenced-by-count'],
+      volume: refdata[i]['volume'],
+      'references-count': refdata[i]['references-count'],
+    });
+    if (refdata[i]['reference']) {
+      for (let r = 0; r < refdata[i]['reference'].length; r++) {
+        let next = refdata[i]['reference'][r];
+        next['original_DOI'] = refdata[i]['DOI'];
+        next['label'] = refdata[i]['DOI'];
+        allArticles.push(next);
       }
-      nodes.push({ id: articleID, original_DOI: data['items'][i]['DOI'], shape: 'dot' });
     }
   }
-  return nodes;
+
+  let cleanNodes = [];
+  cleanNodes.push(
+    allArticles.filter(
+      (allArticles, index, self) =>
+        index === self.findIndex((t) => t.save === allArticles.save && t.DOI === allArticles.DOI)
+    )
+  );
+
+  for (let c = 0; c < cleanNodes[0].length; c++) {
+    cleanNodes[0][c]['id'] = c + 1;
+  }
+
+  // console.log(cleanNodes[0]);
+
+  for (let f = 0; f < allArticles.length; f++) {
+    for (let c = 0; c < cleanNodes[0].length; c++) {
+      if (allArticles[f]['DOI'] == cleanNodes[0][c]['DOI']) {
+        allArticles[f]['original_id'] = cleanNodes[0][c]['id'];
+      }
+      if (allArticles[f]['original_DOI']) {
+        if (allArticles[f]['original_DOI'] == cleanNodes[0][c]['DOI']) {
+          allArticles[f]['reference_id'] = cleanNodes[0][c]['id'];
+        }
+      }
+    }
+  }
+  // console.log(allArticles);
+  return allArticles;
 }
 
 async function drawGraph(searchResults) {
   let refdata = await getReferences(searchResults);
-  //   console.log(refdata);
+  // console.log(refdata);
   let edgedata = [];
   for (let r = 0; r < refdata.length; r++) {
-    if (refdata[r]['original_id']) {
-      edgedata.push({ from: refdata[r]['original_id'], to: refdata[r]['id'] });
+    if (refdata[r]['DOI'] && refdata[r]['reference_id']) {
+      edgedata.push({ from: refdata[r]['original_id'], to: refdata[r]['reference_id'] });
     }
   }
 
@@ -40,18 +72,28 @@ async function drawGraph(searchResults) {
     (refdata, index, self) => index === self.findIndex((t) => t.save === refdata.save && t.id === refdata.id)
   );
 
+  // console.log(edgedata);
+
   const container = document.getElementById('mynetwork');
   const nodes = new vis.DataSet(cleanNodes);
   const edges = new vis.DataSet(edgedata);
   const data = { nodes, edges };
 
   const options = {
+    nodes: {
+      shape: 'dot',
+      size: 16,
+    },
+    autoResize: true,
+    height: '100%',
+    width: '100%',
     configure: {
       enabled: false,
       filter: ['physics'],
     },
     layout: {
-      improvedLayout: false,
+      improvedLayout: true,
+      randomSeed: 42,
     },
     edges: {
       color: {
@@ -69,16 +111,31 @@ async function drawGraph(searchResults) {
     },
     physics: {
       enabled: true,
+      forceAtlas2Based: {
+        gravitationalConstant: -26,
+        centralGravity: 0.005,
+        springLength: 230,
+        springConstant: 0.18,
+      },
+      maxVelocity: 146,
+      solver: 'forceAtlas2Based',
+      timestep: 0.35,
       stabilization: {
         enabled: true,
-        fit: true,
-        iterations: 1000,
-        onlyDynamicEdges: false,
-        updateInterval: 50,
+        iterations: 2000,
+        updateInterval: 25,
       },
     },
   };
+  const loader = document.getElementById('loader-wrapper');
   network = new vis.Network(container, data, options);
+  network.on('stabilizationProgress', function (params) {
+    loader.classList.add('is-active');
+  });
+  network.once('stabilizationIterationsDone', function () {
+    loader.classList.remove('is-active');
+  });
+
   return network;
 }
 // getArticleData(doi);

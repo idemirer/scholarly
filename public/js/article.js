@@ -10,7 +10,7 @@ async function getArticleData(doi) {
     // console.log(refdata);
     let nodes = [];
     for (let r = 0; r < refdata.length; r++) {
-      let idNum = r + 1;
+      let idNum = (r + 1) * 100000;
       nodes.push({ id: idNum, label: refdata[r]['DOI'], shape: 'dot' });
     }
     nodes.push({ id: 0, label: data['title'][0].split(' ')[0], shape: 'dot' });
