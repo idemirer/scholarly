@@ -17,14 +17,16 @@ async function getReferences(data) {
       'is-referenced-by-count': refdata[i]['is-referenced-by-count'],
       volume: refdata[i]['volume'],
       'references-count': refdata[i]['references-count'],
+      group: i,
     });
     if (refdata[i]['reference']) {
       for (let r = 0; r < refdata[i]['reference'].length; r++) {
         let next = refdata[i]['reference'][r];
         next['original_DOI'] = refdata[i]['DOI'];
         next['label'] = refdata[i]['DOI'];
+        next['group'] = i;
         if (refdata[i]['reference'][r]['article-title']) {
-          next['title'] = refdata[i]['reference'][r]['article-title'].split(' ')[0];
+          next['title'] = refdata[i]['reference'][r]['article-title'];
         }
         allArticles.push(next);
       }
@@ -53,11 +55,9 @@ async function getReferences(data) {
       if (allArticles[f]['original_DOI']) {
         if (allArticles[f]['original_DOI'] == cleanNodes[0][c]['DOI']) {
           allArticles[f]['reference_id'] = cleanNodes[0][c]['id'];
-          allArticles[f]['group'] = cleanNodes[0][c]['id'];
         }
       }
       if (!allArticles[f]['reference_id'] && allArticles[f]['DOI'] == cleanNodes[0][c]['DOI']) {
-        allArticles[f]['group'] = cleanNodes[0][c]['id'];
       }
     }
   }
