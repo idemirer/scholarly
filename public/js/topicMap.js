@@ -8,7 +8,7 @@ async function getReferences(data) {
     allArticles.push({
       DOI: refdata[i]['DOI'],
       label: refdata[i]['DOI'],
-      title: refdata[i]['title'],
+      title: refdata[i]['title'][0],
       author: refdata[i]['author'],
       'container-title': refdata[i]['container-title'],
       published: refdata[i]['published'],
@@ -23,6 +23,9 @@ async function getReferences(data) {
         let next = refdata[i]['reference'][r];
         next['original_DOI'] = refdata[i]['DOI'];
         next['label'] = refdata[i]['DOI'];
+        if (refdata[i]['reference'][r]['article-title']) {
+          next['title'] = refdata[i]['reference'][r]['article-title'].split(' ')[0];
+        }
         allArticles.push(next);
       }
     }
@@ -50,7 +53,11 @@ async function getReferences(data) {
       if (allArticles[f]['original_DOI']) {
         if (allArticles[f]['original_DOI'] == cleanNodes[0][c]['DOI']) {
           allArticles[f]['reference_id'] = cleanNodes[0][c]['id'];
+          allArticles[f]['group'] = cleanNodes[0][c]['id'];
         }
+      }
+      if (!allArticles[f]['reference_id'] && allArticles[f]['DOI'] == cleanNodes[0][c]['DOI']) {
+        allArticles[f]['group'] = cleanNodes[0][c]['id'];
       }
     }
   }
@@ -72,7 +79,7 @@ async function drawGraph(searchResults) {
     (refdata, index, self) => index === self.findIndex((t) => t.save === refdata.save && t.id === refdata.id)
   );
 
-  // console.log(edgedata);
+  console.log(cleanNodes);
 
   const container = document.getElementById('mynetwork');
   const nodes = new vis.DataSet(cleanNodes);
@@ -82,7 +89,14 @@ async function drawGraph(searchResults) {
   const options = {
     nodes: {
       shape: 'dot',
-      size: 16,
+      scaling: {
+        min: 5,
+        max: 30,
+      },
+      font: {
+        size: 12,
+        face: 'Roboto Condensed',
+      },
     },
     autoResize: true,
     height: '100%',
@@ -93,21 +107,21 @@ async function drawGraph(searchResults) {
     },
     layout: {
       improvedLayout: true,
-      randomSeed: 42,
+      randomSeed: 30,
     },
     edges: {
       color: {
         inherit: true,
       },
+      width: 0.15,
       smooth: {
         enabled: true,
-        type: 'dynamic',
+        type: 'continuous',
       },
     },
     interaction: {
-      dragNodes: true,
-      hideEdgesOnDrag: false,
-      hideNodesOnDrag: false,
+      hideEdgesOnDrag: true,
+      tooltipDelay: 50,
     },
     physics: {
       enabled: true,
@@ -122,7 +136,7 @@ async function drawGraph(searchResults) {
       timestep: 0.35,
       stabilization: {
         enabled: true,
-        iterations: 2000,
+        iterations: 100,
         updateInterval: 25,
       },
     },
