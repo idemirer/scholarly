@@ -30,6 +30,9 @@ async function getReferences(data) {
         if (refdata[i]['reference'][r]['article-title']) {
           next['title'] = refdata[i]['reference'][r]['article-title'];
         }
+        if (!refdata[i]['reference'][r]['article-title'] && refdata[i]['reference'][r]['unstructured']) {
+          next['title'] = refdata[i]['reference'][r]['unstructured'];
+        }
         allArticles.push(next);
       }
     }
@@ -47,7 +50,7 @@ async function getReferences(data) {
     cleanNodes[0][c]['id'] = c + 1;
   }
 
-  // console.log(cleanNodes[0]);
+  // console.log(allArticles);
 
   for (let f = 0; f < allArticles.length; f++) {
     for (let c = 0; c < cleanNodes[0].length; c++) {
