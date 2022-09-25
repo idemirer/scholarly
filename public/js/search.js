@@ -21,7 +21,11 @@ async function listArticles(topic) {
   const articleList = document.getElementById('articleList');
   let htmlContent = '';
   for (let a = 0; a < data['items'].length; a++) {
-    htmlContent += `<li>${data['items'][a]['title']}</li>`;
+    let author = 'NA';
+    if (data['items'][a]['author']) {
+      author = data['items'][a]['author'][0]['family'];
+    }
+    htmlContent += `<li>${author}, (${data['items'][a]['published']['date-parts'][0][0]}), ${data['items'][a]['title']} - <a href="https://doi.org/${data['items'][a]['DOI']}">DOI</a></li>`;
   }
   articleList.innerHTML = htmlContent;
   loader.classList.remove('is-active');

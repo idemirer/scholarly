@@ -99,7 +99,7 @@ async function drawGraph(searchResults) {
         max: 30,
       },
       font: {
-        size: 12,
+        size: 10,
         face: 'Roboto Condensed',
       },
     },
@@ -118,7 +118,7 @@ async function drawGraph(searchResults) {
       color: {
         inherit: true,
       },
-      width: 0.15,
+      width: 0.5,
       smooth: {
         enabled: true,
         type: 'continuous',
@@ -131,18 +131,21 @@ async function drawGraph(searchResults) {
     physics: {
       enabled: true,
       forceAtlas2Based: {
-        gravitationalConstant: -26,
+        gravitationalConstant: -50,
         centralGravity: 0.005,
         springLength: 230,
-        springConstant: 0.18,
+        springConstant: 0.05,
+        avoidOverlap: 0.1,
       },
-      maxVelocity: 146,
+      maxVelocity: 40,
+      minVelocity: 0.5,
       solver: 'forceAtlas2Based',
       timestep: 0.35,
+      wind: { x: 0, y: 0 },
       stabilization: {
         enabled: true,
         iterations: 500,
-        updateInterval: 25,
+        // updateInterval: 25,
       },
     },
   };
