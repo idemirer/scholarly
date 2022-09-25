@@ -24,7 +24,9 @@ async function getReferences(data) {
         let next = refdata[i]['reference'][r];
         next['original_DOI'] = refdata[i]['DOI'];
         next['label'] = refdata[i]['DOI'];
-        next['group'] = i;
+        if (!next['group']) {
+          next['group'] = i;
+        }
         if (refdata[i]['reference'][r]['article-title']) {
           next['title'] = refdata[i]['reference'][r]['article-title'];
         }
@@ -79,7 +81,7 @@ async function drawGraph(searchResults) {
     (refdata, index, self) => index === self.findIndex((t) => t.save === refdata.save && t.id === refdata.id)
   );
 
-  console.log(cleanNodes);
+  // console.log(cleanNodes);
 
   const container = document.getElementById('mynetwork');
   const nodes = new vis.DataSet(cleanNodes);
@@ -121,7 +123,7 @@ async function drawGraph(searchResults) {
     },
     interaction: {
       hideEdgesOnDrag: true,
-      tooltipDelay: 50,
+      tooltipDelay: 200,
     },
     physics: {
       enabled: true,
@@ -136,7 +138,7 @@ async function drawGraph(searchResults) {
       timestep: 0.35,
       stabilization: {
         enabled: true,
-        iterations: 100,
+        iterations: 500,
         updateInterval: 25,
       },
     },
