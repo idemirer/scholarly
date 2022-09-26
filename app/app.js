@@ -1,8 +1,41 @@
 const express = require('express');
 const router = express.Router();
 const axios = require('axios');
+const { MongoClient } = require('mongodb');
+require('dotenv').config();
 
 const authorData = require('./author.json');
+const url = process.env.MONGO_URI;
+
+// const localurl = 'mongodb://localhost:27017';
+// const localclient = new MongoClient(localurl);
+
+const client = new MongoClient(url);
+const dbName = 'cross';
+
+async function mongoPull() {
+  await client.connect();
+  console.log('Connected successfully to server');
+  const db = client.db(dbName);
+  const collection = db.collection('cross');
+  const findResult = await collection.find({ title: { $regex: /financial/gim } }).toArray();
+
+  // try {
+  //   await localclient.connect();
+  //   await client.connect();
+  //   console.log('Connected successfully to server');
+  //   const localdb = localclient.db(dbName);
+  //   const localcollection = localdb.collection('cross');
+  //   const db = client.db(dbName);
+  //   const collection = db.collection('cross');
+  //   const findResult = await localcollection.find({}).toArray();
+  //   const result = await collection.insertMany(findResult);
+  // } finally {
+  //   await client.close();
+  //   await localclient.close();
+  // }
+  return findResult;
+}
 
 async function findAuthorWorks(author) {
   try {
@@ -53,6 +86,11 @@ router.get('/topic/:topic', async (req, res, next) => {
 router.get('/doi/:doi', async (req, res, next) => {
   const doi = req.params.doi.replace('"');
   let data = await findArticle(doi);
+  res.json(data);
+});
+
+router.get('/mongo/', async (req, res, next) => {
+  const data = await mongoPull();
   res.json(data);
 });
 
