@@ -4,7 +4,7 @@ const searchResults = JSON.parse(retrieveObject);
 async function getReferences(data) {
   const refdata = data['items'];
   let allArticles = [];
-  for (let i = 0; i < refdata.length; i++) {
+  for (let i = 0; i < 20; i++) {
     allArticles.push({
       DOI: refdata[i]['DOI'],
       label: refdata[i]['DOI'],
@@ -22,7 +22,7 @@ async function getReferences(data) {
     if (refdata[i]['reference']) {
       for (let r = 0; r < refdata[i]['reference'].length; r++) {
         let next = refdata[i]['reference'][r];
-        next['original_DOI'] = refdata[i]['DOI'];
+        next['origin_DOI'] = refdata[i]['DOI'];
         next['label'] = refdata[i]['DOI'];
         if (!next['group']) {
           next['group'] = i;
@@ -38,35 +38,32 @@ async function getReferences(data) {
     }
   }
 
-  let cleanNodes = [];
-  cleanNodes.push(
-    allArticles.filter(
+  const cleanNodes = [
+    ...allArticles.filter(
       (allArticles, index, self) =>
         index === self.findIndex((t) => t.save === allArticles.save && t.DOI === allArticles.DOI)
-    )
-  );
+    ),
+  ];
 
-  for (let c = 0; c < cleanNodes[0].length; c++) {
-    cleanNodes[0][c]['id'] = c + 1;
+  for (let c = 0; c < cleanNodes.length; c++) {
+    cleanNodes[c]['id'] = c + 1;
   }
 
-  // console.log(allArticles);
-
   for (let f = 0; f < allArticles.length; f++) {
-    for (let c = 0; c < cleanNodes[0].length; c++) {
-      if (allArticles[f]['DOI'] == cleanNodes[0][c]['DOI']) {
-        allArticles[f]['original_id'] = cleanNodes[0][c]['id'];
+    for (let c = 0; c < cleanNodes.length; c++) {
+      if (allArticles[f]['DOI'] == cleanNodes[c]['DOI']) {
+        allArticles[f]['id'] = cleanNodes[c]['id'];
       }
-      if (allArticles[f]['original_DOI']) {
-        if (allArticles[f]['original_DOI'] == cleanNodes[0][c]['DOI']) {
-          allArticles[f]['reference_id'] = cleanNodes[0][c]['id'];
+      if (allArticles[f]['origin_DOI']) {
+        if (allArticles[f]['origin_DOI'] == cleanNodes[c]['DOI']) {
+          allArticles[f]['reference_id'] = cleanNodes[c]['id'];
         }
       }
-      if (!allArticles[f]['reference_id'] && allArticles[f]['DOI'] == cleanNodes[0][c]['DOI']) {
+      if (!allArticles[f]['reference_id'] && allArticles[f]['DOI'] == cleanNodes[c]['DOI']) {
       }
     }
   }
-  // console.log(allArticles);
+  // console.log(allArticles, 'clean');
   return allArticles;
 }
 
@@ -76,15 +73,15 @@ async function drawGraph(searchResults) {
   let edgedata = [];
   for (let r = 0; r < refdata.length; r++) {
     if (refdata[r]['DOI'] && refdata[r]['reference_id']) {
-      edgedata.push({ from: refdata[r]['original_id'], to: refdata[r]['reference_id'] });
+      edgedata.push({ from: refdata[r]['id'], to: refdata[r]['reference_id'] });
     }
   }
 
   const cleanNodes = refdata.filter(
-    (refdata, index, self) => index === self.findIndex((t) => t.save === refdata.save && t.id === refdata.id)
+    (refdata, index, self) => index === self.findIndex((t) => t.save === refdata.save && t['id'] === refdata['id'])
   );
 
-  // console.log(cleanNodes);
+  // console.log(edgedata, 'cleanest');
 
   const container = document.getElementById('mynetwork');
   const nodes = new vis.DataSet(cleanNodes);
@@ -121,7 +118,7 @@ async function drawGraph(searchResults) {
       width: 0.5,
       smooth: {
         enabled: true,
-        type: 'continuous',
+        type: 'dynamic',
       },
     },
     interaction: {
@@ -130,16 +127,17 @@ async function drawGraph(searchResults) {
     },
     physics: {
       enabled: true,
-      forceAtlas2Based: {
-        gravitationalConstant: -50,
-        centralGravity: 0.005,
+      barnesHut: {
+        gravitationalConstant: -2000,
+        centralGravity: 0.1,
         springLength: 230,
-        springConstant: 0.05,
+        springConstant: 0.04,
+        damping: 1,
         avoidOverlap: 0.1,
       },
       maxVelocity: 40,
       minVelocity: 0.5,
-      solver: 'forceAtlas2Based',
+      solver: 'barnesHut',
       timestep: 0.35,
       wind: { x: 0, y: 0 },
       stabilization: {

@@ -2,11 +2,11 @@
 <html lang="en">
   <head>
     <title>Vis Network | Basic usage</title>
-
-    <script
+    <!-- <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/vis-network@latest/dist/vis-network.min.js"
-    ></script>
+    ></script> -->
+    <script type="text/javascript" src="https://visjs.github.io/vis-network/standalone/umd/vis-network.min.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
       rel="stylesheet"
@@ -30,13 +30,39 @@
 
     <script type="text/javascript">
       // create an array with nodes
-      var nodes = new vis.DataSet([
-        { id: 1, label: 'Node 1', title: 'Country: ' + 'Algeria' + '\n' + 'Team: ' + 'Club Africain 1' },
-        { id: 2, label: 'Node 2', title: 'Country: ' + 'Algeria' + '\n' + 'Team: ' + 'Club Africain 2' },
-        { id: 3, label: 'Node 3', title: 'Country: ' + 'Algeria' + '\n' + 'Team: ' + 'Club Africain 3' },
-        { id: 4, label: 'Node 4', title: 'Country: ' + 'Algeria' + '\n' + 'Team: ' + 'Club Africain 4' },
-        { id: 5, label: 'Node 5', title: 'Country: ' + 'Algeria' + '\n' + 'Team: ' + 'Club Africain 5' },
-      ]);
+      let nodejson = [
+        { id: 1, label: 'Node 1', year: 1990 },
+        { id: 2, label: 'Node 2', year: 1995, x: 100, y: 100 },
+        { id: 3, label: 'Node 3', year: 1998, x: 300, y: -300 },
+        { id: 4, label: 'Node 4', year: 2000, x: -300, y: -300 },
+        { id: 5, label: 'Node 5', year: 2005, x: -600, y: 200 },
+        { id: 6, label: 'Node 6', year: 2008, x: -500, y: 700 },
+        { id: 7, label: 'Node 7', year: 2010, x: -400, y: 600 },
+        { id: 8, label: 'Node 8', year: 2012, x: -300, y: 500 },
+        { id: 9, label: 'Node 9', year: 2015, x: 500, y: 500 },
+        { id: 10, label: 'Node 10', year: 2018, x: 500, y: 500 },
+        { id: 11, label: 'Node 11', year: 2020, x: 2800, y: 500 },
+      ];
+
+      function getXY(data) {
+        const years = data.map((d) => d.year);
+        const minYear = Math.min(...years);
+        const maxYear = Math.max(...years);
+        const gap = maxYear - minYear;
+        const area = 1 / data.length;
+
+        for (let i = 0; i < data.length; i++) {
+          let section = i + 1;
+          let x = Math.round(area * section * 2000) - 1000;
+          let y = Math.round(area * section * 2000) - 1000;
+          data[i]['x'] = x;
+          data[i]['y'] = y;
+        }
+        return data;
+      }
+      const newNodes = getXY(nodejson);
+      console.log(newNodes);
+      var nodes = new vis.DataSet(newNodes);
 
       // create an array with edges
       var edges = new vis.DataSet([
@@ -45,6 +71,12 @@
         { from: 2, to: 4 },
         { from: 2, to: 5 },
         { from: 3, to: 2 },
+        { from: 5, to: 6 },
+        { from: 5, to: 7 },
+        { from: 5, to: 8 },
+        { from: 3, to: 9 },
+        { from: 3, to: 10 },
+        { from: 3, to: 11 },
       ]);
 
       // create a network
@@ -53,36 +85,63 @@
         nodes: nodes,
         edges: edges,
       };
-      var options = {
+
+      const options = {
         nodes: {
           shape: 'dot',
           scaling: {
-            min: 10,
+            min: 5,
             max: 30,
           },
           font: {
-            size: 12,
+            size: 18,
             face: 'Roboto Condensed',
           },
         },
+        autoResize: true,
+        height: '100%',
+        width: '100%',
+        layout: {
+          improvedLayout: true,
+          randomSeed: 30,
+        },
         edges: {
-          color: { inherit: true },
-          width: 0.15,
+          color: {
+            inherit: true,
+          },
+          width: 0.5,
           smooth: {
+            enabled: false,
             type: 'continuous',
           },
         },
         interaction: {
-          hover: true,
           hideEdgesOnDrag: true,
           tooltipDelay: 200,
         },
-        physics: false,
+        physics: {
+          enabled: true,
+          barnesHut: {
+            gravitationalConstant: -2000,
+            centralGravity: 0.1,
+            springLength: 300,
+            springConstant: 0.04,
+            damping: 1,
+            avoidOverlap: 0.1,
+          },
+          maxVelocity: 40,
+          minVelocity: 0.5,
+          solver: 'barnesHut',
+          timestep: 0.35,
+          wind: { x: 0, y: 0 },
+          stabilization: {
+            enabled: true,
+            iterations: 500,
+            // updateInterval: 25,
+          },
+        },
       };
       var network = new vis.Network(container, data, options);
-      // network.on('showPopup', function (node) {
-      //   console.log(node);
-      // });
     </script>
   </body>
 </html>
