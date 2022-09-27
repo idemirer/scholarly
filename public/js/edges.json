@@ -1,162 +1,351 @@
-[
-  {
-    "from": 0,
-    "to": 1
+{
+  "indexed": {
+    "date-parts": [[2022, 4, 5]],
+    "date-time": "2022-04-05T16:59:17Z",
+    "timestamp": 1649177957640
   },
-  {
-    "from": 0,
-    "to": 2
+  "reference-count": 40,
+  "publisher": "Informa UK Limited",
+  "issue": "5",
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
   },
-  {
-    "from": 0,
-    "to": 3
+  "short-container-title": ["Journal of Foodservice Business Research"],
+  "published-print": {
+    "date-parts": [[2013, 11]]
   },
-  {
-    "from": 0,
-    "to": 4
+  "DOI": "10.1080/15378020.2013.850374",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [[2013, 11, 21]],
+    "date-time": "2013-11-21T21:12:23Z",
+    "timestamp": 1385068343000
   },
-  {
-    "from": 0,
-    "to": 5
+  "page": "421-438",
+  "source": "Crossref",
+  "is-referenced-by-count": 6,
+  "title": [
+    "Executive Compensation Structure and Firm Performance in the U.S. Restaurant Industry: An Agency Theory Approach"
+  ],
+  "prefix": "10.1080",
+  "volume": "16",
+  "author": [
+    {
+      "given": "Ilhan",
+      "family": "Demirer",
+      "sequence": "first",
+      "affiliation": []
+    },
+    {
+      "given": "Jingxue Jessica",
+      "family": "Yuan",
+      "sequence": "additional",
+      "affiliation": []
+    }
+  ],
+  "member": "301",
+  "reference": [
+    {
+      "key": "CIT0001",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0929-1199(03)00062-2",
+      "original_DOI": "10.1080/15378020.2013.850374",
+      "label": "10.1080/15378020.2013.850374"
+    },
+    {
+      "issue": "4",
+      "key": "CIT0002",
+      "doi-asserted-by": "crossref",
+      "first-page": "65",
+      "DOI": "10.1300/J369v09n04_05",
+      "volume": "9",
+      "author": "Barber N.",
+      "year": "2006",
+      "journal-title": "Journal of Foodservice Business Research"
+    },
+    {
+      "key": "CIT0003",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1257/089533003769204362"
+    },
+    {
+      "key": "CIT0004",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/oxrep/gri017"
+    },
+    {
+      "key": "CIT0005",
+      "doi-asserted-by": "crossref",
+      "first-page": "52",
+      "DOI": "10.1177/0886368703261152",
+      "volume": "36",
+      "author": "Besner G.",
+      "year": "2004",
+      "journal-title": "Compensation & Benefits Review"
+    },
+    {
+      "key": "CIT0006",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1086/209658"
+    },
+    {
+      "key": "CIT0007",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/smj.228"
+    },
+    {
+      "key": "CIT0008",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.2307/3665623"
+    },
+    {
+      "key": "CIT0009",
+      "doi-asserted-by": "crossref",
+      "first-page": "211",
+      "DOI": "10.1177/1096348008329871",
+      "volume": "33",
+      "author": "Denizci B.",
+      "year": "2009",
+      "journal-title": "Journal of Hospitality & Tourism Research"
+    },
+    {
+      "key": "CIT0010",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.2307/258191"
+    },
+    {
+      "key": "CIT0011",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.2307/2325308"
+    },
+    {
+      "key": "CIT0012",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1162/00335530360535162"
+    },
+    {
+      "key": "CIT0013",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1177/1096348003253090"
+    },
+    {
+      "key": "CIT0014",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/02642060902749823"
+    },
+    {
+      "key": "CIT0015",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0304-405X(99)00025-2"
+    },
+    {
+      "key": "CIT0016",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.2307/2325404"
+    },
+    {
+      "key": "CIT0017",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0304-405X(76)90026-X"
+    },
+    {
+      "key": "CIT0018",
+      "first-page": "138",
+      "volume": "68",
+      "author": "Jensen M. C.",
+      "year": "1990",
+      "journal-title": "Harvard Business Review"
+    },
+    {
+      "key": "CIT0019",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1086/261677"
+    },
+    {
+      "key": "CIT0020",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ijhm.2009.05.006"
+    },
+    {
+      "key": "CIT0021",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1177/1096348004273428"
+    },
+    {
+      "key": "CIT0022",
+      "doi-asserted-by": "crossref",
+      "first-page": "103",
+      "DOI": "10.1177/0148558X9501000108",
+      "volume": "10",
+      "author": "Landsman W. R.",
+      "year": "1995",
+      "journal-title": "Journal of Accounting, Auditing & Finance"
+    },
+    {
+      "key": "CIT0023",
+      "doi-asserted-by": "crossref",
+      "first-page": "439",
+      "DOI": "10.1016/j.ijhm.2009.01.004",
+      "volume": "28",
+      "author": "Lee S.",
+      "year": "2009",
+      "journal-title": "International Journal of Hospitality Management"
+    },
+    {
+      "key": "CIT0024",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/15378020801995580"
+    },
+    {
+      "key": "CIT0025",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/15378020801995564"
+    },
+    {
+      "key": "CIT0026",
+      "first-page": "753",
+      "volume": "52",
+      "author": "McGuire J. W.",
+      "year": "1962",
+      "journal-title": "The American Economic Review"
+    },
+    {
+      "key": "CIT0027",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0304-405X(94)00809-F"
+    },
+    {
+      "key": "CIT0028",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0304-405X(88)90048-7"
+    },
+    {
+      "key": "CIT0029",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S1573-4463(99)30024-9"
+    },
+    {
+      "key": "CIT0030",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.2307/256511"
+    },
+    {
+      "key": "CIT0031",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1057/palgrave.jibs.8490804"
+    },
+    {
+      "key": "CIT0032",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1006/mare.1999.0115"
+    },
+    {
+      "key": "CIT0033",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/rfs/14.3.735"
+    },
+    {
+      "key": "CIT0034",
+      "doi-asserted-by": "crossref",
+      "first-page": "448",
+      "DOI": "10.1016/j.ijhm.2009.10.023",
+      "volume": "29",
+      "author": "Park K.",
+      "year": "2010",
+      "journal-title": "International Journal of Hospitality Management"
+    },
+    {
+      "key": "CIT0035",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0278-4319(99)00016-X"
+    },
+    {
+      "key": "CIT0036",
+      "doi-asserted-by": "crossref",
+      "first-page": "337",
+      "DOI": "10.1016/0278-4319(93)90050-J",
+      "volume": "12",
+      "author": "Reich A. Z.",
+      "year": "1993",
+      "journal-title": "International Journal of Hospitality Management"
+    },
+    {
+      "key": "CIT0037",
+      "author": "Samuelson J. F.",
+      "year": "2009",
+      "journal-title": "The Wall Street Journal"
+    },
+    {
+      "key": "CIT0038",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0010-8804(01)80047-1"
+    },
+    {
+      "issue": "2",
+      "key": "CIT0039",
+      "first-page": "435",
+      "volume": "51",
+      "author": "Walker D.",
+      "year": "2010",
+      "journal-title": "Boston College Law Review"
+    },
+    {
+      "key": "CIT0040",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0304-405X(01)00085-X"
+    }
+  ],
+  "container-title": ["Journal of Foodservice Business Research"],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "http://www.tandfonline.com/doi/pdf/10.1080/15378020.2013.850374",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [[2019, 8, 3]],
+    "date-time": "2019-08-03T23:03:08Z",
+    "timestamp": 1564873388000
   },
-  {
-    "from": 0,
-    "to": 6
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "http://www.tandfonline.com/doi/abs/10.1080/15378020.2013.850374"
+    }
   },
-  {
-    "from": 0,
-    "to": 7
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [[2013, 11]]
   },
-  {
-    "from": 0,
-    "to": 8
+  "references-count": 40,
+  "journal-issue": {
+    "issue": "5",
+    "published-print": {
+      "date-parts": [[2013, 11]]
+    }
   },
-  {
-    "from": 0,
-    "to": 9
-  },
-  {
-    "from": 0,
-    "to": 10
-  },
-  {
-    "from": 0,
-    "to": 11
-  },
-  {
-    "from": 0,
-    "to": 12
-  },
-  {
-    "from": 0,
-    "to": 13
-  },
-  {
-    "from": 0,
-    "to": 14
-  },
-  {
-    "from": 0,
-    "to": 15
-  },
-  {
-    "from": 0,
-    "to": 16
-  },
-  {
-    "from": 0,
-    "to": 17
-  },
-  {
-    "from": 0,
-    "to": 18
-  },
-  {
-    "from": 0,
-    "to": 19
-  },
-  {
-    "from": 0,
-    "to": 20
-  },
-  {
-    "from": 0,
-    "to": 21
-  },
-  {
-    "from": 0,
-    "to": 22
-  },
-  {
-    "from": 0,
-    "to": 23
-  },
-  {
-    "from": 0,
-    "to": 24
-  },
-  {
-    "from": 0,
-    "to": 25
-  },
-  {
-    "from": 0,
-    "to": 26
-  },
-  {
-    "from": 0,
-    "to": 27
-  },
-  {
-    "from": 0,
-    "to": 28
-  },
-  {
-    "from": 0,
-    "to": 29
-  },
-  {
-    "from": 0,
-    "to": 30
-  },
-  {
-    "from": 0,
-    "to": 31
-  },
-  {
-    "from": 0,
-    "to": 32
-  },
-  {
-    "from": 0,
-    "to": 33
-  },
-  {
-    "from": 0,
-    "to": 34
-  },
-  {
-    "from": 0,
-    "to": 35
-  },
-  {
-    "from": 0,
-    "to": 36
-  },
-  {
-    "from": 0,
-    "to": 37
-  },
-  {
-    "from": 0,
-    "to": 38
-  },
-  {
-    "from": 0,
-    "to": 39
-  },
-  {
-    "from": 0,
-    "to": 40
+  "alternative-id": ["10.1080/15378020.2013.850374"],
+  "URL": "http://dx.doi.org/10.1080/15378020.2013.850374",
+  "relation": {},
+  "ISSN": ["1537-8020", "1537-8039"],
+  "issn-type": [
+    {
+      "value": "1537-8020",
+      "type": "print"
+    },
+    {
+      "value": "1537-8039",
+      "type": "electronic"
+    }
+  ],
+  "subject": ["Food Science"],
+  "published": {
+    "date-parts": [[2013, 11]]
   }
-]
+}

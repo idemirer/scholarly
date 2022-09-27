@@ -3,19 +3,74 @@ const urlParams = new URLSearchParams(queryString);
 let doi = encodeURIComponent(urlParams.get('doi'));
 
 async function getArticleData(doi) {
+  const loader = document.getElementById('loader-wrapper');
+  loader.classList.add('is-active');
+
   try {
     const url = '/api/doi/' + doi;
-    const data = await fetch(url).then((res) => res.json());
-    let refdata = data['reference'];
-    // console.log(refdata);
-    let nodes = [];
-    for (let r = 0; r < refdata.length; r++) {
-      let idNum = (r + 1) * 100000;
-      nodes.push({ id: idNum, label: refdata[r]['DOI'], shape: 'dot' });
+    const refdata = await fetch(url).then((res) => res.json());
+
+    let allArticles = [];
+    allArticles.push({
+      DOI: refdata['DOI'],
+      label: refdata['DOI'],
+      title: refdata['title'][0],
+      author: refdata['author'],
+      'container-title': refdata['container-title'],
+      published: refdata['published'],
+      URL: refdata['URL'],
+      'references-count': refdata['references-count'],
+      'is-referenced-by-count': refdata['is-referenced-by-count'],
+      volume: refdata['volume'],
+      'references-count': refdata['references-count'],
+    });
+
+    if (refdata['reference']) {
+      for (let r = 0; r < refdata['reference'].length; r++) {
+        let next = refdata['reference'][r];
+        next['origin_DOI'] = refdata['DOI'];
+        next['label'] = refdata['reference'][r]['unstructured'];
+        if (refdata['reference'][r]['DOI']) {
+          next['label'] = refdata['reference'][r]['DOI'];
+        }
+        if (refdata['reference'][r]['article-title']) {
+          next['title'] = refdata['reference'][r]['article-title'];
+        }
+        if (!refdata['reference'][r]['article-title'] && refdata['reference'][r]['unstructured']) {
+          next['title'] = refdata['reference'][r]['unstructured'];
+        }
+        allArticles.push(next);
+      }
     }
-    nodes.push({ id: 0, label: data['title'][0].split(' ')[0], shape: 'dot' });
-    // console.log(nodes, 'finalData');
-    return nodes;
+
+    let cleanNodes = [];
+    cleanNodes.push(
+      allArticles.filter(
+        (allArticles, index, self) =>
+          index === self.findIndex((t) => t.save === allArticles.save && t.DOI === allArticles.DOI)
+      )
+    );
+
+    for (let c = 0; c < cleanNodes[0].length; c++) {
+      cleanNodes[0][c]['id'] = c + 1;
+    }
+
+    for (let f = 0; f < allArticles.length; f++) {
+      for (let c = 0; c < cleanNodes[0].length; c++) {
+        if (allArticles[f]['DOI'] == cleanNodes[0][c]['DOI']) {
+          allArticles[f]['original_id'] = cleanNodes[0][c]['id'];
+        }
+        if (allArticles[f]['origin_DOI']) {
+          if (allArticles[f]['origin_DOI'] == cleanNodes[0][c]['DOI']) {
+            allArticles[f]['reference_id'] = cleanNodes[0][c]['id'];
+          }
+        }
+        if (!allArticles[f]['reference_id'] && allArticles[f]['DOI'] == cleanNodes[0][c]['DOI']) {
+        }
+      }
+    }
+    // console.log(allArticles, 'finished');
+    return allArticles;
   } catch (error) {
     error.message;
   }
@@ -23,48 +78,83 @@ async function getArticleData(doi) {
 
 async function drawGraph(doi) {
   let refdata = await getArticleData(doi);
+
   let edgedata = [];
-  for (let ref = 0; ref < refdata.length; ref++) {
-    let id2 = ref + 1;
-    edgedata.push({ from: 0, to: id2 });
+  for (let r = 0; r < refdata.length; r++) {
+    if (refdata[r]['DOI'] && refdata[r]['reference_id']) {
+      edgedata.push({ from: refdata[r]['original_id'], to: refdata[r]['reference_id'] });
+    }
   }
-  console.log(refdata);
   const container = document.getElementById('mynetwork');
   const nodes = new vis.DataSet(refdata);
   const edges = new vis.DataSet(edgedata);
   const data = { nodes, edges };
 
   const options = {
+    nodes: {
+      shape: 'dot',
+      scaling: {
+        min: 5,
+        max: 30,
+      },
+      font: {
+        size: 10,
+        face: 'Roboto Condensed',
+      },
+    },
+    autoResize: true,
+    height: '100%',
+    width: '100%',
     configure: {
       enabled: false,
       filter: ['physics'],
+    },
+    layout: {
+      improvedLayout: true,
+      randomSeed: 30,
     },
     edges: {
       color: {
         inherit: true,
       },
+      width: 0.5,
       smooth: {
         enabled: true,
-        type: 'dynamic',
+        type: 'continuous',
       },
     },
     interaction: {
-      dragNodes: true,
-      hideEdgesOnDrag: false,
-      hideNodesOnDrag: false,
+      hideEdgesOnDrag: true,
+      tooltipDelay: 200,
     },
     physics: {
       enabled: true,
+      forceAtlas2Based: {
+        gravitationalConstant: -50,
+        centralGravity: 0.005,
+        springLength: 230,
+        springConstant: 0.05,
+        avoidOverlap: 0.1,
+      },
+      maxVelocity: 40,
+      minVelocity: 0.5,
+      solver: 'forceAtlas2Based',
+      timestep: 0.35,
+      wind: { x: 0, y: 0 },
       stabilization: {
         enabled: true,
-        fit: true,
-        iterations: 1000,
-        onlyDynamicEdges: false,
-        updateInterval: 50,
+        iterations: 500,
+        // updateInterval: 25,
       },
     },
   };
+  const loader = document.getElementById('loader-wrapper');
+
   network = new vis.Network(container, data, options);
+  network.once('stabilizationIterationsDone', function () {
+    loader.classList.remove('is-active');
+  });
+
   return network;
 }
 // getArticleData(doi);
