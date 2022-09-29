@@ -17,23 +17,27 @@ async function getReferences(data) {
       'is-referenced-by-count': refdata[i]['is-referenced-by-count'],
       volume: refdata[i]['volume'],
       'references-count': refdata[i]['references-count'],
+      url: 'https://doi.org/' + refdata[i]['DOI'],
       group: i,
     });
     if (refdata[i]['reference']) {
       for (let r = 0; r < refdata[i]['reference'].length; r++) {
-        let next = refdata[i]['reference'][r];
-        next['origin_DOI'] = refdata[i]['DOI'];
-        next['label'] = refdata[i]['DOI'];
-        if (!next['group']) {
-          next['group'] = i;
+        if (refdata[i]['reference'][r]['DOI']) {
+          let next = refdata[i]['reference'][r];
+          next['origin_DOI'] = refdata[i]['DOI'];
+          if (refdata[i]['reference'][r]['article-title']) {
+            next['title'] = refdata[i]['reference'][r]['article-title'];
+          }
+          next['label'] = refdata[i]['reference'][r]['DOI'];
+          next['url'] = 'https://doi.org/' + refdata[i]['reference'][r]['DOI'];
+          if (!next['group']) {
+            next['group'] = i;
+          }
+          if (!refdata[i]['reference'][r]['article-title'] && refdata[i]['reference'][r]['unstructured']) {
+            next['title'] = refdata[i]['reference'][r]['unstructured'];
+          }
+          allArticles.push(next);
         }
-        if (refdata[i]['reference'][r]['article-title']) {
-          next['title'] = refdata[i]['reference'][r]['article-title'];
-        }
-        if (!refdata[i]['reference'][r]['article-title'] && refdata[i]['reference'][r]['unstructured']) {
-          next['title'] = refdata[i]['reference'][r]['unstructured'];
-        }
-        allArticles.push(next);
       }
     }
   }
@@ -128,12 +132,12 @@ async function drawGraph(searchResults) {
     physics: {
       enabled: true,
       barnesHut: {
-        gravitationalConstant: -2000,
+        gravitationalConstant: -5000,
         centralGravity: 0.1,
         springLength: 230,
         springConstant: 0.04,
         damping: 1,
-        avoidOverlap: 0.1,
+        avoidOverlap: 0.5,
       },
       maxVelocity: 40,
       minVelocity: 0.5,
@@ -155,7 +159,13 @@ async function drawGraph(searchResults) {
   network.once('stabilizationIterationsDone', function () {
     loader.classList.remove('is-active');
   });
-
+  network.on('click', function (params) {
+    const ids = params.nodes;
+    if (ids.length > 0) {
+      const clickedNodes = nodes.get(ids);
+      window.open(clickedNodes[0]['url']);
+    }
+  });
   return network;
 }
 // getArticleData(doi);

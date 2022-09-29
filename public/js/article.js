@@ -18,7 +18,7 @@ async function getArticleData(doi) {
       author: refdata['author'],
       'container-title': refdata['container-title'],
       published: refdata['published'],
-      URL: refdata['URL'],
+      url: 'https://doi.org/' + refdata['DOI'],
       'references-count': refdata['references-count'],
       'is-referenced-by-count': refdata['is-referenced-by-count'],
       volume: refdata['volume'],
@@ -27,45 +27,47 @@ async function getArticleData(doi) {
 
     if (refdata['reference']) {
       for (let r = 0; r < refdata['reference'].length; r++) {
-        let next = refdata['reference'][r];
-        next['origin_DOI'] = refdata['DOI'];
-        next['label'] = refdata['reference'][r]['unstructured'];
         if (refdata['reference'][r]['DOI']) {
-          next['label'] = refdata['reference'][r]['DOI'];
+          let next = refdata['reference'][r];
+          next['origin_DOI'] = refdata['DOI'];
+          next['label'] = refdata['reference'][r]['unstructured'];
+          next['url'] = 'https://doi.org/' + refdata['reference'][r]['DOI'];
+          if (refdata['reference'][r]['DOI']) {
+            next['label'] = refdata['reference'][r]['DOI'];
+          }
+          if (refdata['reference'][r]['article-title']) {
+            next['title'] = refdata['reference'][r]['article-title'];
+          }
+          if (!refdata['reference'][r]['article-title'] && refdata['reference'][r]['unstructured']) {
+            next['title'] = refdata['reference'][r]['unstructured'];
+          }
+
+          allArticles.push(next);
         }
-        if (refdata['reference'][r]['article-title']) {
-          next['title'] = refdata['reference'][r]['article-title'];
-        }
-        if (!refdata['reference'][r]['article-title'] && refdata['reference'][r]['unstructured']) {
-          next['title'] = refdata['reference'][r]['unstructured'];
-        }
-        allArticles.push(next);
       }
     }
-
-    let cleanNodes = [];
-    cleanNodes.push(
-      allArticles.filter(
+    let cleanNodes = [
+      ...allArticles.filter(
         (allArticles, index, self) =>
           index === self.findIndex((t) => t.save === allArticles.save && t.DOI === allArticles.DOI)
-      )
-    );
+      ),
+    ];
 
-    for (let c = 0; c < cleanNodes[0].length; c++) {
-      cleanNodes[0][c]['id'] = c + 1;
+    for (let c = 0; c < cleanNodes.length; c++) {
+      cleanNodes[c]['id'] = c + 1;
     }
 
     for (let f = 0; f < allArticles.length; f++) {
-      for (let c = 0; c < cleanNodes[0].length; c++) {
-        if (allArticles[f]['DOI'] == cleanNodes[0][c]['DOI']) {
-          allArticles[f]['original_id'] = cleanNodes[0][c]['id'];
+      for (let c = 0; c < cleanNodes.length; c++) {
+        if (allArticles[f]['DOI'] == cleanNodes[c]['DOI']) {
+          allArticles[f]['original_id'] = cleanNodes[c]['id'];
         }
         if (allArticles[f]['origin_DOI']) {
-          if (allArticles[f]['origin_DOI'] == cleanNodes[0][c]['DOI']) {
-            allArticles[f]['reference_id'] = cleanNodes[0][c]['id'];
+          if (allArticles[f]['origin_DOI'] == cleanNodes[c]['DOI']) {
+            allArticles[f]['reference_id'] = cleanNodes[c]['id'];
           }
         }
-        if (!allArticles[f]['reference_id'] && allArticles[f]['DOI'] == cleanNodes[0][c]['DOI']) {
+        if (!allArticles[f]['reference_id'] && allArticles[f]['DOI'] == cleanNodes[c]['DOI']) {
         }
       }
     }
@@ -85,6 +87,7 @@ async function drawGraph(doi) {
       edgedata.push({ from: refdata[r]['original_id'], to: refdata[r]['reference_id'] });
     }
   }
+  console.log(edgedata);
   const container = document.getElementById('mynetwork');
   const nodes = new vis.DataSet(refdata);
   const edges = new vis.DataSet(edgedata);
@@ -153,6 +156,13 @@ async function drawGraph(doi) {
   network = new vis.Network(container, data, options);
   network.once('stabilizationIterationsDone', function () {
     loader.classList.remove('is-active');
+  });
+  network.on('click', function (params) {
+    const ids = params.nodes;
+    if (ids.length > 0) {
+      const clickedNodes = nodes.get(ids);
+      window.open(clickedNodes[0]['url']);
+    }
   });
 
   return network;
