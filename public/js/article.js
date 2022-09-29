@@ -98,10 +98,10 @@ async function drawGraph(doi) {
       shape: 'dot',
       scaling: {
         min: 5,
-        max: 30,
+        max: 20,
       },
       font: {
-        size: 10,
+        size: 16,
         face: 'Roboto Condensed',
       },
     },
@@ -133,9 +133,9 @@ async function drawGraph(doi) {
     physics: {
       enabled: true,
       forceAtlas2Based: {
-        gravitationalConstant: -50,
-        centralGravity: 0.005,
-        springLength: 230,
+        gravitationalConstant: -200,
+        centralGravity: 0.1,
+        springLength: 100,
         springConstant: 0.05,
         avoidOverlap: 0.1,
       },

@@ -97,10 +97,11 @@ async function drawGraph(searchResults) {
       shape: 'dot',
       scaling: {
         min: 5,
-        max: 30,
+        max: 20,
       },
+      size: 10,
       font: {
-        size: 10,
+        size: 16,
         face: 'Roboto Condensed',
       },
     },
@@ -132,9 +133,10 @@ async function drawGraph(searchResults) {
     physics: {
       enabled: true,
       barnesHut: {
-        gravitationalConstant: -5000,
-        centralGravity: 0.1,
-        springLength: 230,
+        theta: 1,
+        gravitationalConstant: -2000,
+        centralGravity: 0.5,
+        springLength: 100,
         springConstant: 0.04,
         damping: 1,
         avoidOverlap: 0.5,
