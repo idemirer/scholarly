@@ -133,7 +133,7 @@ async function drawGraph(doi) {
     physics: {
       enabled: true,
       forceAtlas2Based: {
-        gravitationalConstant: -200,
+        gravitationalConstant: -1500,
         centralGravity: 0.1,
         springLength: 100,
         springConstant: 0.05,
