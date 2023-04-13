@@ -51,7 +51,7 @@ async function getReferences(data) {
   ];
 
   for (let c = 0; c < cleanNodes.length; c++) {
-    cleanNodes[c]['id'] = c + 1;
+    cleanNodes[c]['id'] = cleanNodes[c]['DOI'];
   }
 
   for (let f = 0; f < allArticles.length; f++) {
@@ -68,13 +68,11 @@ async function getReferences(data) {
       }
     }
   }
-  console.log(allArticles, 'clean');
   return allArticles;
 }
 
 async function drawGraph(searchResults) {
   let refdata = await getReferences(searchResults);
-  // console.log(refdata);
   let edgedata = [];
   for (let r = 0; r < refdata.length; r++) {
     if (refdata[r]['DOI'] && refdata[r]['reference_id']) {
@@ -86,13 +84,10 @@ async function drawGraph(searchResults) {
     (refdata, index, self) => index === self.findIndex((t) => t.save === refdata.save && t['id'] === refdata['id'])
   );
 
-  // console.log(edgedata, 'cleanest');
-
   const container = document.getElementById('mynetwork');
   const nodes = new vis.DataSet(cleanNodes);
   const edges = new vis.DataSet(edgedata);
   const data = { nodes, edges };
-
   const options = {
     nodes: {
       shape: 'dot',
@@ -106,15 +101,16 @@ async function drawGraph(searchResults) {
         face: 'Roboto Condensed',
       },
     },
-    autoResize: true,
-    height: '100%',
-    width: '100%',
-    configure: {
-      enabled: false,
-      filter: ['physics'],
+    physics: {
+      minVelocity: 0.75,
+      solver: 'repulsion',
+    },
+    interaction: {
+      hideEdgesOnDrag: true,
+      tooltipDelay: 200,
     },
     layout: {
-      improvedLayout: true,
+      improvedLayout: false,
       randomSeed: 30,
     },
     edges: {
@@ -127,33 +123,69 @@ async function drawGraph(searchResults) {
         type: 'dynamic',
       },
     },
-    interaction: {
-      hideEdgesOnDrag: true,
-      tooltipDelay: 200,
-    },
-    physics: {
-      enabled: true,
-      barnesHut: {
-        theta: 1,
-        gravitationalConstant: -2000,
-        centralGravity: 0.5,
-        springLength: 100,
-        springConstant: 0.04,
-        damping: 1,
-        avoidOverlap: 0.5,
-      },
-      maxVelocity: 40,
-      minVelocity: 0.5,
-      solver: 'barnesHut',
-      timestep: 0.35,
-      wind: { x: 0, y: 0 },
-      stabilization: {
-        enabled: true,
-        iterations: 500,
-        // updateInterval: 25,
-      },
-    },
   };
+
+  // const options = {
+  //   nodes: {
+  //     shape: 'dot',
+  //     scaling: {
+  //       min: 5,
+  //       max: 20,
+  //     },
+  //     size: 10,
+  //     font: {
+  //       size: 16,
+  //       face: 'Roboto Condensed',
+  //     },
+  //   },
+  //   autoResize: true,
+  //   height: '100%',
+  //   width: '100%',
+  //   configure: {
+  //     enabled: false,
+  //     filter: ['physics'],
+  //   },
+  //   layout: {
+  //     improvedLayout: false,
+  //     randomSeed: 30,
+  //   },
+  //   edges: {
+  //     color: {
+  //       inherit: true,
+  //     },
+  //     width: 0.5,
+  //     smooth: {
+  //       enabled: true,
+  //       type: 'dynamic',
+  //     },
+  //   },
+  //   interaction: {
+  //     hideEdgesOnDrag: true,
+  //     tooltipDelay: 200,
+  //   },
+  //   physics: {
+  //     enabled: true,
+  //     barnesHut: {
+  //       theta: 1,
+  //       gravitationalConstant: -2000,
+  //       centralGravity: 0.5,
+  //       springLength: 100,
+  //       springConstant: 0.04,
+  //       damping: 1,
+  //       avoidOverlap: 0.5,
+  //     },
+  //     maxVelocity: 40,
+  //     minVelocity: 0.5,
+  //     solver: 'barnesHut',
+  //     timestep: 0.35,
+  //     wind: { x: 0, y: 0 },
+  //     stabilization: {
+  //       enabled: true,
+  //       iterations: 500,
+  //       // updateInterval: 25,
+  //     },
+  //   },
+  // };
   const loader = document.getElementById('loader-wrapper');
   network = new vis.Network(container, data, options);
   network.on('stabilizationProgress', function (params) {
@@ -171,5 +203,4 @@ async function drawGraph(searchResults) {
   });
   return network;
 }
-// getArticleData(doi);
 drawGraph(searchResults);
