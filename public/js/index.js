@@ -2,6 +2,7 @@ async function getAuthorData(author) {
   try {
     const url = './api/author/' + author;
     const data = await fetch(url).then((res) => res.json());
+    console.log(data);
     return data;
   } catch (error) {
     error.message;
@@ -67,4 +68,4 @@ async function getAllArticles(author) {
 
   Plotly.newPlot('myDiv', data);
 }
-getAllArticles('"Ilhan Demirer SUNY"');
+getAllArticles('"Sabah Bushaj"');

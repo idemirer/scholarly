@@ -15,14 +15,17 @@ async function searchResults(topic) {
 }
 
 async function listArticles() {
+  let htmlContent = '';
+  const articleList = document.getElementById('articleList');
+  articleList.innerHTML = htmlContent;
   const topic = document.getElementById('searchTerm').value;
   const loader = document.getElementById('loader-wrapper');
   const link = document.getElementById('topicMapLink');
   const selectAll = document.getElementById('selectAll');
   loader.classList.add('is-active');
+  link.style.display = 'none';
+  selectAll.style.display = 'none';
   const data = await searchResults(topic);
-  const articleList = document.getElementById('articleList');
-  let htmlContent = '';
   for (let a = 0; a < data['items'].length; a++) {
     let author = 'NA';
     if (data['items'][a]['author']) {
@@ -32,7 +35,7 @@ async function listArticles() {
     htmlContent += `<li><div class="field">
     <div class="control">
       <label class="checkbox">
-        <input type="checkbox" id="${inputId}">&nbsp;&nbsp;${author}, (${data['items'][a]['published']['date-parts'][0][0]}), ${data['items'][a]['title']} - <a href="https://doi.org/${data['items'][a]['DOI']}">DOI</a></label>
+        <input type="checkbox" id="${inputId}">&nbsp;&nbsp;${author}, (${data['items'][a]['published']['date-parts'][0][0]}), ${data['items'][a]['title']} - <a href="https://doi.org/${data['items'][a]['DOI']}" target="_blank">DOI</a></label>
         </div>
       </div></li>`;
   }

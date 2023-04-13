@@ -38,13 +38,16 @@ async function mongoPull() {
 }
 
 async function findAuthorWorks(author) {
-  try {
-    let response = await axios.get('https://api.crossref.org/works?query.author=' + author);
-    let data = response.data['message'];
-    return data;
-  } catch (error) {
-    error.message;
-  }
+  // const authorTerm = encodeURIComponent(author);
+  // const url = `https://api.crossref.org/works?query.author=${authorTerm}`;
+  // try {
+  //   let response = await axios.get(url);
+  //   let data = response.data['message'];
+  //   return data;
+  // } catch (error) {
+  //   error.message;
+  // }
+  return authorData['message'];
 }
 
 async function searchTopic(topic) {
@@ -72,9 +75,9 @@ async function findArticle(doi) {
 }
 
 router.get('/author/:author', async (req, res, next) => {
-  // const author = req.params.author;
-  // let data = await findAuthorWorks(author);
-  res.json(authorData['message']);
+  const author = req.params.author;
+  let data = await findAuthorWorks(author);
+  res.json(data);
 });
 
 router.get('/topic/:topic', async (req, res, next) => {
