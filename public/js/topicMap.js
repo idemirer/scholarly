@@ -10,6 +10,7 @@ async function getReferences(data) {
       label: refdata[i]['DOI'],
       title: refdata[i]['title'][0],
       author: refdata[i]['author'],
+      reference: refdata[i]['reference'],
       'container-title': refdata[i]['container-title'],
       published: refdata[i]['published'],
       URL: refdata[i]['URL'],
@@ -67,7 +68,7 @@ async function getReferences(data) {
       }
     }
   }
-  // console.log(allArticles, 'clean');
+  console.log(allArticles, 'clean');
   return allArticles;
 }
 

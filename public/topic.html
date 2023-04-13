@@ -12,13 +12,32 @@
     <section class="section">
       <div class="container">
         <div class="content">
+          <form id="searchForm">
+            <div class="field is-grouped">
+              <div class="control">
+                <input class="input" type="text" name="searchTerm" id="searchTerm" placeholder="Search Term" />
+              </div>
+              <div class="control">
+                <input type="submit" value="Search" class="button is-info" id="searchButton" />
+              </div>
+            </div>
+          </form>
           <div id="loader-wrapper">
             <div class="loader is-loading"></div>
             <p>Loading Results...</p>
           </div>
-          <p class="ml-1 has-text-weight-bold">
+          <p class="m-3 has-text-weight-bold">
             <a href="topicmap.html" style="display: none" id="topicMapLink">See the Topic Map for these results</a>
           </p>
+          <div class="field m-3" id="selectAll" style="display: none">
+            <div class="control">
+              <label class="checkbox"
+                ><input type="checkbox" id="selectAllBox" /><span class="ml-2 has-text-weight-bold"
+                  >Select All</span
+                ></label
+              ></div
+            ></div
+          >
           <ul id="articleList"></ul>
         </div>
       </div>

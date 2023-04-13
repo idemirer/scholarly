@@ -1,6 +1,7 @@
-const queryString = window.location.search;
-const urlParams = new URLSearchParams(queryString);
-let topic = encodeURIComponent(urlParams.get('topic'));
+document.getElementById('searchForm').addEventListener('submit', function (event) {
+  event.preventDefault();
+  listArticles();
+});
 
 async function searchResults(topic) {
   try {
@@ -13,9 +14,11 @@ async function searchResults(topic) {
   }
 }
 
-async function listArticles(topic) {
+async function listArticles() {
+  const topic = document.getElementById('searchTerm').value;
   const loader = document.getElementById('loader-wrapper');
   const link = document.getElementById('topicMapLink');
+  const selectAll = document.getElementById('selectAll');
   loader.classList.add('is-active');
   const data = await searchResults(topic);
   const articleList = document.getElementById('articleList');
@@ -25,11 +28,16 @@ async function listArticles(topic) {
     if (data['items'][a]['author']) {
       author = data['items'][a]['author'][0]['family'];
     }
-    htmlContent += `<li>${author}, (${data['items'][a]['published']['date-parts'][0][0]}), ${data['items'][a]['title']} - <a href="https://doi.org/${data['items'][a]['DOI']}">DOI</a></li>`;
+    const inputId = a;
+    htmlContent += `<li><div class="field">
+    <div class="control">
+      <label class="checkbox">
+        <input type="checkbox" id="${inputId}">&nbsp;&nbsp;${author}, (${data['items'][a]['published']['date-parts'][0][0]}), ${data['items'][a]['title']} - <a href="https://doi.org/${data['items'][a]['DOI']}">DOI</a></label>
+        </div>
+      </div></li>`;
   }
   articleList.innerHTML = htmlContent;
   loader.classList.remove('is-active');
   link.style.display = 'block';
+  selectAll.style.display = 'block';
 }
-
-listArticles(topic);
