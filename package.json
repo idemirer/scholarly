@@ -6,7 +6,7 @@
   "dependencies": {
     "axios": "^1.6.0",
     "dotenv": "^16.3.1",
-    "express": "^4.18.1",
+    "express": "^4.22.1",
     "mongodb": "^6.2.0"
   },
   "scripts": {
