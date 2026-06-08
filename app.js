@@ -198,7 +198,7 @@ function articleToNode(article, groupNumber) {
 
   return {
     id: doi,
-    label: abbreviateTitle(record['title']) || doi,
+    label: '<b>' + abbreviateTitle(record['title']) || doi + '</b>',
     title: record['title'] || doi,
     group: groupNumber,
     isPrimary: true,
@@ -243,6 +243,8 @@ function renderNetwork(nodes, edges) {
     edges: new vis.DataSet(edges),
   };
 
+  console.log(nodes, edges);
+
   var options = {
     nodes: {
       shape: 'dot',
@@ -254,7 +256,16 @@ function renderNetwork(nodes, edges) {
       font: {
         size: 16,
         face: 'Roboto Condensed',
+        multi: true,
+        mono: {
+          color: '#343434',
+          size: 10, // px
+          face: 'Roboto Mono, monospace',
+          vadjust: 2,
+          mod: '',
+        },
       },
+      widthConstraint: 150,
     },
     physics: {
       // enabled: false,
@@ -281,11 +292,12 @@ function renderNetwork(nodes, edges) {
       },
       color: {
         inherit: true,
+        opacity: 0.7,
       },
       width: 0.5,
       smooth: {
         // enabled: true,
-        type: 'discrete',
+        type: 'horizontal',
         forceDirection: 'none',
       },
     },
@@ -539,7 +551,7 @@ function buildNetwork() {
             var referenceTitle = edge.reference['article-title'] || edge.to;
             nodeMap.set(edge.to, {
               id: edge.to,
-              label: edge.to,
+              // label: '<code>' + edge.to + '</code>',
               title: referenceTitle,
               group: inputGroupMap.get(edge.to) || sourceGroup,
               isPrimary: inputDoiSet.has(edge.to),
@@ -591,7 +603,7 @@ function abbreviateTitle(value) {
     return text;
   }
 
-  return text.slice(0, 25);
+  return text.split(' ').slice(0, 5).join(' ');
 }
 
 function firstValue(value) {
