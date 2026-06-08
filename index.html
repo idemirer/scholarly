@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Article Network Map</title>
+    <link rel="preconnect" href="https://unpkg.com">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="controls" aria-label="DOI network controls">
+        <div class="brand-row">
+          <div>
+            <p class="eyebrow">Crossref DOI Mapper</p>
+            <h1>Article Network Map</h1>
+          </div>
+        </div>
+
+        <form id="doi-form" class="query-form">
+          <label for="doi-input">DOIs</label>
+          <textarea
+            id="doi-input"
+            name="doi-input"
+            rows="7"
+            spellcheck="false"
+            placeholder="10.1038/nature12373&#10;https://doi.org/10.1126/science.169.3946.635"
+          ></textarea>
+
+          <div class="form-grid">
+            <label class="email-field" for="email-input">
+              Email for Crossref polite requests
+              <input id="email-input" name="email-input" type="email" placeholder="name@example.com">
+            </label>
+            <div class="button-row">
+              <button class="secondary-button" id="clear-button" type="button">Clear</button>
+              <button class="secondary-button" id="shared-only-button" type="button" disabled>Shared refs</button>
+              <button class="primary-button" type="submit">Fetch Graph</button>
+            </div>
+          </div>
+        </form>
+
+        <div id="status" class="status" role="status" aria-live="polite">
+          Enter one or more DOIs to build a citation network.
+        </div>
+        <div id="citation-list" class="citation-list" aria-live="polite"></div>
+      </section>
+
+      <section class="network-panel" aria-label="Article citation network">
+        <div id="network"></div>
+      </section>
+    </main>
+  </body>
+</html>
